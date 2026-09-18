@@ -96,8 +96,10 @@ function home() {
   </section>
 
   <section class="section trust-section">
-    <div class="wrap trust-grid">
-      <div>
+    <div class="wrap">
+      <img class="trust-media" src="/assets/img/trust-bg.jpg" alt="" loading="lazy" width="1200" height="320">
+      <div class="trust-grid">
+      <div class="trust-copy">
         <h2>¿Por qué esta web?</h2>
         <p>
           Equipar el coche con accesorios implica decidir sobre productos que se notan justo
@@ -119,6 +121,7 @@ function home() {
           Enlazar a un producto no cambia su precio para ti ni implica que sea el único
           recomendable: es una forma de sostener el tiempo que lleva escribir cada guía.
         </p>
+      </div>
       </div>
     </div>
   </section>

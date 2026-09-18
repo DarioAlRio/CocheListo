@@ -218,12 +218,20 @@ table { border-collapse: collapse; width: 100%; }
 .card p { color: var(--color-ink-muted); font-size: 0.95rem; margin-bottom: 4px; }
 .card-cta { display: inline-flex; align-items: center; gap: 6px; margin-top: auto; font-weight: 600; color: var(--color-brand-dark); }
 
-.card.guide-card { padding: 0; gap: 0; overflow: hidden; }
-.guide-card-img { width: 100%; aspect-ratio: 16 / 10; object-fit: contain; background: #fff; border-bottom: 1px solid var(--color-border); }
-.guide-card-body { display: flex; flex-direction: column; gap: 8px; padding: 20px 24px 24px; }
+.card.guide-card, .card.article-card { padding: 0; gap: 0; overflow: hidden; }
+.guide-card-img, .article-card-img {
+  width: 100%; aspect-ratio: 16 / 10; object-fit: cover;
+  background: var(--color-surface-alt); border-bottom: 1px solid var(--color-border);
+}
+.guide-card-body, .article-card-body { display: flex; flex-direction: column; gap: 8px; padding: 20px 24px 24px; }
 
 /* --- Confianza / por qué esta web ---------------------------------------------- */
 
+.trust-media {
+  width: 100%; max-height: 280px; object-fit: cover;
+  border-radius: var(--radius-lg); margin-bottom: 32px;
+  background: var(--color-surface-alt);
+}
 .trust-grid { display: grid; grid-template-columns: 1.2fr 0.8fr; gap: 40px; align-items: start; }
 .trust-card {
   background: var(--color-brand-tint); border-radius: var(--radius-md);
@@ -246,6 +254,19 @@ table { border-collapse: collapse; width: 100%; }
 .page-hero h1 { font-size: clamp(1.7rem, 1.3rem + 1.6vw, 2.5rem); max-width: 26ch; }
 .hero-dek { color: var(--color-ink-muted); }
 .updated { font-size: 0.85rem; color: var(--color-ink-muted); margin-top: 8px; }
+
+.page-hero-with-image .page-hero-inner {
+  display: grid; grid-template-columns: 1fr 280px; gap: 32px; align-items: center;
+}
+.page-hero-img {
+  width: 100%; height: 200px; object-fit: cover;
+  border-radius: var(--radius-lg); background: var(--color-surface-alt);
+  box-shadow: var(--shadow-sm);
+}
+@media (max-width: 720px) {
+  .page-hero-with-image .page-hero-inner { grid-template-columns: 1fr; }
+  .page-hero-with-image .page-hero-img { order: -1; height: 180px; }
+}
 
 /* --- Contenido / artículo ---------------------------------------------------------- */
 
