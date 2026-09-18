@@ -1,6 +1,7 @@
 "use strict";
 
 const { SITE } = require("../nav");
+const { FEATURED } = require("../data");
 const {
   escapeHtml,
   amazonProductUrl,
@@ -15,7 +16,8 @@ const { pageHero } = require("../layout");
 
 function productoPage(p, g) {
   const others = g.products.filter((x) => x.asin !== p.asin).slice(0, 3);
-  const score = ourScore(p, g.products);
+  const isFeatured = FEATURED.some((f) => f.asin === p.asin);
+  const score = ourScore(p, g.products, isFeatured);
   const tier = priceTier(p, g.products);
   const path = productUrl(p);
 

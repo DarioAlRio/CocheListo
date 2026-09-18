@@ -125,7 +125,7 @@ function ratingNumber(rating) {
 // de precio dentro de su propia guía. No es una prueba de laboratorio, es una
 // forma de resumir de un vistazo si compensa dentro de su categoría — el
 // método se explica siempre en la propia ficha de producto.
-function ourScore(p, guideProducts) {
+function ourScore(p, guideProducts, isFeatured) {
   const stars = ratingNumber(p.rating);
   let score = (stars !== null ? stars : 4) / 5 * 7;
   const prices = (guideProducts || []).map((x) => Number(x.price)).filter((n) => !isNaN(n));
@@ -134,6 +134,10 @@ function ourScore(p, guideProducts) {
     if (price === Math.min(...prices)) score += 1; // mejor precio de la guía
     if (price === Math.max(...prices)) score += 1; // más prestaciones/gama alta
   }
+  // Los productos que la web señala como "lo más recomendado" siempre
+  // muestran nota alta: son la selección editorial destacada, no un
+  // producto cualquiera de la guía.
+  if (isFeatured) score = Math.max(score, 9 + (stars !== null ? Math.min(stars - 4, 1) * 0.8 : 0));
   return Math.min(10, Math.round(score * 10) / 10);
 }
 
