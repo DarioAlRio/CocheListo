@@ -13,7 +13,7 @@ function avisoLegal() {
         En cumplimiento del artículo 10 de la Ley 34/2002, de 11 de julio, de Servicios de la
         Sociedad de la Información y de Comercio Electrónico (LSSI-CE), se informa de los
         siguientes datos identificativos del titular de este sitio web: Sitio web:
-        ${SITE.domain}. Contacto: ${SITE.email}.
+        ${SITE.domain}.
       </p>
 
       <h2>2. Objeto</h2>
@@ -84,7 +84,7 @@ function politicaPrivacidad() {
       <h2>1. Responsable del tratamiento</h2>
       <p>
         El responsable del tratamiento de los datos personales recabados a través de
-        ${SITE.domain} puede contactarse en ${SITE.email}.
+        ${SITE.domain} es el titular de este sitio web.
       </p>
 
       <h2>2. Qué datos se tratan</h2>
@@ -115,9 +115,9 @@ function politicaPrivacidad() {
       <p>
         Cualquier persona tiene derecho a acceder, rectificar y suprimir sus datos, así como a
         otros derechos reconocidos por el Reglamento (UE) 2016/679 (RGPD) y la Ley Orgánica
-        3/2018 (LOPDGDD): limitación, oposición y portabilidad. Puede ejercerlos escribiendo a
-        ${SITE.email}, y presentar una reclamación ante la Agencia Española de Protección de
-        Datos (aepd.es) si lo considera necesario.
+        3/2018 (LOPDGDD): limitación, oposición y portabilidad. Puede ejercerlos dirigiéndose al
+        titular de este sitio web, y presentar una reclamación ante la Agencia Española de
+        Protección de Datos (aepd.es) si lo considera necesario.
       </p>
 
       <h2>6. Terceros</h2>

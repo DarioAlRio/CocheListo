@@ -93,10 +93,6 @@ function footerHtml(foot) {
             <span class="logo-text">${SITE.name}</span>
           </a>
           <p>${SITE.claim}.</p>
-          <p class="foot-contact">
-            ${icon("mail")}
-            <a href="#" class="js-mail" data-correo="hola|hogarseguro.es">activar JavaScript para ver el correo</a>
-          </p>
         </div>
         ${columnas}
       </div>

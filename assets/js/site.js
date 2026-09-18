@@ -1,22 +1,6 @@
 (function () {
   "use strict";
 
-  // --- Correo ofuscado -------------------------------------------------
-  // Los enlaces de correo no llevan la dirección en el HTML (data-correo
-  //="usuario|dominio") para frenar a los robots recolectores sin romper
-  // el mailto real ni la accesibilidad: sin JS se ve el texto de aviso.
-  function initMail() {
-    var links = document.querySelectorAll(".js-mail");
-    for (var i = 0; i < links.length; i++) {
-      var el = links[i];
-      var parts = (el.getAttribute("data-correo") || "").split("|");
-      if (parts.length !== 2) continue;
-      var address = parts[0] + "@" + parts[1];
-      el.setAttribute("href", "mailto:" + address);
-      el.textContent = address;
-    }
-  }
-
   // --- Menú móvil --------------------------------------------------------
   // El menú es un <details>/<summary> nativo (funciona sin JS). Con JS se
   // cierra solo al elegir un enlace o al pulsar Escape.
@@ -95,7 +79,6 @@
   }
 
   ready(function () {
-    initMail();
     initMobileNav();
     initCookieBanner();
     initProductFilter();
