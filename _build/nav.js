@@ -12,10 +12,8 @@ const SITE = {
   domain: "https://cochelisto.vercel.app",
   locale: "es_ES",
   lang: "es",
-  // PLACEHOLDER: Store ID provisional. Todavía NO se ha creado el Store ID
-  // real en el panel de Amazon Afiliados para este sitio. Sustituir por el
-  // tag real en cuanto se cree, ver PENDIENTE.md.
-  amazonTag: "cochelisto0a-21",
+  // Store ID real, creado en el panel de afiliados.
+  amazonTag: "cochelisto-21",
   amazonDisclaimer:
     "Como Afiliado de Amazon, CocheListo obtiene ingresos por las compras adscritas que cumplen los requisitos aplicables.",
   social: {
