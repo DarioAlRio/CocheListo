@@ -4,21 +4,16 @@ const { SITE } = require("../nav");
 const { pageHero } = require("../layout");
 
 function avisoLegal() {
-  const l = SITE.legal;
   const html = `
   ${pageHero({ eyebrow: "Legal", title: "Aviso legal" })}
   <section class="section">
     <div class="wrap prose">
-      <p><em>Documento pendiente de completar con los datos fiscales reales antes de publicar
-      la web — ver <code>PENDIENTE.md</code>. La estructura y las cláusulas ya son las
-      aplicables a un sitio de afiliación en España.</em></p>
-
       <h2>1. Datos identificativos</h2>
       <p>
         En cumplimiento del artículo 10 de la Ley 34/2002, de 11 de julio, de Servicios de la
         Sociedad de la Información y de Comercio Electrónico (LSSI-CE), se informa de los
-        siguientes datos: este sitio web, ${SITE.domain}, es operado por ${l.titular},
-        con NIF ${l.nif} y domicilio en ${l.domicilio}. Contacto: ${SITE.email}.
+        siguientes datos identificativos del titular de este sitio web: Sitio web:
+        ${SITE.domain}. Contacto: ${SITE.email}.
       </p>
 
       <h2>2. Objeto</h2>
@@ -82,19 +77,14 @@ function avisoLegal() {
 }
 
 function politicaPrivacidad() {
-  const l = SITE.legal;
   const html = `
   ${pageHero({ eyebrow: "Legal", title: "Política de privacidad" })}
   <section class="section">
     <div class="wrap prose">
-      <p><em>Documento pendiente de completar con los datos fiscales reales antes de publicar
-      la web — ver <code>PENDIENTE.md</code>.</em></p>
-
       <h2>1. Responsable del tratamiento</h2>
       <p>
-        ${l.titular}, con NIF ${l.nif} y domicilio en ${l.domicilio}, es responsable del
-        tratamiento de los datos personales recabados a través de ${SITE.domain}. Contacto:
-        ${SITE.email}.
+        El responsable del tratamiento de los datos personales recabados a través de
+        ${SITE.domain} puede contactarse en ${SITE.email}.
       </p>
 
       <h2>2. Qué datos se tratan</h2>
