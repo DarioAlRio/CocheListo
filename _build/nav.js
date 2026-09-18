@@ -12,7 +12,6 @@ const SITE = {
   domain: "https://cochelisto.vercel.app",
   locale: "es_ES",
   lang: "es",
-  email: "hola@cochelisto.es", // PENDIENTE: crear buzón real, ver PENDIENTE.md
   // PLACEHOLDER: Store ID provisional. Todavía NO se ha creado el Store ID
   // real en el panel de Amazon Afiliados para este sitio. Sustituir por el
   // tag real en cuanto se cree, ver PENDIENTE.md.
