@@ -8,8 +8,7 @@ const SITE = {
   claim: "Guías y comparativas para equipar tu coche con lo que realmente necesitas sin perder tiempo ni dinero",
   description:
     "Guías de compra y comparativas independientes de dash cams, organizadores de maletero, cargadores, aspiradores y demás accesorios de coche para elegir bien sin gastar de más.",
-  // Dominio provisional: no hay dominio propio comprado todavía.
-  domain: "https://cochelisto.vercel.app",
+  domain: "https://coche-listo.vercel.app",
   locale: "es_ES",
   lang: "es",
   // Store ID real, creado en el panel de afiliados.
