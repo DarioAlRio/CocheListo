@@ -1683,7 +1683,7 @@ const ARTICLES = [
   },
   {
     slug: "como-elegir-dash-cam-resolucion-y-angulo-de-vision",
-    img: "/assets/img/guias/camaras-de-conduccion-dash-cams.jpg",
+    img: "/assets/img/blog/como-elegir-dash-cam-resolucion-y-angulo-de-vision.jpg",
     title: "Cómo elegir una dash cam según resolución y ángulo de visión",
     dek: "Dos cifras que aparecen en todos los anuncios y que casi nunca se explican bien: qué significan de verdad para lo que grabas.",
     updated: "2026-09-19",
@@ -1697,7 +1697,7 @@ const ARTICLES = [
   },
   {
     slug: "arrancador-de-bateria-portatil-como-usarlo-de-forma-segura",
-    img: "/assets/img/guias/cables-y-arrancadores-de-bateria.jpg",
+    img: "/assets/img/blog/arrancador-de-bateria-portatil-como-usarlo-de-forma-segura.jpg",
     title: "Arrancador de batería portátil: cómo usarlo de forma segura",
     dek: "Tenerlo en el maletero no sirve de mucho si no sabes conectarlo bien; los pasos básicos para no dañar el coche ni el propio arrancador.",
     updated: "2026-09-19",
@@ -1711,7 +1711,7 @@ const ARTICLES = [
   },
   {
     slug: "como-mantener-tu-aspirador-de-coche-funcionando-bien",
-    img: "/assets/img/guias/aspiradores-portatiles-para-coche.jpg",
+    img: "/assets/img/blog/como-mantener-tu-aspirador-de-coche-funcionando-bien.jpg",
     title: "Aspirador portátil para coche: cómo mantenerlo funcionando bien",
     dek: "La mayoría de aspiradores de mano no pierden potencia por el motor, sino por falta de mantenimiento básico del filtro y el depósito.",
     updated: "2026-09-19",
@@ -1725,7 +1725,7 @@ const ARTICLES = [
   },
   {
     slug: "donde-colocar-el-soporte-de-movil-en-el-coche",
-    img: "/assets/img/guias/soportes-de-movil-para-coche.jpg",
+    img: "/assets/img/blog/donde-colocar-el-soporte-de-movil-en-el-coche.jpg",
     title: "Soporte de móvil para el coche: dónde colocarlo con sentido común",
     dek: "La posición del soporte influye tanto en la seguridad como en si vas a usarlo de verdad o va a acabar en la guantera.",
     updated: "2026-09-19",
@@ -1739,7 +1739,7 @@ const ARTICLES = [
   },
   {
     slug: "como-eliminar-malos-olores-del-coche-sin-tapar-el-problema",
-    img: "/assets/img/guias/purificadores-y-ambientadores-de-coche.jpg",
+    img: "/assets/img/blog/como-eliminar-malos-olores-del-coche-sin-tapar-el-problema.jpg",
     title: "Cómo eliminar malos olores del coche sin taparlos con perfume",
     dek: "Un ambientador enmascara el problema durante un rato; para eliminarlo de verdad hace falta atacar el origen del olor.",
     updated: "2026-09-19",
@@ -1753,7 +1753,7 @@ const ARTICLES = [
   },
   {
     slug: "alfombrillas-de-goma-o-de-tela-segun-la-epoca-del-ano",
-    img: "/assets/img/guias/alfombrillas-y-protectores-de-suelo-para-coche.jpg",
+    img: "/assets/img/blog/alfombrillas-de-goma-o-de-tela-segun-la-epoca-del-ano.jpg",
     title: "Alfombrillas de goma o de tela: cuál conviene según la época del año",
     dek: "No hay una alfombrilla mejor en general; hay una más adecuada según lo que se te pega en los zapatos cada temporada.",
     updated: "2026-09-19",
@@ -1767,7 +1767,7 @@ const ARTICLES = [
   },
   {
     slug: "checklist-antes-de-un-viaje-largo-en-carretera",
-    img: "/assets/img/blog/como-preparar-el-coche-para-un-viaje-largo.jpg",
+    img: "/assets/img/blog/checklist-antes-de-un-viaje-largo-en-carretera.jpg",
     title: "Checklist rápida de accesorios antes de un viaje largo en carretera",
     dek: "Diez minutos de revisión antes de salir que evitan la mayoría de sustos con los accesorios del coche a mitad de trayecto.",
     updated: "2026-09-19",
@@ -1781,7 +1781,7 @@ const ARTICLES = [
   },
   {
     slug: "como-limpiar-y-cuidar-las-fundas-de-los-asientos-del-coche",
-    img: "/assets/img/guias/fundas-y-protectores-de-asiento.jpg",
+    img: "/assets/img/blog/como-limpiar-y-cuidar-las-fundas-de-los-asientos-del-coche.jpg",
     title: "Cómo limpiar y cuidar las fundas de los asientos del coche",
     dek: "El cuidado correcto depende del material: lo que funciona con tela puede estropear una funda de cuero PU, y al revés.",
     updated: "2026-09-19",
@@ -1795,7 +1795,7 @@ const ARTICLES = [
   },
   {
     slug: "que-hacer-si-se-te-queda-la-bateria-del-coche-sin-carga",
-    img: "/assets/img/guias/cables-y-arrancadores-de-bateria.jpg",
+    img: "/assets/img/blog/que-hacer-si-se-te-queda-la-bateria-del-coche-sin-carga.jpg",
     title: "Qué hacer si se te queda la batería del coche sin carga",
     dek: "Los pasos a seguir en el momento, y qué accesorios marcan la diferencia entre resolverlo en cinco minutos o esperar horas.",
     updated: "2026-09-19",
@@ -1809,7 +1809,7 @@ const ARTICLES = [
   },
   {
     slug: "accesorios-utiles-para-viajar-con-mascotas-en-el-coche",
-    img: "/assets/img/guias/organizadores-de-maletero.jpg",
+    img: "/assets/img/blog/accesorios-utiles-para-viajar-con-mascotas-en-el-coche.jpg",
     title: "Accesorios útiles para viajar con mascotas en el coche",
     dek: "Lo que de verdad ayuda cuando el perro o el gato viaja con frecuencia, más allá de un simple protector de asiento.",
     updated: "2026-09-19",
