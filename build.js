@@ -20,7 +20,7 @@ const guiasIndex = require("./_build/pages/guias-index");
 const guiaPage = require("./_build/pages/guia");
 const productoPage = require("./_build/pages/producto");
 const productosIndex = require("./_build/pages/productos-index");
-const comparativaPage = require("./_build/pages/comparativa");
+const comparativaPages = require("./_build/pages/comparativa");
 const blogIndex = require("./_build/pages/blog-index");
 const articuloPage = require("./_build/pages/articulo");
 const { avisoLegal, politicaPrivacidad, politicaCookies } = require("./_build/pages/legal");
@@ -35,7 +35,7 @@ FOOT.columnas[1].enlaces = ARTICLES.map((a) => ({ label: a.title, href: `/blog/$
 // una comparativa entrada-vs-gama-alta por guía, generadas a partir de los
 // mismos datos ya verificados en GUIDES: no se investiga nada nuevo aquí.
 const productPages = GUIDES.flatMap((g) => g.products.map((p) => productoPage(p, g)));
-const comparativaPages = GUIDES.map(comparativaPage).filter(Boolean);
+const allComparativaPages = GUIDES.flatMap(comparativaPages);
 
 const pages = [
   home(),
@@ -43,7 +43,7 @@ const pages = [
   ...GUIDES.map(guiaPage),
   productosIndex(),
   ...productPages,
-  ...comparativaPages,
+  ...allComparativaPages,
   blogIndex(),
   ...ARTICLES.map(articuloPage),
   avisoLegal(),
