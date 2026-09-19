@@ -30,6 +30,16 @@ modos por trazabilidad.
 | como-preparar-el-coche-para-un-viaje-largo.jpg | https://www.pexels.com/photo/women-throwing-bag-on-roof-of-car-7276610/ |
 | cuanto-merece-la-pena-gastar-en-accesorios-de-coche.jpg | https://www.pexels.com/photo/close-up-of-a-magnetic-phone-holder-13536013/ |
 | cargador-de-coche-o-power-bank-cual-conviene.jpg | https://www.pexels.com/photo/a-person-holding-a-power-bank-6296911/ |
+| como-elegir-dash-cam-resolucion-y-angulo-de-vision.jpg | https://www.pexels.com/photo/587671/ (ID 587671) |
+| arrancador-de-bateria-portatil-como-usarlo-de-forma-segura.jpg | https://www.pexels.com/photo/4374843/ (ID 4374843) |
+| como-mantener-tu-aspirador-de-coche-funcionando-bien.jpg | https://www.pexels.com/photo/5233264/ (ID 5233264) |
+| donde-colocar-el-soporte-de-movil-en-el-coche.jpg | https://www.pexels.com/photo/30954662/ (ID 30954662, foto de William Hadley) |
+| como-eliminar-malos-olores-del-coche-sin-tapar-el-problema.jpg | https://www.pexels.com/photo/5288724/ (ID 5288724) |
+| alfombrillas-de-goma-o-de-tela-segun-la-epoca-del-ano.jpg | https://www.pexels.com/photo/3778769/ (ID 3778769) |
+| checklist-antes-de-un-viaje-largo-en-carretera.jpg | https://www.pexels.com/photo/7368218/ (ID 7368218, foto de Vlada Karpovich) |
+| como-limpiar-y-cuidar-las-fundas-de-los-asientos-del-coche.jpg | https://www.pexels.com/photo/3894051/ (ID 3894051) |
+| que-hacer-si-se-te-queda-la-bateria-del-coche-sin-carga.jpg | https://www.pexels.com/photo/8985969/ (ID 8985969) |
+| accesorios-utiles-para-viajar-con-mascotas-en-el-coche.jpg | https://www.pexels.com/photo/19103141/ (ID 19103141) |
 
 ## Sección "¿Por qué esta web?" (home)
 
