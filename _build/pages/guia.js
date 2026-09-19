@@ -50,6 +50,12 @@ function guiaPage(g) {
             ? `<p class="see-all"><a href="/comparativas/${g.slug}.html">Ver comparativa: entrada de gama vs. gama alta ${icon("arrow")}</a></p>`
             : ""
         }
+        ${
+          g.products && g.products.length >= 5
+            ? `<p class="see-all"><a href="/comparativas/${g.slug}-entrada-vs-gama-media.html">Ver comparativa: entrada vs. gama media ${icon("arrow")}</a></p>
+        <p class="see-all"><a href="/comparativas/${g.slug}-gama-media-vs-alta.html">Ver comparativa: gama media vs. gama alta ${icon("arrow")}</a></p>`
+            : ""
+        }
       </article>
       <aside class="sidebar">
         ${amazonSearchBox(g.title, "Buscar más opciones")}
