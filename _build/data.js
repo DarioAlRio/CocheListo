@@ -1303,6 +1303,14 @@ const GUIDES = [
         rating: "4,3★",
       },
       {
+        asin: "B00IMWY9M8",
+        title: "Faren F20 - Desinfectante en spray para aire acondicionado de casa y coche, 400 ml",
+        note: "Spray higienizante perfumado con cánula incluida para aplicar en las tomas de ventilación del coche; útil si el mal olor viene del aire acondicionado.",
+        img: "https://m.media-amazon.com/images/I/51WIsJj6mxL._AC_SF480,480_.jpg",
+        price: "14,45",
+        rating: "4,4★",
+      },
+      {
         asin: "B0CJV37KKV",
         title: "VEVOR Generador de Ozono Purificador de Aire 24000 mg/h, con Temporizador",
         note: "Generador de ozono de entrada a gama profesional, con temporizador para tratamientos puntuales de hasta 120 minutos.",
