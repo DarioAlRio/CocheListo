@@ -1319,14 +1319,6 @@ const GUIDES = [
         rating: "4,4★",
       },
       {
-        asin: "B0GQBLY7D7",
-        title: "Wynn's Limpiador Aire Acondicionado Coche con Probióticos, Fragancia Menta",
-        note: "Tratamiento específico para el circuito del aire acondicionado, útil si el olor viene de ahí y no del habitáculo en general.",
-        img: "https://m.media-amazon.com/images/I/61t3uMIszqL._AC_UL320_.jpg",
-        price: "13,95",
-        rating: "3,2★",
-      },
-      {
         asin: "B07HYGH2YY",
         title: "Ambi Pur Ambientador para Coche Nubes de Algodón, 6 uds.",
         note: "Pack de 6 ambientadores con tecnología Odourclear; más de 9.400 valoraciones.",
@@ -2001,7 +1993,7 @@ const ARTICLES = [
   {
     slug: "cuanto-merece-la-pena-gastar-en-accesorios-de-coche",
     img: "/assets/img/blog/cuanto-merece-la-pena-gastar-en-accesorios-de-coche.jpg",
-    title: "¿Cuánto merece la pena gastar en accesorios para el coche?",
+    title: "Cuánto gastar en accesorios para el coche: presupuesto recomendado (2026)",
     dek: "Dónde está el salto de valor real entre lo básico, lo intermedio y lo que ya es más comodidad que necesidad.",
     updated: "2026-09-11",
     body: [
@@ -2028,7 +2020,7 @@ const ARTICLES = [
   {
     slug: "como-elegir-dash-cam-resolucion-y-angulo-de-vision",
     img: "/assets/img/blog/como-elegir-dash-cam-resolucion-y-angulo-de-vision.jpg",
-    title: "Cómo elegir una dash cam según resolución y ángulo de visión",
+    title: "Cómo elegir una dash cam según resolución y ángulo de visión (2026)",
     dek: "Dos cifras que aparecen en todos los anuncios y que casi nunca se explican bien: qué significan de verdad para lo que grabas.",
     updated: "2026-09-19",
     body: [
@@ -2098,7 +2090,7 @@ const ARTICLES = [
   {
     slug: "alfombrillas-de-goma-o-de-tela-segun-la-epoca-del-ano",
     img: "/assets/img/blog/alfombrillas-de-goma-o-de-tela-segun-la-epoca-del-ano.jpg",
-    title: "Alfombrillas de goma o de tela: cuál conviene según la época del año",
+    title: "Alfombrillas de goma o de tela: cuáles comprar según la época del año",
     dek: "No hay una alfombrilla mejor en general; hay una más adecuada según lo que se te pega en los zapatos cada temporada.",
     updated: "2026-09-19",
     body: [
