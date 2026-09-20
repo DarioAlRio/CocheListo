@@ -82,7 +82,7 @@ function productoPage(p, g) {
     route: `productos/${productSlug(p)}.html`,
     path,
     title: p.title,
-    description: p.note,
+    description: `${p.title.length > 100 ? p.title.slice(0, 100).replace(/\s+\S*$/, "") : p.title}: ${p.note}`,
     breadcrumbsItems: [
       { label: "Inicio", href: "/" },
       { label: "Guías de compra", href: "/guias/" },

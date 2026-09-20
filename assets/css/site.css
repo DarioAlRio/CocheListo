@@ -433,3 +433,31 @@ table { border-collapse: collapse; width: 100%; }
 /* --- Contacto -------------------------------------------------------------------------------- */
 
 .contact-line { display: flex; align-items: center; gap: 10px; font-weight: 600; font-size: 1.05rem; }
+
+/* ---- Conversión: "Elige rápido" y guías relacionadas ---- */
+.quickpicks { background: var(--color-surface-alt); border: 1px solid var(--color-border); border-radius: var(--radius-md, 14px); padding: 20px; margin-bottom: 32px; }
+.quickpicks h2 { margin-top: 0; }
+.quickpicks-note { color: var(--color-ink-muted); font-size: 0.95rem; }
+.quickpicks-scroll { overflow-x: auto; }
+.quickpicks-table { border-collapse: collapse; width: 100%; background: var(--color-surface); border-radius: 10px; }
+.quickpicks-table th, .quickpicks-table td { padding: 10px 12px; text-align: left; border-bottom: 1px solid var(--color-border); vertical-align: middle; font-size: 0.95rem; }
+.quickpicks-table th { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.04em; color: var(--color-ink-muted); }
+.quickpick-badge { display: inline-block; background: var(--color-brand-tint); color: var(--color-brand-dark); font-weight: 700; font-size: 0.8rem; padding: 4px 10px; border-radius: 999px; white-space: nowrap; }
+.quickpick-product { display: flex; align-items: center; gap: 10px; color: inherit; font-weight: 600; text-decoration: none; }
+.quickpick-product:hover span { text-decoration: underline; }
+.quickpick-product img { width: 56px; height: 56px; object-fit: contain; background: #fff; border-radius: 8px; flex: none; }
+.quickpick-cta .btn { white-space: nowrap; }
+@media (max-width: 1100px) {
+  .quickpicks-table thead { display: none; }
+  .quickpicks-table, .quickpicks-table tbody, .quickpicks-table tr, .quickpicks-table td { display: block; width: 100%; }
+  .quickpicks-table tr { padding: 12px 0; border-bottom: 1px solid var(--color-border); }
+  .quickpicks-table td { border: 0; padding: 4px 12px; }
+  .quickpicks-table td[data-label="Valoración"]::before, .quickpicks-table td[data-label="Precio"]::before { content: attr(data-label) ": "; color: var(--color-ink-muted); }
+}
+.related-guides { background: var(--color-surface-alt); border: 1px solid var(--color-border); border-radius: var(--radius-md, 14px); padding: 20px; margin-top: 32px; }
+.related-guides h2 { margin-top: 0; font-size: 1.25rem; }
+.related-guide-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 16px; }
+.related-guide-list li { display: grid; gap: 4px; }
+.related-guide-title { font-weight: 700; color: var(--color-brand-dark); }
+.related-guide-dek { color: var(--color-ink-muted); font-size: 0.95rem; }
+.related-guide-pick { font-size: 0.95rem; }

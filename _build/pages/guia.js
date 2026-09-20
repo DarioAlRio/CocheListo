@@ -3,6 +3,7 @@
 const { SITE } = require("../nav");
 const { paragraphs, checklist, faqBlock, amazonSearchBox, productGrid, icon } = require("../lib");
 const { pageHero, formatDate } = require("../layout");
+const { quickPicks } = require("../quickpicks");
 
 function guiaPage(g) {
   const sections = g.sections
@@ -26,6 +27,7 @@ function guiaPage(g) {
   <section class="section">
     <div class="wrap two-col">
       <article class="prose">
+        ${quickPicks(g)}
         ${paragraphs(g.intro)}
         ${sections}
         ${

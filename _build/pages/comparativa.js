@@ -8,6 +8,12 @@ const { pageHero } = require("../layout");
 // misma guía. `slugSuffix` es "" para la comparativa histórica (entrada vs.
 // gama alta, ruta sin sufijo para no romper enlaces ya indexados) o un sufijo
 // para las comparativas adicionales (entrada vs. media, media vs. alta).
+// Nombre corto (marca + modelo) para el <title>, que si no se corta a mitad de palabra.
+function shortName(t) {
+  const s = String(t).replace(/\s+/g, " ");
+  return s.length <= 30 ? s : s.slice(0, 30).replace(/\s+\S*$/, "");
+}
+
 function buildComparativa(g, a, b, slugSuffix, labelA, labelB, intro) {
   const rows = [
     ["Precio", `${a.price} €`, `${b.price} €`],
@@ -63,7 +69,7 @@ function buildComparativa(g, a, b, slugSuffix, labelA, labelB, intro) {
   return {
     route,
     path,
-    title: `${a.title} vs. ${b.title}`,
+    title: `${shortName(a.title)} vs. ${shortName(b.title)}`,
     description: `Comparativa entre ${labelA} y ${labelB} de nuestra guía de ${g.title.toLowerCase()}.`,
     breadcrumbsItems: [
       { label: "Inicio", href: "/" },

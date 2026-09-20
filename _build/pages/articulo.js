@@ -3,6 +3,7 @@
 const { SITE } = require("../nav");
 const { paragraphs } = require("../lib");
 const { pageHero } = require("../layout");
+const { relatedBlock } = require("../quickpicks");
 
 function articuloPage(a) {
   const html = `
@@ -18,6 +19,7 @@ function articuloPage(a) {
     <div class="wrap">
       <article class="prose prose-narrow">
         ${paragraphs(a.body)}
+        ${relatedBlock(a)}
       </article>
     </div>
   </section>

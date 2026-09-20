@@ -97,7 +97,7 @@ function home() {
 
   <section class="section trust-section">
     <div class="wrap">
-      <img class="trust-media" src="/assets/img/trust-bg.jpg" alt="" loading="lazy" width="1200" height="320">
+      <img class="trust-media" src="/assets/img/trust-bg.jpg" alt="" aria-hidden="true" loading="lazy" width="1200" height="320">
       <div class="trust-grid">
       <div class="trust-copy">
         <h2>¿Por qué esta web?</h2>

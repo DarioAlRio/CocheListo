@@ -4,9 +4,24 @@ const { SITE, NAV, FOOT } = require("./nav");
 const { icon, escapeHtml, featuredProductsSection } = require("./lib");
 const { FEATURED } = require("./data");
 
+// Recorta a `max` caracteres sin partir palabras (títulos <=65 y descripciones <=160
+// para que Google no los corte).
+function clip(s, max) {
+  const t = String(s).replace(/\s+/g, " ").trim();
+  if (t.length <= max) return t;
+  const cut = t.slice(0, max - 1);
+  const i = cut.lastIndexOf(" ");
+  return (i > max * 0.6 ? cut.slice(0, i) : cut).replace(/[\s,;:.\u2014\u2013-]+$/, "") + "…";
+}
+
 function head({ title, description, path, jsonLd = [], noindex = false }) {
-  const fullTitle = path === "/" ? `${SITE.name} — ${SITE.claim}` : `${title} — ${SITE.name}`;
-  const desc = description || SITE.description;
+  const fullTitle =
+    path === "/"
+      ? clip(`${SITE.name} — ${SITE.claim}`, 65)
+      : `${title} — ${SITE.name}`.length <= 65
+        ? `${title} — ${SITE.name}`
+        : clip(title, 65);
+  const desc = clip(description || SITE.description, 160);
   const canonical = `${SITE.domain}${path}`;
   const robots = noindex ? "noindex, nofollow" : "index, follow";
   const ld = jsonLd.map((obj) => `<script type="application/ld+json">${JSON.stringify(obj)}</script>`).join("\n  ");
