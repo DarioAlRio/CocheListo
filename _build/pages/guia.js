@@ -24,10 +24,10 @@ function guiaPage(g) {
     image: g.img,
     imageAlt: g.title,
   })}
+  ${quickPicks(g) ? `<section class="section quickpicks-band"><div class="wrap">${quickPicks(g)}</div></section>` : ""}
   <section class="section">
     <div class="wrap two-col">
       <article class="prose">
-        ${quickPicks(g)}
         ${paragraphs(g.intro)}
         ${sections}
         ${

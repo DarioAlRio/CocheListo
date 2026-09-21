@@ -437,6 +437,9 @@ table { border-collapse: collapse; width: 100%; }
 /* ---- Conversión: "Elige rápido" y guías relacionadas ---- */
 .quickpicks { background: var(--color-surface-alt); border: 1px solid var(--color-border); border-radius: var(--radius-md, 14px); padding: 20px; margin-bottom: 32px; }
 .quickpicks h2 { margin-top: 0; }
+.quickpicks-band { padding-bottom: 0; }
+.quickpicks-band .quickpicks { margin-bottom: 0; }
+.quickpicks-band .quickpicks h2 { font-size: 1.35rem; }
 .quickpicks-note { color: var(--color-ink-muted); font-size: 0.95rem; }
 .quickpicks-scroll { overflow-x: auto; }
 .quickpicks-table { border-collapse: collapse; width: 100%; background: var(--color-surface); border-radius: 10px; }
