@@ -31,6 +31,7 @@ function head({ title, description, path, jsonLd = [], noindex = false }) {
   <title>${escapeHtml(fullTitle)}</title>
   <meta name="description" content="${escapeHtml(desc)}">
   <meta name="robots" content="${robots}">
+  <meta name="p:domain_verify" content="d17e4548e8fcbd5d0e323fb86b8161d5">
   <link rel="canonical" href="${canonical}">
   <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
   <meta property="og:type" content="website">
