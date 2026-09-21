@@ -122,6 +122,54 @@ const ARTICLE_GUIDES = {
   "accesorios-utiles-para-viajar-con-mascotas-en-el-coche": [
     "fundas-y-protectores-de-asiento",
     "alfombrillas-y-protectores-de-suelo-para-coche"
+  ],
+  "dash-cam-delantera-o-doble-cual-elegir": [
+    "camaras-de-conduccion-dash-cams"
+  ],
+  "cuanto-cuesta-una-buena-dash-cam": [
+    "camaras-de-conduccion-dash-cams"
+  ],
+  "soporte-movil-coche-rejilla-ventosa-o-iman": [
+    "soportes-de-movil-para-coche"
+  ],
+  "mejor-cargador-de-coche-para-viajes-largos": [
+    "cargadores-de-coche-usb"
+  ],
+  "como-elegir-arrancador-de-bateria-para-coche": [
+    "cables-y-arrancadores-de-bateria"
+  ],
+  "arrancador-de-bateria-o-cables-de-pinza": [
+    "cables-y-arrancadores-de-bateria"
+  ],
+  "como-elegir-aspirador-de-coche": [
+    "aspiradores-portatiles-para-coche"
+  ],
+  "alfombrillas-universales-o-a-medida": [
+    "alfombrillas-y-protectores-de-suelo-para-coche"
+  ],
+  "organizador-de-maletero-para-suv-o-utilitario": [
+    "organizadores-de-maletero"
+  ],
+  "fundas-de-asiento-universales-errores-al-comprar": [
+    "fundas-y-protectores-de-asiento"
+  ],
+  "baliza-v16-y-kit-de-emergencia-que-necesitas": [
+    "luces-y-accesorios-de-emergencia-para-coche"
+  ],
+  "accesorios-para-coche-de-ciudad-que-merecen-la-pena": [
+    "camaras-de-conduccion-dash-cams",
+    "soportes-de-movil-para-coche"
+  ],
+  "accesorios-para-el-coche-con-ninos-que-necesitas": [
+    "fundas-y-protectores-de-asiento",
+    "aspiradores-portatiles-para-coche"
+  ],
+  "ambientador-o-purificador-de-coche-cual-elegir": [
+    "purificadores-y-ambientadores-de-coche"
+  ],
+  "que-comprar-primero-para-un-coche-de-segunda-mano": [
+    "luces-y-accesorios-de-emergencia-para-coche",
+    "cables-y-arrancadores-de-bateria"
   ]
 };
 

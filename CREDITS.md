@@ -40,6 +40,21 @@ modos por trazabilidad.
 | como-limpiar-y-cuidar-las-fundas-de-los-asientos-del-coche.jpg | https://www.pexels.com/photo/3894051/ (ID 3894051) |
 | que-hacer-si-se-te-queda-la-bateria-del-coche-sin-carga.jpg | https://www.pexels.com/photo/8985969/ (ID 8985969) |
 | accesorios-utiles-para-viajar-con-mascotas-en-el-coche.jpg | https://www.pexels.com/photo/19103141/ (ID 19103141) |
+| dash-cam-delantera-o-doble-cual-elegir.jpg | https://www.pexels.com/photo/35484520/ (ID 35484520) |
+| cuanto-cuesta-una-buena-dash-cam.jpg | https://www.pexels.com/photo/37832996/ (ID 37832996) |
+| soporte-movil-coche-rejilla-ventosa-o-iman.jpg | https://www.pexels.com/photo/7738877/ (ID 7738877) |
+| mejor-cargador-de-coche-para-viajes-largos.jpg | https://www.pexels.com/photo/15548360/ (ID 15548360) |
+| como-elegir-arrancador-de-bateria-para-coche.jpg | https://www.pexels.com/photo/32282233/ (ID 32282233) |
+| arrancador-de-bateria-o-cables-de-pinza.jpg | https://www.pexels.com/photo/5562431/ (ID 5562431) |
+| como-elegir-aspirador-de-coche.jpg | https://www.pexels.com/photo/6873119/ (ID 6873119) |
+| alfombrillas-universales-o-a-medida.jpg | https://www.pexels.com/photo/3772357/ (ID 3772357) |
+| organizador-de-maletero-para-suv-o-utilitario.jpg | https://www.pexels.com/photo/20314409/ (ID 20314409) |
+| fundas-de-asiento-universales-errores-al-comprar.jpg | https://www.pexels.com/photo/17450457/ (ID 17450457) |
+| baliza-v16-y-kit-de-emergencia-que-necesitas.jpg | https://www.pexels.com/photo/5056745/ (ID 5056745) |
+| accesorios-para-coche-de-ciudad-que-merecen-la-pena.jpg | https://www.pexels.com/photo/9718897/ (ID 9718897) |
+| accesorios-para-el-coche-con-ninos-que-necesitas.jpg | https://www.pexels.com/photo/36552332/ (ID 36552332) |
+| ambientador-o-purificador-de-coche-cual-elegir.jpg | https://www.pexels.com/photo/18581812/ (ID 18581812) |
+| que-comprar-primero-para-un-coche-de-segunda-mano.jpg | https://www.pexels.com/photo/97079/ (ID 97079) |
 
 ## Sección "¿Por qué esta web?" (home)
 
