@@ -1,0 +1,1162 @@
+{
+ "robots-aspiradores": [
+  {
+   "s": "para-pelo-de-mascota",
+   "l": "para pelo de mascota",
+   "re": "mascota|pelo|antienredo|enredo"
+  },
+  {
+   "s": "con-fregado",
+   "l": "que friegan (aspira y friega)",
+   "re": "friega|fregasuelos|fregado|mopa|2 en 1|3 en 1"
+  },
+  {
+   "s": "con-autovaciado",
+   "l": "con base de autovaciado",
+   "re": "autovaciado|vaciado|base|omni|estacion"
+  },
+  {
+   "s": "con-navegacion-laser",
+   "l": "con navegación láser",
+   "re": "laser|lidar|lds"
+  },
+  {
+   "s": "para-alfombras",
+   "l": "para alfombras",
+   "re": "alfombra|pa|succion"
+  }
+ ],
+ "aspiradores-verticales-sin-cable": [
+  {
+   "s": "para-mascotas",
+   "l": "para pelo de mascota",
+   "re": "mascota|pelo|animal|antienredo"
+  },
+  {
+   "s": "con-mucha-autonomia",
+   "l": "con mucha autonomía",
+   "re": "\\b([6-9]\\d|1\\d\\d) ?min"
+  },
+  {
+   "s": "potentes",
+   "l": "más potentes",
+   "re": "\\d{2} ?kpa|\\d{3} ?w"
+  },
+  {
+   "s": "ligeros",
+   "l": "ligeros",
+   "re": "ligero|ligera|kg"
+  }
+ ],
+ "mopas-electricas": [
+  {
+   "s": "inalambricas",
+   "l": "inalámbricas",
+   "re": "inalambric|sin cable|bateria"
+  },
+  {
+   "s": "con-pulverizador",
+   "l": "con pulverizador",
+   "re": "pulveriza|spray"
+  },
+  {
+   "s": "para-parquet",
+   "l": "para parquet y suelos delicados",
+   "re": "parquet|madera|suelo"
+  }
+ ],
+ "limpiadores-a-vapor": [
+  {
+   "s": "de-mano",
+   "l": "de mano",
+   "re": "mano|portatil"
+  },
+  {
+   "s": "para-sofas-y-tapiceria",
+   "l": "para sofás y tapicería",
+   "re": "tapiceria|sofa|accesorios"
+  },
+  {
+   "s": "para-cocina-y-bano",
+   "l": "para cocina y baño",
+   "re": "cocina|bano|azulejo|juntas|accesorios"
+  }
+ ],
+ "recambios-y-filtros-para-robots-aspiradores": [
+  {
+   "s": "xiaomi",
+   "l": "para robots Xiaomi",
+   "re": "xiaomi",
+   "n": "recambios para robots Xiaomi"
+  },
+  {
+   "s": "roborock",
+   "l": "para robots Roborock",
+   "re": "roborock",
+   "n": "recambios para robots Roborock"
+  },
+  {
+   "s": "roomba",
+   "l": "para Roomba (iRobot)",
+   "re": "roomba|irobot",
+   "n": "recambios para Roomba"
+  },
+  {
+   "s": "cecotec",
+   "l": "para Conga (Cecotec)",
+   "re": "conga|cecotec",
+   "n": "recambios para Conga (Cecotec)"
+  }
+ ],
+ "fregonas-y-cubos-con-escurridor": [
+  {
+   "s": "giratorias",
+   "l": "giratorias 360°",
+   "re": "girator|360|centrifug"
+  },
+  {
+   "s": "planas",
+   "l": "planas",
+   "re": "plana|flat"
+  },
+  {
+   "s": "separacion-agua-sucia",
+   "l": "con separación de agua sucia",
+   "re": "separa|sucia|limpia"
+  }
+ ],
+ "limpiadores-multiusos-y-desinfectantes": [
+  {
+   "s": "desinfectantes",
+   "l": "desinfectantes",
+   "re": "desinfect|bacteri|virus"
+  },
+  {
+   "s": "para-bano",
+   "l": "para el baño",
+   "re": "bano|wc|cal"
+  },
+  {
+   "s": "ecologicos",
+   "l": "ecológicos y sin lejía",
+   "re": "ecolog|natural|sin lejia|vegano|biodegrad"
+  }
+ ],
+ "guantes-y-utensilios-de-limpieza": [
+  {
+   "s": "guantes",
+   "l": "guantes de limpieza",
+   "re": "guante",
+   "n": "guantes de limpieza"
+  },
+  {
+   "s": "microfibra",
+   "l": "bayetas y paños de microfibra",
+   "re": "microfibra|bayeta|pano",
+   "n": "bayetas y paños de microfibra"
+  },
+  {
+   "s": "cepillos",
+   "l": "cepillos de limpieza",
+   "re": "cepillo",
+   "n": "cepillos de limpieza"
+  }
+ ],
+ "organizadores-de-productos-de-limpieza": [
+  {
+   "s": "bajo-fregadero",
+   "l": "para bajo el fregadero",
+   "re": "fregadero"
+  },
+  {
+   "s": "carritos",
+   "l": "con ruedas",
+   "re": "ruedas|carrito"
+  },
+  {
+   "s": "para-escobas",
+   "l": "para escobas y fregonas",
+   "re": "escoba|fregona|colgador|pared"
+  }
+ ],
+ "aspiradores-de-mano-y-para-coche": [
+  {
+   "s": "para-coche",
+   "l": "para el coche",
+   "re": "coche|auto|vehiculo"
+  },
+  {
+   "s": "potentes",
+   "l": "más potentes",
+   "re": "\\d{5} ?pa|kpa|sin escobillas"
+  },
+  {
+   "s": "con-soplador",
+   "l": "con soplador",
+   "re": "sopla|4 en 1|3 en 1"
+  }
+ ],
+ "robots-de-cocina-multifuncion": [
+  {
+   "s": "ollas-programables",
+   "l": "ollas programables",
+   "re": "olla|presion|slow",
+   "n": "ollas programables"
+  },
+  {
+   "s": "con-bascula",
+   "l": "con báscula",
+   "re": "bascula|pantalla|tactil|touch"
+  }
+ ],
+ "freidoras-de-aire": [
+  {
+   "s": "doble-cesta",
+   "l": "de doble cesta",
+   "re": "doble|dual|2 cestas|dos cestas|twin"
+  },
+  {
+   "s": "grandes",
+   "l": "grandes (familias)",
+   "re": "\\b([6-9]|1\\d)[,.]?\\d? ?l\\b|xxl|xl|familiar"
+  },
+  {
+   "s": "pequenas",
+   "l": "pequeñas (1-2 personas)",
+   "re": "\\b[1-4][,.]?\\d? ?l\\b|compacta|mini"
+  },
+  {
+   "s": "con-ventana",
+   "l": "con ventana",
+   "re": "ventana|visible|vision"
+  },
+  {
+   "s": "cosori",
+   "l": "Cosori",
+   "re": "cosori"
+  },
+  {
+   "s": "cecotec",
+   "l": "Cecotec",
+   "re": "cecotec|cecofry"
+  }
+ ],
+ "batidoras-y-licuadoras": [
+  {
+   "s": "para-smoothies",
+   "l": "para smoothies",
+   "re": "smoothie|batido|personal|portatil|vaso"
+  },
+  {
+   "s": "potentes",
+   "l": "potentes",
+   "re": "\\b(1[0-9]{3}|2[0-9]{3}) ?w"
+  },
+  {
+   "s": "de-cristal",
+   "l": "con vaso de cristal",
+   "re": "cristal|vidrio"
+  }
+ ],
+ "cafeteras": [
+  {
+   "s": "de-goteo",
+   "l": "de goteo",
+   "re": "goteo"
+  },
+  {
+   "s": "italianas",
+   "l": "italianas",
+   "re": "italiana|moka"
+  },
+  {
+   "s": "express",
+   "l": "express",
+   "re": "express|espresso|bar|brazo"
+  },
+  {
+   "s": "de-capsulas",
+   "l": "de cápsulas",
+   "re": "capsula|dolce|nespresso"
+  }
+ ],
+ "basculas-de-cocina": [
+  {
+   "s": "de-precision",
+   "l": "de precisión",
+   "re": "precision|0[,.]1 ?g|1 ?g"
+  },
+  {
+   "s": "de-acero",
+   "l": "de acero inoxidable",
+   "re": "acero|inox"
+  }
+ ],
+ "organizadores-de-cocina": [
+  {
+   "s": "especias",
+   "l": "para especias",
+   "re": "especia"
+  },
+  {
+   "s": "armarios",
+   "l": "para armarios",
+   "re": "armario|estante|extraible|cajon"
+  }
+ ],
+ "sartenes-antiadherentes": [
+  {
+   "s": "para-induccion",
+   "l": "para inducción",
+   "re": "induccion"
+  },
+  {
+   "s": "juegos",
+   "l": "juegos y baterías",
+   "re": "juego|bateria|set|piezas",
+   "n": "juegos de sartenes y baterías de cocina"
+  },
+  {
+   "s": "sin-pfas",
+   "l": "sin PFAS ni PFOA",
+   "re": "pfas|pfoa|ceramic|sin ptfe"
+  }
+ ],
+ "tostadoras-y-sandwicheras": [
+  {
+   "s": "sandwicheras",
+   "l": "sandwicheras",
+   "re": "sandwich",
+   "n": "sandwicheras"
+  },
+  {
+   "s": "tostadoras",
+   "l": "tostadoras",
+   "re": "tostador",
+   "n": "tostadoras"
+  },
+  {
+   "s": "grill",
+   "l": "grill y planchas",
+   "re": "grill|parrilla|plancha",
+   "n": "sandwicheras grill y planchas eléctricas"
+  }
+ ],
+ "recipientes-hermeticos": [
+  {
+   "s": "de-cristal",
+   "l": "de cristal",
+   "re": "cristal|vidrio"
+  },
+  {
+   "s": "para-despensa",
+   "l": "para despensa",
+   "re": "despensa|botes|cereales|harina|almacenaje"
+  },
+  {
+   "s": "juegos",
+   "l": "en juegos",
+   "re": "juego|set|pack|piezas|\\d+ x"
+  }
+ ],
+ "cuchillos-de-cocina": [
+  {
+   "s": "juegos",
+   "l": "juegos de cuchillos",
+   "re": "juego|set|piezas|bloque",
+   "n": "juegos de cuchillos de cocina"
+  },
+  {
+   "s": "chef",
+   "l": "cuchillo de chef",
+   "re": "chef|cocinero|santoku",
+   "n": "cuchillos de chef"
+  },
+  {
+   "s": "arcos",
+   "l": "Arcos",
+   "re": "arcos"
+  }
+ ],
+ "camaras-de-conduccion-dash-cams": [
+  {
+   "s": "delantera-y-trasera",
+   "l": "delantera y trasera",
+   "re": "doble|trasera|dual|2 canales|3 canales"
+  },
+  {
+   "s": "4k",
+   "l": "4K",
+   "re": "4k|2160"
+  },
+  {
+   "s": "con-wifi",
+   "l": "con WiFi",
+   "re": "wifi|app"
+  },
+  {
+   "s": "con-modo-aparcamiento",
+   "l": "con modo aparcamiento",
+   "re": "aparcamiento|parking"
+  }
+ ],
+ "organizadores-de-maletero": [
+  {
+   "s": "plegables",
+   "l": "plegables",
+   "re": "plegable"
+  },
+  {
+   "s": "colgantes",
+   "l": "colgantes para asiento",
+   "re": "colgante|asiento|respaldo"
+  }
+ ],
+ "cargadores-de-coche-usb": [
+  {
+   "s": "carga-rapida",
+   "l": "de carga rápida",
+   "re": "rapida|pd|qc|\\d{2} ?w"
+  },
+  {
+   "s": "usb-c",
+   "l": "USB-C",
+   "re": "usb ?c|tipo c"
+  }
+ ],
+ "fundas-y-protectores-de-asiento": [
+  {
+   "s": "para-perros",
+   "l": "para perros",
+   "re": "perro|mascota"
+  },
+  {
+   "s": "universales",
+   "l": "universales",
+   "re": "universal"
+  },
+  {
+   "s": "para-ninos",
+   "l": "protectores para sillas infantiles",
+   "re": "nino|infantil|isofix|silla"
+  }
+ ],
+ "aspiradores-portatiles-para-coche": [
+  {
+   "s": "inalambricos",
+   "l": "inalámbricos",
+   "re": "inalambric|sin cable|bateria"
+  },
+  {
+   "s": "potentes",
+   "l": "potentes",
+   "re": "\\d{5} ?pa|kpa|sin escobillas"
+  }
+ ],
+ "soportes-de-movil-para-coche": [
+  {
+   "s": "magneticos",
+   "l": "magnéticos",
+   "re": "magnet|magsafe|iman"
+  },
+  {
+   "s": "rejilla",
+   "l": "para rejilla",
+   "re": "rejilla|ventilacion"
+  },
+  {
+   "s": "salpicadero",
+   "l": "para salpicadero",
+   "re": "salpicadero|ventosa|parabrisas"
+  }
+ ],
+ "purificadores-y-ambientadores-de-coche": [
+  {
+   "s": "ambientadores",
+   "l": "ambientadores",
+   "re": "ambientador",
+   "n": "ambientadores de coche"
+  },
+  {
+   "s": "purificadores",
+   "l": "purificadores",
+   "re": "purificador|ionizador|ozono",
+   "n": "purificadores de aire para coche"
+  }
+ ],
+ "cables-y-arrancadores-de-bateria": [
+  {
+   "s": "diesel",
+   "l": "para diésel",
+   "re": "diesel"
+  },
+  {
+   "s": "con-compresor",
+   "l": "con compresor",
+   "re": "compresor|inflador"
+  }
+ ],
+ "alfombrillas-y-protectores-de-suelo-para-coche": [
+  {
+   "s": "de-goma",
+   "l": "de goma",
+   "re": "goma"
+  },
+  {
+   "s": "universales",
+   "l": "universales",
+   "re": "universal"
+  }
+ ],
+ "luces-y-accesorios-de-emergencia-para-coche": [
+  {
+   "s": "baliza-v16",
+   "l": "baliza V16 homologada",
+   "re": "v16|baliza",
+   "n": "balizas V16 homologadas"
+  },
+  {
+   "s": "kits",
+   "l": "kits de emergencia",
+   "re": "kit",
+   "n": "kits de emergencia para el coche"
+  }
+ ],
+ "mancuernas-ajustables": [
+  {
+   "s": "ajustables",
+   "l": "ajustables",
+   "re": "ajustable"
+  },
+  {
+   "s": "con-barra",
+   "l": "con barra",
+   "re": "barra|2 en 1"
+  },
+  {
+   "s": "hexagonales",
+   "l": "hexagonales",
+   "re": "hexagonal|hex"
+  }
+ ],
+ "esterillas-yoga": [
+  {
+   "s": "gruesas",
+   "l": "gruesas",
+   "re": "1[0-5] ?mm|gruesa|extra"
+  },
+  {
+   "s": "antideslizantes",
+   "l": "antideslizantes",
+   "re": "antidesliz"
+  },
+  {
+   "s": "grandes",
+   "l": "grandes",
+   "re": "grande|\\b(8|9)\\d ?cm|200"
+  }
+ ],
+ "bandas-elasticas": [
+  {
+   "s": "para-gluteos",
+   "l": "para glúteos",
+   "re": "gluteo|tela|pierna"
+  },
+  {
+   "s": "con-asas",
+   "l": "con asas",
+   "re": "asa|tubo|mango"
+  }
+ ],
+ "banco-entrenamiento": [
+  {
+   "s": "plegables",
+   "l": "plegables",
+   "re": "plegable"
+  },
+  {
+   "s": "regulables",
+   "l": "regulables",
+   "re": "ajustable|regulable|inclinable|posiciones"
+  }
+ ],
+ "accesorios-cardio": [
+  {
+   "s": "de-velocidad",
+   "l": "de velocidad",
+   "re": "velocidad|speed|rodamiento|crossfit"
+  },
+  {
+   "s": "con-lastre",
+   "l": "con lastre",
+   "re": "lastre|peso|pesad"
+  }
+ ],
+ "kettlebells": [
+  {
+   "s": "ajustables",
+   "l": "ajustables",
+   "re": "ajustable"
+  },
+  {
+   "s": "de-vinilo",
+   "l": "de vinilo o neopreno",
+   "re": "vinilo|neopreno|soft|plastico"
+  }
+ ],
+ "rodillos-espuma-recuperacion": [
+  {
+   "s": "texturizados",
+   "l": "texturizados",
+   "re": "trigger|textur|relieve|masaje"
+  }
+ ],
+ "sillas-ergonomicas": [
+  {
+   "s": "con-reposacabezas",
+   "l": "con reposacabezas",
+   "re": "reposacabeza|cabeza"
+  },
+  {
+   "s": "de-malla",
+   "l": "de malla",
+   "re": "malla"
+  },
+  {
+   "s": "con-reposapies",
+   "l": "con reposapiés",
+   "re": "reposapie"
+  },
+  {
+   "s": "para-8-horas",
+   "l": "para teletrabajar 8 horas",
+   "re": "lumbar|ajustable|ergonomic"
+  }
+ ],
+ "mesas-de-escritorio": [
+  {
+   "s": "en-l",
+   "l": "en L (esquineros)",
+   "re": "\\bl\\b|esquin|forma de l"
+  },
+  {
+   "s": "con-cajones",
+   "l": "con cajones",
+   "re": "cajon"
+  },
+  {
+   "s": "pequenos",
+   "l": "pequeños",
+   "re": "\\b(80|90|100)\\b|pequen|compact"
+  }
+ ],
+ "monitores": [
+  {
+   "s": "24-pulgadas",
+   "l": "de 24 pulgadas",
+   "re": "\\b2[34][.,]?\\d?\"|24 pulgadas|23[.,]8"
+  },
+  {
+   "s": "27-pulgadas",
+   "l": "de 27 pulgadas",
+   "re": "\\b27\"|27 pulgadas"
+  },
+  {
+   "s": "ips",
+   "l": "IPS",
+   "re": "ips"
+  },
+  {
+   "s": "gaming",
+   "l": "gaming (alta frecuencia)",
+   "re": "gaming|1[0-9]{2} ?hz"
+  }
+ ],
+ "teclados-y-raton": [
+  {
+   "s": "inalambricos",
+   "l": "inalámbricos",
+   "re": "inalambric|bluetooth|wireless"
+  },
+  {
+   "s": "ergonomicos",
+   "l": "ergonómicos",
+   "re": "ergonomic|vertical"
+  },
+  {
+   "s": "combos",
+   "l": "combo teclado y ratón",
+   "re": "combo|teclado y rat|pack",
+   "n": "combos de teclado y ratón"
+  }
+ ],
+ "iluminacion-escritorio": [
+  {
+   "s": "barra-monitor",
+   "l": "barras de luz para monitor",
+   "re": "monitor|barra",
+   "n": "barras de luz para monitor"
+  },
+  {
+   "s": "con-pinza",
+   "l": "con pinza",
+   "re": "pinza|clip"
+  },
+  {
+   "s": "regulables",
+   "l": "regulables",
+   "re": "regulable|modos|atenuable|brillo"
+  }
+ ],
+ "organizacion-cables-y-espacio": [
+  {
+   "s": "bandejas",
+   "l": "bandejas bajo mesa",
+   "re": "bandeja|bajo",
+   "n": "bandejas organizadoras de cables"
+  },
+  {
+   "s": "bridas",
+   "l": "bridas y velcros",
+   "re": "brida|velcro|tira",
+   "n": "bridas y velcros para cables"
+  }
+ ],
+ "mesas-elevables": [
+  {
+   "s": "electricas",
+   "l": "eléctricas",
+   "re": "electric"
+  },
+  {
+   "s": "convertidores",
+   "l": "convertidores para mesa",
+   "re": "convertidor|estacion|soporte",
+   "n": "convertidores de escritorio de pie"
+  },
+  {
+   "s": "estructuras",
+   "l": "estructuras (solo marco)",
+   "re": "marco|estructura",
+   "n": "estructuras de mesa elevable"
+  }
+ ],
+ "auriculares-videollamadas": [
+  {
+   "s": "con-cancelacion",
+   "l": "con cancelación de ruido",
+   "re": "cancelac|enc|anc|ruido"
+  },
+  {
+   "s": "usb",
+   "l": "USB",
+   "re": "usb"
+  },
+  {
+   "s": "inalambricos",
+   "l": "inalámbricos",
+   "re": "inalambric|bluetooth|wireless"
+  }
+ ],
+ "soportes-para-portatil-y-elevadores": [
+  {
+   "s": "aluminio",
+   "l": "de aluminio",
+   "re": "aluminio"
+  },
+  {
+   "s": "plegables",
+   "l": "plegables",
+   "re": "plegable|portatil"
+  }
+ ],
+ "reposapies-y-accesorios-ergonomicos": [
+  {
+   "s": "regulables",
+   "l": "regulables",
+   "re": "ajustable|regulable|altura"
+  }
+ ],
+ "camaras-wifi-interior": [
+  {
+   "s": "360",
+   "l": "360° motorizadas",
+   "re": "360|ptz|motoriz"
+  },
+  {
+   "s": "2k",
+   "l": "2K o superior",
+   "re": "2k|3mp|4mp|2[.,]5k|3k|4k"
+  },
+  {
+   "s": "para-mascotas",
+   "l": "para vigilar mascotas",
+   "re": "mascota|perro|gato|bebe"
+  },
+  {
+   "s": "packs",
+   "l": "en pack de 2 o más",
+   "re": "pack|kit|2pcs|2 camaras|\\b2x"
+  }
+ ],
+ "camaras-wifi-exterior": [
+  {
+   "s": "solares",
+   "l": "solares",
+   "re": "solar"
+  },
+  {
+   "s": "4g",
+   "l": "4G con tarjeta SIM",
+   "re": "4g|sim|lte"
+  },
+  {
+   "s": "con-bateria",
+   "l": "con batería",
+   "re": "bateria|sin cable"
+  },
+  {
+   "s": "360",
+   "l": "360° motorizadas",
+   "re": "360|ptz"
+  }
+ ],
+ "timbres-inteligentes-con-camara": [
+  {
+   "s": "sin-wifi",
+   "l": "sin WiFi (con pantalla)",
+   "re": "sin wifi|pantalla|monitor"
+  },
+  {
+   "s": "inalambricos",
+   "l": "inalámbricos",
+   "re": "inalambric|bateria|sin cable"
+  }
+ ],
+ "cerraduras-inteligentes": [
+  {
+   "s": "con-huella",
+   "l": "con huella dactilar",
+   "re": "huella"
+  },
+  {
+   "s": "con-wifi",
+   "l": "con WiFi",
+   "re": "wifi|app|alexa"
+  },
+  {
+   "s": "invisibles",
+   "l": "invisibles",
+   "re": "invisible"
+  }
+ ],
+ "sensores-de-apertura-y-movimiento": [
+  {
+   "s": "de-puerta",
+   "l": "de puertas y ventanas",
+   "re": "puerta|ventana|apertura|magnetic"
+  },
+  {
+   "s": "de-movimiento",
+   "l": "de movimiento",
+   "re": "movimiento|pir|presencia"
+  }
+ ],
+ "camaras-de-bateria-sin-cables": [
+  {
+   "s": "solares",
+   "l": "con panel solar",
+   "re": "solar"
+  },
+  {
+   "s": "interior",
+   "l": "para interior",
+   "re": "interior"
+  }
+ ],
+ "kits-de-videovigilancia-con-grabador": [
+  {
+   "s": "poe",
+   "l": "PoE",
+   "re": "poe"
+  },
+  {
+   "s": "wifi",
+   "l": "WiFi",
+   "re": "wifi|inalambric"
+  }
+ ],
+ "enchufes-y-luces-inteligentes-de-seguridad": [
+  {
+   "s": "con-alexa",
+   "l": "compatibles con Alexa",
+   "re": "alexa"
+  },
+  {
+   "s": "con-consumo",
+   "l": "con medición de consumo",
+   "re": "consumo|energia|monitor"
+  }
+ ],
+ "arneses-para-perros": [
+  {
+   "s": "antitirones",
+   "l": "antitirones",
+   "re": "antitiron|tiron"
+  },
+  {
+   "s": "perros-grandes",
+   "l": "para perros grandes",
+   "re": "grande"
+  },
+  {
+   "s": "perros-pequenos",
+   "l": "para perros pequeños",
+   "re": "pequen|mini|cachorro"
+  }
+ ],
+ "correas-para-perros": [
+  {
+   "s": "extensibles",
+   "l": "extensibles",
+   "re": "retractil|extensible|flexi"
+  },
+  {
+   "s": "antitirones",
+   "l": "antitirones",
+   "re": "antitiron|tiron|elastic"
+  },
+  {
+   "s": "largas",
+   "l": "largas",
+   "re": "\\b([5-9]|1\\d) ?m\\b|larga"
+  }
+ ],
+ "comederos-automaticos-para-mascotas": [
+  {
+   "s": "con-wifi",
+   "l": "con WiFi",
+   "re": "wifi|app"
+  },
+  {
+   "s": "para-gatos",
+   "l": "para gatos",
+   "re": "gato"
+  },
+  {
+   "s": "con-camara",
+   "l": "con cámara",
+   "re": "camara"
+  }
+ ],
+ "fuentes-de-agua-para-mascotas": [
+  {
+   "s": "acero-inoxidable",
+   "l": "de acero inoxidable",
+   "re": "acero|inox"
+  },
+  {
+   "s": "sin-cable",
+   "l": "sin cable",
+   "re": "sin cable|inalambric|bateria"
+  },
+  {
+   "s": "silenciosas",
+   "l": "silenciosas",
+   "re": "silencios"
+  }
+ ],
+ "camas-para-perros": [
+  {
+   "s": "ortopedicas",
+   "l": "ortopédicas",
+   "re": "ortoped|viscoelast|memory"
+  },
+  {
+   "s": "lavables",
+   "l": "lavables",
+   "re": "lavable|desenfund"
+  },
+  {
+   "s": "perros-grandes",
+   "l": "para perros grandes",
+   "re": "grande|xl|xxl"
+  }
+ ],
+ "transportines-para-mascotas": [
+  {
+   "s": "para-avion",
+   "l": "aprobados para avión",
+   "re": "avion|aprobado|aerolinea"
+  },
+  {
+   "s": "blandos",
+   "l": "blandos",
+   "re": "blando|bolsa|plegable"
+  },
+  {
+   "s": "para-coche",
+   "l": "para coche",
+   "re": "coche|asiento"
+  }
+ ],
+ "areneros-autolimpiables-para-gatos": [
+  {
+   "s": "con-app",
+   "l": "con app",
+   "re": "app|wifi"
+  }
+ ],
+ "rascadores-para-gatos": [
+  {
+   "s": "grandes",
+   "l": "grandes",
+   "re": "1[2-9]\\d ?cm|grande|xxl|xl"
+  },
+  {
+   "s": "pequenos",
+   "l": "pequeños",
+   "re": "pequen|compact|\\b[4-9]\\d ?cm"
+  }
+ ],
+ "juguetes-interactivos-para-perros": [
+  {
+   "s": "olfativos",
+   "l": "olfativos",
+   "re": "olfat|snuffle",
+   "n": "juguetes olfativos para perros"
+  },
+  {
+   "s": "dispensadores",
+   "l": "dispensadores de premios",
+   "re": "dispensa|premio|comida lenta|kong",
+   "n": "juguetes dispensadores de premios"
+  }
+ ],
+ "collares-gps-para-mascotas": [
+  {
+   "s": "sin-suscripcion",
+   "l": "sin suscripción",
+   "re": "sin suscrip|sin cuota|airtag|bluetooth"
+  },
+  {
+   "s": "para-gatos",
+   "l": "para gatos",
+   "re": "gato"
+  }
+ ],
+ "sillas-de-coche-para-bebe": [
+  {
+   "s": "giratorias",
+   "l": "giratorias 360°",
+   "re": "360|girator"
+  },
+  {
+   "s": "i-size",
+   "l": "i-Size",
+   "re": "i-size|isize|r129"
+  },
+  {
+   "s": "con-isofix",
+   "l": "con Isofix",
+   "re": "isofix"
+  },
+  {
+   "s": "grupo-2-3",
+   "l": "de grupo 2/3 (100-150 cm)",
+   "re": "100-150|grupo 2|15-36|elevador"
+  }
+ ],
+ "cochecitos-y-carritos-de-bebe": [
+  {
+   "s": "3-en-1",
+   "l": "3 en 1",
+   "re": "3 en 1|trio"
+  },
+  {
+   "s": "sillas-de-paseo-ligeras",
+   "l": "sillas de paseo ligeras",
+   "re": "ligera|paseo|compacta|plegable",
+   "n": "sillas de paseo ligeras"
+  }
+ ],
+ "tronas-para-bebe": [
+  {
+   "s": "evolutivas",
+   "l": "evolutivas",
+   "re": "evolutiv|convertible|4 en 1|3 en 1"
+  },
+  {
+   "s": "portatiles",
+   "l": "portátiles y de viaje",
+   "re": "portatil|viaje|plegable|elevador"
+  }
+ ],
+ "monitores-y-vigilabebes": [
+  {
+   "s": "con-camara",
+   "l": "con cámara",
+   "re": "camara|video"
+  },
+  {
+   "s": "de-audio",
+   "l": "de audio",
+   "re": "audio"
+  }
+ ],
+ "cunas-de-viaje-y-minicunas": [
+  {
+   "s": "colecho",
+   "l": "de colecho",
+   "re": "colecho"
+  },
+  {
+   "s": "de-viaje",
+   "l": "de viaje",
+   "re": "viaje|plegable"
+  }
+ ],
+ "portabebes-y-mochilas-ergonomicas": [
+  {
+   "s": "recien-nacidos",
+   "l": "para recién nacidos",
+   "re": "recien|nacimiento|0-|3[.,]5"
+  }
+ ],
+ "esterilizadores-y-calientabiberones": [
+  {
+   "s": "calientabiberones",
+   "l": "calientabiberones",
+   "re": "calienta",
+   "n": "calientabiberones"
+  },
+  {
+   "s": "esterilizadores",
+   "l": "esterilizadores",
+   "re": "esteriliz",
+   "n": "esterilizadores de biberones"
+  }
+ ],
+ "basculas-de-bebe": [
+  {
+   "s": "digitales",
+   "l": "digitales",
+   "re": "digital"
+  }
+ ],
+ "hamacas-y-balancines-para-bebe": [
+  {
+   "s": "electricas",
+   "l": "eléctricas",
+   "re": "electric|vibra|musica"
+  }
+ ],
+ "termometros-y-humidificadores-para-bebe": [
+  {
+   "s": "higrometros",
+   "l": "higrómetros para la habitación",
+   "re": "higrom|humedad",
+   "n": "higrómetros para la habitación del bebé"
+  }
+ ]
+}

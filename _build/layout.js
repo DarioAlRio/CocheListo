@@ -14,7 +14,7 @@ function clip(s, max) {
   return (i > max * 0.6 ? cut.slice(0, i) : cut).replace(/[\s,;:.\u2014\u2013-]+$/, "") + "…";
 }
 
-function head({ title, description, path, jsonLd = [], noindex = false }) {
+function head({ title, description, path, jsonLd = [], noindex = false, image = null }) {
   const fullTitle =
     path === "/"
       ? clip(`${SITE.name} — ${SITE.claim}`, 65)
@@ -40,7 +40,9 @@ function head({ title, description, path, jsonLd = [], noindex = false }) {
   <meta property="og:description" content="${escapeHtml(desc)}">
   <meta property="og:url" content="${canonical}">
   <meta property="og:locale" content="${SITE.locale}">
-  <meta name="twitter:card" content="summary">
+  ${image ? `<meta property="og:image" content="${image.startsWith("http") ? image : SITE.domain + image}">
+  <meta name="twitter:image" content="${image.startsWith("http") ? image : SITE.domain + image}">` : ""}
+  <meta name="twitter:card" content="${image ? "summary_large_image" : "summary"}">
   <meta name="twitter:title" content="${escapeHtml(fullTitle)}">
   <meta name="twitter:description" content="${escapeHtml(desc)}">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -178,11 +180,11 @@ function ctaBand() {
   </section>`;
 }
 
-function page({ path, title, description, bodyClass = "", jsonLd = [], noindex = false, breadcrumbsItems = null, excludeCategory = null, main }) {
+function page({ path, title, description, bodyClass = "", jsonLd = [], noindex = false, breadcrumbsItems = null, excludeCategory = null, main, image = null }) {
   return `<!DOCTYPE html>
 <html lang="${SITE.lang}">
 <head>
-  ${head({ title, description, path, jsonLd, noindex })}
+  ${head({ title, description, path, jsonLd, noindex, image })}
 </head>
 <body class="${bodyClass}">
   ${headerHtml(path)}

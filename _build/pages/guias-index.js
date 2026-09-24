@@ -13,6 +13,7 @@ function guiasIndex() {
   })}
   <section class="section">
     <div class="wrap">
+      <h2 class="sr-only">Todas las guías de compra</h2>
       <div class="card-grid">
         ${GUIDES.map(guideCard).join("\n")}
       </div>
