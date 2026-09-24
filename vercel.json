@@ -6,12 +6,12 @@
   "cleanUrls": false,
   "redirects": [
     {
-      "source": "/:section(guias|blog|comparativas|productos|legal)/:slug([^/.]+)",
+      "source": "/:section(guias|blog|comparativas|productos|legal|mejores)/:slug([^/.]+)",
       "destination": "/:section/:slug.html",
       "permanent": true
     },
     {
-      "source": "/:section(guias|blog|comparativas|productos|legal)",
+      "source": "/:section(guias|blog|comparativas|productos|legal|mejores)",
       "destination": "/:section/",
       "permanent": true
     }

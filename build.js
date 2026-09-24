@@ -25,6 +25,7 @@ const blogIndex = require("./_build/pages/blog-index");
 const articuloPage = require("./_build/pages/articulo");
 const { avisoLegal, politicaPrivacidad, politicaCookies } = require("./_build/pages/legal");
 const notFound = require("./_build/pages/not-found");
+const { seoPages, guideBanner } = require("./_build/seo");
 
 // FOOT se completa aquí a partir de los datos reales, para no duplicar la
 // lista de guías/artículos en nav.js.
@@ -40,10 +41,15 @@ const allComparativaPages = GUIDES.flatMap(comparativaPages);
 const pages = [
   home(),
   guiasIndex(),
-  ...GUIDES.map(guiaPage),
+  ...GUIDES.map((g) => {
+    const p = guiaPage(g);
+    p.html = p.html.replace('<section class="section">', guideBanner(g) + '<section class="section">');
+    return p;
+  }),
   productosIndex(),
   ...productPages,
   ...allComparativaPages,
+  ...seoPages(),
   blogIndex(),
   ...ARTICLES.map(articuloPage),
   avisoLegal(),
@@ -84,6 +90,7 @@ function sitemapPriority(p) {
   if (p.path === "/") return "1.0";
   if (p.path === "/guias/" || p.path === "/productos/" || p.path === "/blog/") return "0.8";
   if (p.path.startsWith("/legal/")) return "0.3";
+  if (p.path.startsWith("/mejores/")) return "0.9";
   return "0.6";
 }
 function sitemapChangefreq(p) {
