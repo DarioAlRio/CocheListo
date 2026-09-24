@@ -174,7 +174,7 @@ table { border-collapse: collapse; width: 100%; }
   padding: 64px 0 40px;
   position: relative;
   overflow: hidden;
-  background-image: url("/assets/img/trust-bg.jpg");
+  background-image: url("/assets/img/trust-bg.webp");
   background-size: cover;
   background-position: center;
 }
@@ -495,3 +495,21 @@ table { border-collapse: collapse; width: 100%; }
 .seo-index-card h2{font-size:1.05rem;margin:0 0 4px}
 .seo-vs-list{columns:2;gap:24px}
 @media (max-width:640px){.seo-rank-item{grid-template-columns:auto 1fr}.seo-rank-item img{grid-row:span 1;width:80px;height:80px}.seo-rank-body{grid-column:1/-1}.seo-vs{grid-template-columns:1fr}.seo-vs-sep{text-align:center}.seo-vs-list{columns:1}}
+/* Tarjeta de producto con botón directo a Amazon */
+.product-card-main{display:flex;flex-direction:column;color:inherit;text-decoration:none;flex:1}
+.product-card-actions{display:flex;flex-direction:column;gap:8px;padding:0 16px 16px;align-items:stretch}
+.product-card-actions .product-card-cta{margin-top:0}
+.product-card-ficha{font-size:.85rem;font-weight:600;color:var(--color-brand-dark);text-align:center}
+/* Barra fija "Ver en Amazon" */
+.seo-sticky{position:fixed;left:0;right:0;bottom:0;z-index:50;display:flex;align-items:center;gap:12px;padding:10px 16px;background:var(--color-surface);border-top:1px solid var(--color-border);box-shadow:0 -6px 20px rgba(0,0,0,.12)}
+.seo-sticky img{width:44px;height:44px;object-fit:contain;background:#fff;border-radius:8px;flex:none}
+.seo-sticky-txt{flex:1;min-width:0;font-size:.9rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.seo-sticky .btn{flex:none;white-space:nowrap}
+.seo-sticky-space{height:72px}
+.seo-sticky-space ~ .seo-sticky-space,.seo-sticky ~ .seo-sticky{display:none}
+/* Enlaces relacionados */
+.seo-related ul{columns:2;gap:24px;padding-left:18px}
+.seo-chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+.seo-chips a{border:1px solid var(--color-border);border-radius:999px;padding:4px 12px;font-size:.85rem;background:var(--color-surface)}
+.seo-brand-vs{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+@media (max-width:640px){.seo-related ul{columns:1}.seo-brand-vs{grid-template-columns:1fr}.seo-sticky-txt strong{display:block;overflow:hidden;text-overflow:ellipsis}}

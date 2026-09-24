@@ -10,6 +10,7 @@ const {
   ourScore,
   priceTier,
   productCard,
+  altOf,
   icon,
 } = require("../lib");
 const { pageHero } = require("../layout");
@@ -27,7 +28,7 @@ function productoPage(p, g) {
     <div class="wrap two-col">
       <article class="prose">
         <div class="product-hero">
-          <img src="${p.img}" alt="${escapeHtml(p.title)}" loading="lazy" width="220" height="220">
+          <img src="${p.img}" alt="${escapeHtml(altOf(p.title))}" loading="lazy" width="220" height="220">
           <div class="product-hero-meta">
             ${tier ? `<span class="card-eyebrow">${tier}</span>` : ""}
             <div class="product-score">
@@ -35,7 +36,6 @@ function productoPage(p, g) {
               <span class="product-score-label">Nuestra puntuación<br>sobre 10</span>
             </div>
             ${p.rating ? `<p>Valoración en Amazon: <strong>${escapeHtml(p.rating)}</strong></p>` : ""}
-            <p class="product-hero-price">desde ${escapeHtml(p.price)} €</p>
             <a class="btn btn-accent" href="${amazonProductUrl(p.asin)}" target="_blank" rel="nofollow sponsored noopener">Ver precio en Amazon ${icon("arrow")}</a>
           </div>
         </div>
@@ -71,7 +71,7 @@ function productoPage(p, g) {
         <div class="amzbox">
           <p class="amzbox-label">${escapeHtml(p.title)}</p>
           <a class="btn btn-accent" href="${amazonProductUrl(p.asin)}" target="_blank" rel="nofollow sponsored noopener">Ver en Amazon ${icon("arrow")}</a>
-          <p class="sidebar-note">Precio orientativo, verifica el actual en la ficha de Amazon.</p>
+          <p class="sidebar-note">Consulta el precio actual y la disponibilidad en Amazon.</p>
         </div>
       </aside>
     </div>

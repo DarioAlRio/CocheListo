@@ -13,6 +13,7 @@ function blogIndex() {
   })}
   <section class="section">
     <div class="wrap">
+      <h2 class="sr-only">Todos los artículos</h2>
       <div class="card-grid">
         ${ARTICLES.map(articleCard).join("\n")}
       </div>

@@ -4,15 +4,15 @@
 // guía" (al final de cada artículo). Todo sale de data.js, nada se escribe a mano.
 
 const { GUIDES } = require("./data");
-const { escapeHtml, amazonProductUrl, productUrl, ratingNumber, icon } = require("./lib");
+const { escapeHtml, amazonProductUrl, productUrl, ratingNumber, icon, priceTier, altOf, priceNum } = require("./lib");
 
 const fmtPrice = (p) => `${String(p.price).replace(".", ",")} €`;
 
 // Devuelve { choice, value, cheap } con productos distintos de la guía.
 function pickWinners(products) {
-  const list = (products || []).filter((p) => ratingNumber(p.rating) !== null && !isNaN(Number(p.price)));
+  const list = (products || []).filter((p) => ratingNumber(p.rating) !== null && !isNaN(priceNum(p)));
   if (list.length < 3) return null;
-  const prices = list.map((p) => Number(p.price)).sort((a, b) => a - b);
+  const prices = list.map((p) => priceNum(p)).sort((a, b) => a - b);
   const median = prices[Math.floor(prices.length / 2)];
   const used = new Set();
   const take = (arr, key) => {
@@ -25,19 +25,19 @@ function pickWinners(products) {
     list,
     (a, b) =>
       ratingNumber(b.rating) - ratingNumber(a.rating) ||
-      Math.abs(Number(a.price) - median) - Math.abs(Number(b.price) - median)
+      Math.abs(priceNum(a) - median) - Math.abs(priceNum(b) - median)
   );
   // Mejor calidad-precio: más valoración por euro (con raíz para no premiar solo lo barato).
   const good = list.filter((p) => ratingNumber(p.rating) >= 4.2);
   const value = take(
     good.length ? good : list,
     (a, b) =>
-      (ratingNumber(b.rating) - 3.5) / Math.sqrt(Number(b.price)) -
-      (ratingNumber(a.rating) - 3.5) / Math.sqrt(Number(a.price))
+      (ratingNumber(b.rating) - 3.5) / Math.sqrt(priceNum(b)) -
+      (ratingNumber(a.rating) - 3.5) / Math.sqrt(priceNum(a))
   );
   // Más económico: el más barato con valoración decente.
   const okCheap = list.filter((p) => ratingNumber(p.rating) >= 4.0);
-  const cheap = take(okCheap.length ? okCheap : list, (a, b) => Number(a.price) - Number(b.price));
+  const cheap = take(okCheap.length ? okCheap : list, (a, b) => priceNum(a) - priceNum(b));
   return choice && value && cheap ? { choice, value, cheap } : null;
 }
 
@@ -52,18 +52,18 @@ function quickPicks(g) {
     .map(
       ([label, p]) => `<tr>
           <td data-label="Elección"><span class="quickpick-badge">${label}</span></td>
-          <td data-label="Producto"><a class="quickpick-product" href="${productUrl(p)}"><img src="${p.img}" alt="${escapeHtml(p.title)}" loading="lazy" width="56" height="56"><span>${escapeHtml(p.title)}</span></a></td>
+          <td data-label="Producto"><a class="quickpick-product" href="${productUrl(p)}"><img src="${p.img}" alt="${escapeHtml(altOf(p.title))}" loading="lazy" width="56" height="56"><span>${escapeHtml(p.title)}</span></a></td>
           <td data-label="Valoración">${escapeHtml(p.rating)}</td>
-          <td data-label="Precio">${escapeHtml(fmtPrice(p))}</td>
+          <td data-label="Gama">${escapeHtml(priceTier(p, g.products) || "—")}</td>
           <td class="quickpick-cta"><a class="btn btn-accent" href="${amazonProductUrl(p.asin)}" target="_blank" rel="nofollow sponsored noopener">Ver en Amazon ${icon("arrow")}</a></td>
         </tr>`
     )
     .join("\n");
   return `<div class="content-section quickpicks">
         <h2>Elige rápido</h2>
-        <p class="quickpicks-note">Si tienes prisa: estas son las tres opciones que mejor se defienden en esta guía según su valoración en Amazon y su precio. Precios orientativos, compruébalos en Amazon.</p>
+        <p class="quickpicks-note">Si tienes prisa: estas son las tres opciones que mejor se defienden en esta guía según su valoración en Amazon y su gama de precio. El precio actual, en Amazon.</p>
         <div class="quickpicks-scroll"><table class="quickpicks-table">
-          <thead><tr><th>Elección</th><th>Producto</th><th>Valoración</th><th>Precio</th><th></th></tr></thead>
+          <thead><tr><th>Elección</th><th>Producto</th><th>Valoración</th><th>Gama</th><th></th></tr></thead>
           <tbody>
         ${rows}
           </tbody>
@@ -189,7 +189,7 @@ function relatedBlock(a) {
       return `<li>
           <a class="related-guide-title" href="/guias/${g.slug}.html">${escapeHtml(g.title)}</a>
           <span class="related-guide-dek">${escapeHtml(g.dek || "")}</span>
-          ${w ? `<span class="related-guide-pick">Nuestra elección: <a href="${productUrl(w.choice)}">${escapeHtml(w.choice.title)}</a> (${escapeHtml(w.choice.rating)}, ${escapeHtml(fmtPrice(w.choice))})</span>` : ""}
+          ${w ? `<span class="related-guide-pick">Nuestra elección: <a href="${productUrl(w.choice)}">${escapeHtml(w.choice.title)}</a> (${escapeHtml(w.choice.rating)})</span>` : ""}
         </li>`;
     })
     .join("\n");

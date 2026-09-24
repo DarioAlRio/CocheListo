@@ -10,7 +10,7 @@
 const GUIDES = [
   {
     slug: "camaras-de-conduccion-dash-cams",
-    img: "/assets/img/guias/camaras-de-conduccion-dash-cams.jpg",
+    img: "/assets/img/guias/camaras-de-conduccion-dash-cams.webp",
     title: "Cómo elegir una dash cam para el coche",
     dek: "Resolución, canales, modo aparcamiento y almacenamiento: los criterios que de verdad importan antes de comprar una cámara de conducción.",
     updated: "2026-09-17",
@@ -202,7 +202,7 @@ const GUIDES = [
   },
   {
     slug: "organizadores-de-maletero",
-    img: "/assets/img/guias/organizadores-de-maletero.jpg",
+    img: "/assets/img/guias/organizadores-de-maletero.webp",
     title: "Cómo elegir un organizador de maletero",
     dek: "Capacidad, materiales y sujeción: lo que diferencia una caja plegable que dura años de una que se deforma al primer viaje.",
     updated: "2026-09-16",
@@ -394,7 +394,7 @@ const GUIDES = [
   },
   {
     slug: "cargadores-de-coche-usb",
-    img: "/assets/img/guias/cargadores-de-coche-usb.jpg",
+    img: "/assets/img/guias/cargadores-de-coche-usb.webp",
     title: "Cómo elegir un cargador de coche USB",
     dek: "Potencia real, número de puertos y protocolos de carga rápida: lo que hace que un móvil se cargue rápido de verdad en el coche.",
     updated: "2026-09-15",
@@ -586,7 +586,7 @@ const GUIDES = [
   },
   {
     slug: "fundas-y-protectores-de-asiento",
-    img: "/assets/img/guias/fundas-y-protectores-de-asiento.jpg",
+    img: "/assets/img/guias/fundas-y-protectores-de-asiento.webp",
     title: "Cómo elegir fundas y protectores para los asientos del coche",
     dek: "Ajuste, material y compatibilidad con airbags: lo que hay que revisar antes de cubrir los asientos originales del coche.",
     updated: "2026-09-14",
@@ -786,7 +786,7 @@ const GUIDES = [
   },
   {
     slug: "aspiradores-portatiles-para-coche",
-    img: "/assets/img/guias/aspiradores-portatiles-para-coche.jpg",
+    img: "/assets/img/guias/aspiradores-portatiles-para-coche.webp",
     title: "Cómo elegir un aspirador portátil para el coche",
     dek: "Potencia de succión, autonomía y accesorios: lo que de verdad limpia migas, arena y pelo de mascota en el coche.",
     updated: "2026-09-13",
@@ -978,7 +978,7 @@ const GUIDES = [
   },
   {
     slug: "soportes-de-movil-para-coche",
-    img: "/assets/img/guias/soportes-de-movil-para-coche.jpg",
+    img: "/assets/img/guias/soportes-de-movil-para-coche.webp",
     title: "Cómo elegir un soporte de móvil para el coche",
     dek: "Sujeción, tipo de anclaje y compatibilidad MagSafe: lo que evita que el móvil se caiga justo en una curva.",
     updated: "2026-09-12",
@@ -1170,7 +1170,7 @@ const GUIDES = [
   },
   {
     slug: "purificadores-y-ambientadores-de-coche",
-    img: "/assets/img/guias/purificadores-y-ambientadores-de-coche.jpg",
+    img: "/assets/img/guias/purificadores-y-ambientadores-de-coche.webp",
     title: "Cómo elegir un purificador o ambientador para el coche",
     dek: "De los ambientadores clásicos a los generadores de ozono: qué hace cada tipo y cuál conviene según el problema que quieras resolver.",
     updated: "2026-09-11",
@@ -1362,7 +1362,7 @@ const GUIDES = [
   },
   {
     slug: "cables-y-arrancadores-de-bateria",
-    img: "/assets/img/guias/cables-y-arrancadores-de-bateria.jpg",
+    img: "/assets/img/guias/cables-y-arrancadores-de-bateria.webp",
     title: "Cómo elegir un arrancador de batería para el coche",
     dek: "Amperios de pico, compatibilidad con el motor y seguridad de las pinzas: lo que hace que un arrancador funcione cuando de verdad lo necesitas.",
     updated: "2026-09-10",
@@ -1554,7 +1554,7 @@ const GUIDES = [
   },
   {
     slug: "alfombrillas-y-protectores-de-suelo-para-coche",
-    img: "/assets/img/guias/alfombrillas-y-protectores-de-suelo-para-coche.jpg",
+    img: "/assets/img/guias/alfombrillas-y-protectores-de-suelo-para-coche.webp",
     title: "Cómo elegir alfombrillas para el coche",
     dek: "Goma o moqueta, ajuste universal o a medida: lo que protege de verdad el suelo original frente a barro, nieve y desgaste.",
     updated: "2026-09-09",
@@ -1754,7 +1754,7 @@ const GUIDES = [
   },
   {
     slug: "luces-y-accesorios-de-emergencia-para-coche",
-    img: "/assets/img/guias/luces-y-accesorios-de-emergencia-para-coche.jpg",
+    img: "/assets/img/guias/luces-y-accesorios-de-emergencia-para-coche.webp",
     title: "Cómo elegir luces y accesorios de emergencia para el coche",
     dek: "Baliza V16, triángulos y chaleco: qué es obligatorio hoy en España y qué merece la pena añadir al kit de emergencia.",
     updated: "2026-09-08",
@@ -1957,7 +1957,7 @@ const GUIDES = [
 const ARTICLES = [
   {
     slug: "que-llevar-siempre-en-el-maletero",
-    img: "/assets/img/blog/que-llevar-siempre-en-el-maletero.jpg",
+    img: "/assets/img/blog/que-llevar-siempre-en-el-maletero.webp",
     title: "Qué llevar siempre en el maletero del coche",
     dek: "La lista corta de lo que de verdad se usa en una emergencia, sin llenar el maletero de cosas que nunca vas a tocar.",
     updated: "2026-09-17",
@@ -1971,7 +1971,7 @@ const ARTICLES = [
   },
   {
     slug: "errores-comunes-al-elegir-una-dash-cam",
-    img: "/assets/img/blog/errores-comunes-al-elegir-una-dash-cam.jpg",
+    img: "/assets/img/blog/errores-comunes-al-elegir-una-dash-cam.webp",
     title: "5 errores comunes al elegir una dash cam",
     dek: "Fallos fáciles de evitar que hacen que una dash cam no sirva justo el día que más la necesitas.",
     updated: "2026-09-15",
@@ -1986,7 +1986,7 @@ const ARTICLES = [
   },
   {
     slug: "como-preparar-el-coche-para-un-viaje-largo",
-    img: "/assets/img/blog/como-preparar-el-coche-para-un-viaje-largo.jpg",
+    img: "/assets/img/blog/como-preparar-el-coche-para-un-viaje-largo.webp",
     title: "Cómo preparar el coche para un viaje largo",
     dek: "La revisión de accesorios y comprobaciones rápidas antes de un trayecto de varias horas.",
     updated: "2026-09-13",
@@ -2000,7 +2000,7 @@ const ARTICLES = [
   },
   {
     slug: "cuanto-merece-la-pena-gastar-en-accesorios-de-coche",
-    img: "/assets/img/blog/cuanto-merece-la-pena-gastar-en-accesorios-de-coche.jpg",
+    img: "/assets/img/blog/cuanto-merece-la-pena-gastar-en-accesorios-de-coche.webp",
     title: "Cuánto gastar en accesorios para el coche: presupuesto recomendado (2026)",
     dek: "Dónde está el salto de valor real entre lo básico, lo intermedio y lo que ya es más comodidad que necesidad.",
     updated: "2026-09-11",
@@ -2014,7 +2014,7 @@ const ARTICLES = [
   },
   {
     slug: "cargador-de-coche-o-power-bank-cual-conviene",
-    img: "/assets/img/blog/cargador-de-coche-o-power-bank-cual-conviene.jpg",
+    img: "/assets/img/blog/cargador-de-coche-o-power-bank-cual-conviene.webp",
     title: "Cargador de coche o power bank: cuál conviene para el móvil en ruta",
     dek: "No siempre hace falta elegir uno de los dos: depende de cuánto conduces y de qué tipo de viajes haces.",
     updated: "2026-09-09",
@@ -2027,7 +2027,7 @@ const ARTICLES = [
   },
   {
     slug: "como-elegir-dash-cam-resolucion-y-angulo-de-vision",
-    img: "/assets/img/blog/como-elegir-dash-cam-resolucion-y-angulo-de-vision.jpg",
+    img: "/assets/img/blog/como-elegir-dash-cam-resolucion-y-angulo-de-vision.webp",
     title: "Cómo elegir una dash cam según resolución y ángulo de visión (2026)",
     dek: "Dos cifras que aparecen en todos los anuncios y que casi nunca se explican bien: qué significan de verdad para lo que grabas.",
     updated: "2026-09-19",
@@ -2041,7 +2041,7 @@ const ARTICLES = [
   },
   {
     slug: "arrancador-de-bateria-portatil-como-usarlo-de-forma-segura",
-    img: "/assets/img/blog/arrancador-de-bateria-portatil-como-usarlo-de-forma-segura.jpg",
+    img: "/assets/img/blog/arrancador-de-bateria-portatil-como-usarlo-de-forma-segura.webp",
     title: "Arrancador de batería portátil: cómo usarlo de forma segura",
     dek: "Tenerlo en el maletero no sirve de mucho si no sabes conectarlo bien; los pasos básicos para no dañar el coche ni el propio arrancador.",
     updated: "2026-09-19",
@@ -2055,7 +2055,7 @@ const ARTICLES = [
   },
   {
     slug: "como-mantener-tu-aspirador-de-coche-funcionando-bien",
-    img: "/assets/img/blog/como-mantener-tu-aspirador-de-coche-funcionando-bien.jpg",
+    img: "/assets/img/blog/como-mantener-tu-aspirador-de-coche-funcionando-bien.webp",
     title: "Aspirador portátil para coche: cómo mantenerlo funcionando bien",
     dek: "La mayoría de aspiradores de mano no pierden potencia por el motor, sino por falta de mantenimiento básico del filtro y el depósito.",
     updated: "2026-09-19",
@@ -2069,7 +2069,7 @@ const ARTICLES = [
   },
   {
     slug: "donde-colocar-el-soporte-de-movil-en-el-coche",
-    img: "/assets/img/blog/donde-colocar-el-soporte-de-movil-en-el-coche.jpg",
+    img: "/assets/img/blog/donde-colocar-el-soporte-de-movil-en-el-coche.webp",
     title: "Soporte de móvil para el coche: dónde colocarlo con sentido común",
     dek: "La posición del soporte influye tanto en la seguridad como en si vas a usarlo de verdad o va a acabar en la guantera.",
     updated: "2026-09-19",
@@ -2083,7 +2083,7 @@ const ARTICLES = [
   },
   {
     slug: "como-eliminar-malos-olores-del-coche-sin-tapar-el-problema",
-    img: "/assets/img/blog/como-eliminar-malos-olores-del-coche-sin-tapar-el-problema.jpg",
+    img: "/assets/img/blog/como-eliminar-malos-olores-del-coche-sin-tapar-el-problema.webp",
     title: "Cómo eliminar malos olores del coche sin taparlos con perfume",
     dek: "Un ambientador enmascara el problema durante un rato; para eliminarlo de verdad hace falta atacar el origen del olor.",
     updated: "2026-09-19",
@@ -2097,7 +2097,7 @@ const ARTICLES = [
   },
   {
     slug: "alfombrillas-de-goma-o-de-tela-segun-la-epoca-del-ano",
-    img: "/assets/img/blog/alfombrillas-de-goma-o-de-tela-segun-la-epoca-del-ano.jpg",
+    img: "/assets/img/blog/alfombrillas-de-goma-o-de-tela-segun-la-epoca-del-ano.webp",
     title: "Alfombrillas de goma o de tela: cuáles comprar según la época del año",
     dek: "No hay una alfombrilla mejor en general; hay una más adecuada según lo que se te pega en los zapatos cada temporada.",
     updated: "2026-09-19",
@@ -2111,7 +2111,7 @@ const ARTICLES = [
   },
   {
     slug: "checklist-antes-de-un-viaje-largo-en-carretera",
-    img: "/assets/img/blog/checklist-antes-de-un-viaje-largo-en-carretera.jpg",
+    img: "/assets/img/blog/checklist-antes-de-un-viaje-largo-en-carretera.webp",
     title: "Checklist rápida de accesorios antes de un viaje largo en carretera",
     dek: "Diez minutos de revisión antes de salir que evitan la mayoría de sustos con los accesorios del coche a mitad de trayecto.",
     updated: "2026-09-19",
@@ -2125,7 +2125,7 @@ const ARTICLES = [
   },
   {
     slug: "como-limpiar-y-cuidar-las-fundas-de-los-asientos-del-coche",
-    img: "/assets/img/blog/como-limpiar-y-cuidar-las-fundas-de-los-asientos-del-coche.jpg",
+    img: "/assets/img/blog/como-limpiar-y-cuidar-las-fundas-de-los-asientos-del-coche.webp",
     title: "Cómo limpiar y cuidar las fundas de los asientos del coche",
     dek: "El cuidado correcto depende del material: lo que funciona con tela puede estropear una funda de cuero PU, y al revés.",
     updated: "2026-09-19",
@@ -2139,7 +2139,7 @@ const ARTICLES = [
   },
   {
     slug: "que-hacer-si-se-te-queda-la-bateria-del-coche-sin-carga",
-    img: "/assets/img/blog/que-hacer-si-se-te-queda-la-bateria-del-coche-sin-carga.jpg",
+    img: "/assets/img/blog/que-hacer-si-se-te-queda-la-bateria-del-coche-sin-carga.webp",
     title: "Qué hacer si se te queda la batería del coche sin carga",
     dek: "Los pasos a seguir en el momento, y qué accesorios marcan la diferencia entre resolverlo en cinco minutos o esperar horas.",
     updated: "2026-09-19",
@@ -2153,7 +2153,7 @@ const ARTICLES = [
   },
   {
     slug: "accesorios-utiles-para-viajar-con-mascotas-en-el-coche",
-    img: "/assets/img/blog/accesorios-utiles-para-viajar-con-mascotas-en-el-coche.jpg",
+    img: "/assets/img/blog/accesorios-utiles-para-viajar-con-mascotas-en-el-coche.webp",
     title: "Accesorios útiles para viajar con mascotas en el coche",
     dek: "Lo que de verdad ayuda cuando el perro o el gato viaja con frecuencia, más allá de un simple protector de asiento.",
     updated: "2026-09-19",
@@ -2167,7 +2167,7 @@ const ARTICLES = [
   },
   {
     slug: "dash-cam-delantera-o-doble-cual-elegir",
-    img: "/assets/img/blog/dash-cam-delantera-o-doble-cual-elegir.jpg",
+    img: "/assets/img/blog/dash-cam-delantera-o-doble-cual-elegir.webp",
     title: "Dash cam delantera o doble: cuál elegir",
     dek: "¿Te basta una cámara delantera o compensa una de dos canales? Criterios claros según tu coche y cómo conduces, antes de gastar un euro.",
     updated: "2026-09-21",
@@ -2177,7 +2177,7 @@ const ARTICLES = [
   },
   {
     slug: "cuanto-cuesta-una-buena-dash-cam",
-    img: "/assets/img/blog/cuanto-cuesta-una-buena-dash-cam.jpg",
+    img: "/assets/img/blog/cuanto-cuesta-una-buena-dash-cam.webp",
     title: "Cuánto cuesta una buena dash cam y cuánto gastar",
     dek: "Cuánto conviene gastar en una dash cam según tu uso: qué se paga de más, qué no conviene ahorrar y cómo evitar comprar dos veces.",
     updated: "2026-09-21",
@@ -2187,7 +2187,7 @@ const ARTICLES = [
   },
   {
     slug: "soporte-movil-coche-rejilla-ventosa-o-iman",
-    img: "/assets/img/blog/soporte-movil-coche-rejilla-ventosa-o-iman.jpg",
+    img: "/assets/img/blog/soporte-movil-coche-rejilla-ventosa-o-iman.webp",
     title: "Soporte de móvil para coche: rejilla, ventosa o imán",
     dek: "Comparamos los tres tipos de soporte de móvil para coche: dónde encaja mejor cada uno y qué fallos evitar antes de comprar.",
     updated: "2026-09-21",
@@ -2197,7 +2197,7 @@ const ARTICLES = [
   },
   {
     slug: "mejor-cargador-de-coche-para-viajes-largos",
-    img: "/assets/img/blog/mejor-cargador-de-coche-para-viajes-largos.jpg",
+    img: "/assets/img/blog/mejor-cargador-de-coche-para-viajes-largos.webp",
     title: "Mejor cargador de coche para viajes largos",
     dek: "Qué mirar en un cargador de coche USB para viajes largos: potencia, puertos, cables y seguridad, para llegar con el móvil cargado.",
     updated: "2026-09-21",
@@ -2207,7 +2207,7 @@ const ARTICLES = [
   },
   {
     slug: "como-elegir-arrancador-de-bateria-para-coche",
-    img: "/assets/img/blog/como-elegir-arrancador-de-bateria-para-coche.jpg",
+    img: "/assets/img/blog/como-elegir-arrancador-de-bateria-para-coche.webp",
     title: "Cómo elegir un arrancador de batería para coche",
     dek: "Qué mirar al comprar un arrancador de batería portátil: capacidad, tipo de motor, pinzas y seguridad, sin pagar por potencia que no necesitas.",
     updated: "2026-09-21",
@@ -2217,7 +2217,7 @@ const ARTICLES = [
   },
   {
     slug: "arrancador-de-bateria-o-cables-de-pinza",
-    img: "/assets/img/blog/arrancador-de-bateria-o-cables-de-pinza.jpg",
+    img: "/assets/img/blog/arrancador-de-bateria-o-cables-de-pinza.webp",
     title: "Arrancador de batería vs cables de pinza: cuál comprar",
     dek: "Arrancador portátil o cables de pinza tradicionales: ventajas, límites y para qué conductor compensa cada uno antes de comprar.",
     updated: "2026-09-21",
@@ -2227,7 +2227,7 @@ const ARTICLES = [
   },
   {
     slug: "como-elegir-aspirador-de-coche",
-    img: "/assets/img/blog/como-elegir-aspirador-de-coche.jpg",
+    img: "/assets/img/blog/como-elegir-aspirador-de-coche.webp",
     title: "Cómo elegir un aspirador de coche: guía de compra",
     dek: "Potencia, autonomía, filtros y accesorios: qué importa de verdad al elegir un aspirador de mano para el coche y qué son solo cifras llamativas.",
     updated: "2026-09-21",
@@ -2237,7 +2237,7 @@ const ARTICLES = [
   },
   {
     slug: "alfombrillas-universales-o-a-medida",
-    img: "/assets/img/blog/alfombrillas-universales-o-a-medida.jpg",
+    img: "/assets/img/blog/alfombrillas-universales-o-a-medida.webp",
     title: "Alfombrillas universales o a medida: cuál te conviene",
     dek: "Alfombrillas universales o a medida para el coche: qué ganas y qué pierdes con cada una, y cómo elegir según tu uso y presupuesto.",
     updated: "2026-09-21",
@@ -2247,7 +2247,7 @@ const ARTICLES = [
   },
   {
     slug: "organizador-de-maletero-para-suv-o-utilitario",
-    img: "/assets/img/blog/organizador-de-maletero-para-suv-o-utilitario.jpg",
+    img: "/assets/img/blog/organizador-de-maletero-para-suv-o-utilitario.webp",
     title: "Organizador de maletero para SUV o utilitario",
     dek: "Cómo elegir el organizador de maletero según el tamaño de tu coche: capacidad, formato y fijación para SUV, familiares y utilitarios.",
     updated: "2026-09-21",
@@ -2257,7 +2257,7 @@ const ARTICLES = [
   },
   {
     slug: "fundas-de-asiento-universales-errores-al-comprar",
-    img: "/assets/img/blog/fundas-de-asiento-universales-errores-al-comprar.jpg",
+    img: "/assets/img/blog/fundas-de-asiento-universales-errores-al-comprar.webp",
     title: "Fundas de asiento universales: errores al comprar",
     dek: "Los fallos más habituales al comprar fundas de asiento universales: ajuste, airbags, materiales y limpieza, y cómo evitarlos.",
     updated: "2026-09-21",
@@ -2267,7 +2267,7 @@ const ARTICLES = [
   },
   {
     slug: "baliza-v16-y-kit-de-emergencia-que-necesitas",
-    img: "/assets/img/blog/baliza-v16-y-kit-de-emergencia-que-necesitas.jpg",
+    img: "/assets/img/blog/baliza-v16-y-kit-de-emergencia-que-necesitas.webp",
     title: "Baliza V16 y kit de emergencia: qué necesitas",
     dek: "Qué llevar en el coche para una emergencia en carretera: baliza V16, chaleco, botiquín y linterna. Criterios de compra y qué comprobar.",
     updated: "2026-09-21",
@@ -2277,7 +2277,7 @@ const ARTICLES = [
   },
   {
     slug: "accesorios-para-coche-de-ciudad-que-merecen-la-pena",
-    img: "/assets/img/blog/accesorios-para-coche-de-ciudad-que-merecen-la-pena.jpg",
+    img: "/assets/img/blog/accesorios-para-coche-de-ciudad-que-merecen-la-pena.webp",
     title: "Accesorios para coche de ciudad que merecen la pena",
     dek: "Qué accesorios tienen sentido si usas el coche sobre todo en ciudad: trayectos cortos, aparcar en la calle y poco espacio para guardar cosas.",
     updated: "2026-09-21",
@@ -2287,7 +2287,7 @@ const ARTICLES = [
   },
   {
     slug: "accesorios-para-el-coche-con-ninos-que-necesitas",
-    img: "/assets/img/blog/accesorios-para-el-coche-con-ninos-que-necesitas.jpg",
+    img: "/assets/img/blog/accesorios-para-el-coche-con-ninos-que-necesitas.webp",
     title: "Accesorios para el coche con niños: qué necesitas",
     dek: "Fundas, protectores, aspirador y organizadores que ayudan a mantener el coche limpio y ordenado cuando viajas con niños.",
     updated: "2026-09-21",
@@ -2297,7 +2297,7 @@ const ARTICLES = [
   },
   {
     slug: "ambientador-o-purificador-de-coche-cual-elegir",
-    img: "/assets/img/blog/ambientador-o-purificador-de-coche-cual-elegir.jpg",
+    img: "/assets/img/blog/ambientador-o-purificador-de-coche-cual-elegir.webp",
     title: "Ambientador o purificador de coche: cuál elegir",
     dek: "Diferencias entre ambientador y purificador de coche: qué hace cada uno, cuándo conviene y qué mirar antes de comprar.",
     updated: "2026-09-21",
@@ -2307,7 +2307,7 @@ const ARTICLES = [
   },
   {
     slug: "que-comprar-primero-para-un-coche-de-segunda-mano",
-    img: "/assets/img/blog/que-comprar-primero-para-un-coche-de-segunda-mano.jpg",
+    img: "/assets/img/blog/que-comprar-primero-para-un-coche-de-segunda-mano.webp",
     title: "Qué comprar primero para un coche de segunda mano",
     dek: "Has comprado un coche usado: los accesorios que conviene priorizar primero, cuáles pueden esperar y cuánto gastar sin pasarte.",
     updated: "2026-09-21",
