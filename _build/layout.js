@@ -124,7 +124,7 @@ function footerHtml(foot) {
 function cookieBanner() {
   return `<div class="cookiebar" id="cookiebar" hidden>
     <div class="wrap cookiebar-inner">
-      <p>Usamos cookies propias y de terceros para analizar el uso del sitio y, si aceptas, para medir los enlaces a Amazon. Puedes leer más en la
+      <p>Esta web no usa cookies de analítica ni de publicidad; solo recuerda tu elección sobre este aviso. Al pulsar un enlace a Amazon, Amazon puede usar sus propias cookies. Más información en la
         <a href="/legal/politica-cookies.html">política de cookies</a>.</p>
       <div class="cookiebar-actions">
         <button type="button" class="btn btn-ghost" id="cookie-reject">Rechazar</button>
@@ -191,7 +191,7 @@ function page({ path, title, description, bodyClass = "", jsonLd = [], noindex =
   ${breadcrumbsItems ? breadcrumbs(breadcrumbsItems) : ""}
   <main id="contenido">
     ${main}
-    ${featuredProductsSection(FEATURED, excludeCategory)}
+    ${path.startsWith("/legal/") ? "" : featuredProductsSection(FEATURED, excludeCategory)}
   </main>
   ${footerHtml(FOOT)}
   ${cookieBanner()}
