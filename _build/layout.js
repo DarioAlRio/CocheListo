@@ -115,7 +115,7 @@ function footerHtml(foot) {
         ${columnas}
       </div>
       <div class="foot-bottom">
-        <p>© ${new Date().getFullYear()} ${SITE.name}. Todos los derechos reservados.</p>
+        <p>© ${new Date().getFullYear()} ${SITE.name}. Todos los derechos reservados. · Contacto: <a href="mailto:${SITE.email}">${SITE.email}</a></p>
       </div>
     </div>
   </footer>`;

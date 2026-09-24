@@ -11,6 +11,7 @@ const SITE = {
   domain: "https://coche-listo.vercel.app",
   locale: "es_ES",
   lang: "es",
+  email: "contacto.guiasdecompra@gmail.com",
   // Store ID real, creado en el panel de afiliados.
   amazonTag: "cochelisto-21",
   amazonDisclaimer:
