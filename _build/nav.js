@@ -31,6 +31,7 @@ const SITE = {
 // Menú principal. Cada guía y artículo real vive en _build/data.js; aquí solo
 // se listan los grupos y los enlaces fijos.
 const NAV = [
+  { label: "Top 2026", href: "/mejores/" },
   { label: "Guías de compra", href: "/guias/" },
   { label: "Productos", href: "/productos/" },
   { label: "Blog", href: "/blog/" },
