@@ -33,7 +33,11 @@ function head({ title, description, path, jsonLd = [], noindex = false, image = 
   <meta name="robots" content="${robots}">
   <meta name="p:domain_verify" content="d17e4548e8fcbd5d0e323fb86b8161d5">
   <link rel="canonical" href="${canonical}">
+  <link rel="icon" href="/assets/img/favicon.ico" sizes="48x48">
+  <link rel="icon" href="/assets/img/favicon-48.png" type="image/png" sizes="48x48">
+  <link rel="icon" href="/assets/img/favicon-192.png" type="image/png" sizes="192x192">
   <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="${SITE.name}">
   <meta property="og:title" content="${escapeHtml(fullTitle)}">
