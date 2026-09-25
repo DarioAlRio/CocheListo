@@ -81,7 +81,22 @@
       "permanent": true
     },
     {
+      "source": "/comparativas/arrancador-de-coches-8000a-vs-arrancador-de-coche.html",
+      "destination": "/guias/cables-y-arrancadores-de-bateria.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/arrancador-de-coches-8000a-vs-arrancador-de-coches-eafc-1200a.html",
+      "destination": "/guias/cables-y-arrancadores-de-bateria.html",
+      "permanent": true
+    },
+    {
       "source": "/comparativas/arrancador-de-coches-8000a-vs-astroai-b8-arrancador-de-baterias.html",
+      "destination": "/guias/cables-y-arrancadores-de-bateria.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/arrancador-de-coches-8000a-vs-schumacher-cables-de-arranque-3-m.html",
       "destination": "/guias/cables-y-arrancadores-de-bateria.html",
       "permanent": true
     },
@@ -176,7 +191,17 @@
       "permanent": true
     },
     {
+      "source": "/comparativas/autozoco-alfombrillas-de-goma-y-moqueta-vs-wrc-7592-rally-line-4-alfombras-moq.html",
+      "destination": "/guias/alfombrillas-y-protectores-de-suelo-para-coche.html",
+      "permanent": true
+    },
+    {
       "source": "/comparativas/black-decker-organizador-para-maletero-vs-athlon-tools-bolsa-de-maletero-premium.html",
+      "destination": "/guias/organizadores-de-maletero.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/black-decker-organizador-para-maletero-vs-einesin-organizador-maletero-coche.html",
       "destination": "/guias/organizadores-de-maletero.html",
       "permanent": true
     },
@@ -216,6 +241,16 @@
       "permanent": true
     },
     {
+      "source": "/comparativas/camaras-de-conduccion-dash-cams-izeeker-vs-vantrue.html",
+      "destination": "/mejores/camaras-de-conduccion-dash-cams.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/camaras-de-conduccion-dash-cams-vantrue-vs-wolfang.html",
+      "destination": "/mejores/camaras-de-conduccion-dash-cams.html",
+      "permanent": true
+    },
+    {
       "source": "/comparativas/cargador-de-coche-2-en-1-con-localizador-vs-belkin-cargador-de-coche-doble-usb-a-24-.html",
       "destination": "/guias/cargadores-de-coche-usb.html",
       "permanent": true
@@ -241,6 +276,21 @@
       "permanent": true
     },
     {
+      "source": "/comparativas/cargador-usb-coche-carga-rapida-66w-5-vs-cargador-de-coche-2-en-1-con-localizador.html",
+      "destination": "/guias/cargadores-de-coche-usb.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/cargador-usb-coche-carga-rapida-66w-5-vs-iniu-cargador-coche-60w.html",
+      "destination": "/guias/cargadores-de-coche-usb.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/cargador-usb-coche-carga-rapida-66w-5-vs-iniu-cargador-coche-carga-rapida-60w.html",
+      "destination": "/guias/cargadores-de-coche-usb.html",
+      "permanent": true
+    },
+    {
       "source": "/comparativas/cargador-usb-coche-carga-rapida-66w-5-vs-lamicall-4-en-1-cargador-coche-carga.html",
       "destination": "/guias/cargadores-de-coche-usb.html",
       "permanent": true
@@ -251,7 +301,32 @@
       "permanent": true
     },
     {
+      "source": "/comparativas/cargadores-de-coche-usb-iniu-vs-ugreen.html",
+      "destination": "/mejores/cargadores-de-coche-usb.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/cargadores-de-coche-usb-lisen-vs-ugreen.html",
+      "destination": "/mejores/cargadores-de-coche-usb.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/chaleco-reflectante-y-kit-triangular-vs-12-en-1-kit-emergencia-coche.html",
+      "destination": "/guias/luces-y-accesorios-de-emergencia-para-coche.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/chaleco-reflectante-y-kit-triangular-vs-amazon-basics-martillo-rompecristales.html",
+      "destination": "/guias/luces-y-accesorios-de-emergencia-para-coche.html",
+      "permanent": true
+    },
+    {
       "source": "/comparativas/chaleco-reflectante-y-kit-triangular-vs-dinfu-rotativo-led-bateria-led-luminosa.html",
+      "destination": "/guias/luces-y-accesorios-de-emergencia-para-coche.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/chaleco-reflectante-y-kit-triangular-vs-gadlane-kit-emergencia-coche-extra-grand.html",
       "destination": "/guias/luces-y-accesorios-de-emergencia-para-coche.html",
       "permanent": true
     },
@@ -292,6 +367,21 @@
     },
     {
       "source": "/comparativas/funda-coche-perro-con-base-rigida-vs-lionstrong-protector-asiento-delantero.html",
+      "destination": "/guias/fundas-y-protectores-de-asiento.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/funda-coche-perro-con-base-rigida-vs-protector-de-asiento-impermeable-univers.html",
+      "destination": "/guias/fundas-y-protectores-de-asiento.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/funda-coche-perro-con-base-rigida-vs-qooloo-protector-de-respaldo-de-asiento.html",
+      "destination": "/guias/fundas-y-protectores-de-asiento.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/funda-coche-perro-con-base-rigida-vs-toyoun-fundas-asientos-coche-universal.html",
       "destination": "/guias/fundas-y-protectores-de-asiento.html",
       "permanent": true
     },
@@ -376,6 +466,11 @@
       "permanent": true
     },
     {
+      "source": "/comparativas/izeeker-dashcam-4k-vs-70mai-dash-cam-m310-plus-3k.html",
+      "destination": "/guias/camaras-de-conduccion-dash-cams.html",
+      "permanent": true
+    },
+    {
       "source": "/comparativas/izeeker-dashcam-4k-vs-redtiger-dashcam-coche-4k.html",
       "destination": "/guias/camaras-de-conduccion-dash-cams.html",
       "permanent": true
@@ -411,7 +506,22 @@
       "permanent": true
     },
     {
+      "source": "/comparativas/lionstrong-caja-organizadora-maletero-vs-athlon-tools-bolsa-de-maletero-premium.html",
+      "destination": "/guias/organizadores-de-maletero.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/lionstrong-caja-organizadora-maletero-vs-black-decker-organizador-para-maletero.html",
+      "destination": "/guias/organizadores-de-maletero.html",
+      "permanent": true
+    },
+    {
       "source": "/comparativas/lionstrong-caja-organizadora-maletero-vs-einesin-organizador-maletero-coche.html",
+      "destination": "/guias/organizadores-de-maletero.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/lionstrong-caja-organizadora-maletero-vs-k-knodel-organizador-de-maletero-plegabl.html",
       "destination": "/guias/organizadores-de-maletero.html",
       "permanent": true
     },
@@ -466,6 +576,16 @@
       "permanent": true
     },
     {
+      "source": "/comparativas/momo-set-de-4-alfombrillas-universales-vs-alfombrillas-coche-universal-pack-4-piez.html",
+      "destination": "/guias/alfombrillas-y-protectores-de-suelo-para-coche.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/momo-set-de-4-alfombrillas-universales-vs-autozoco-alfombrillas-de-goma-y-moqueta.html",
+      "destination": "/guias/alfombrillas-y-protectores-de-suelo-para-coche.html",
+      "permanent": true
+    },
+    {
       "source": "/comparativas/momo-set-de-4-alfombrillas-universales-vs-goodyear-akron-alfombrillas-de-coche.html",
       "destination": "/guias/alfombrillas-y-protectores-de-suelo-para-coche.html",
       "permanent": true
@@ -476,7 +596,17 @@
       "permanent": true
     },
     {
+      "source": "/comparativas/momo-set-de-4-alfombrillas-universales-vs-the-boutique-for-your-car.html",
+      "destination": "/guias/alfombrillas-y-protectores-de-suelo-para-coche.html",
+      "permanent": true
+    },
+    {
       "source": "/comparativas/princess-332757-turbo-tiger-compact-vs-aspirador-de-mano-28000pa.html",
+      "destination": "/guias/aspiradores-portatiles-para-coche.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/princess-332757-turbo-tiger-compact-vs-aspirador-de-mano.html",
       "destination": "/guias/aspiradores-portatiles-para-coche.html",
       "permanent": true
     },
@@ -501,6 +631,11 @@
       "permanent": true
     },
     {
+      "source": "/comparativas/purificadores-y-ambientadores-de-coche-vevor-vs-california.html",
+      "destination": "/mejores/purificadores-y-ambientadores-de-coche.html",
+      "permanent": true
+    },
+    {
       "source": "/comparativas/redtiger-dashcam-coche-4k-vs-70mai-a810-lite-camara-de-salpicadero-4k.html",
       "destination": "/guias/camaras-de-conduccion-dash-cams.html",
       "permanent": true
@@ -511,13 +646,33 @@
       "permanent": true
     },
     {
+      "source": "/comparativas/sloksfil-aspiradora-de-mano-4-en-1-vs-aspirador-de-mano-potente-120w.html",
+      "destination": "/guias/aspiradores-portatiles-para-coche.html",
+      "permanent": true
+    },
+    {
       "source": "/comparativas/sloksfil-aspiradora-de-mano-4-en-1-vs-aspirador-de-mano.html",
+      "destination": "/guias/aspiradores-portatiles-para-coche.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/sloksfil-aspiradora-de-mano-4-en-1-vs-aspiradora-sin-cable-potente-6000-pa.html",
+      "destination": "/guias/aspiradores-portatiles-para-coche.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/sloksfil-aspiradora-de-mano-4-en-1-vs-bokilino-aspirador-de-mano-inalambrico.html",
       "destination": "/guias/aspiradores-portatiles-para-coche.html",
       "permanent": true
     },
     {
       "source": "/comparativas/sloksfil-aspiradora-de-mano-4-en-1-vs-princess-332757-turbo-tiger-compact.html",
       "destination": "/guias/aspiradores-portatiles-para-coche.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/smams-coche-vs-dinfu-rotativo-led-bateria-led-luminosa.html",
+      "destination": "/guias/luces-y-accesorios-de-emergencia-para-coche.html",
       "permanent": true
     },
     {
@@ -532,6 +687,21 @@
     },
     {
       "source": "/comparativas/soporte-movil-coche-con-clip-de-resorte-vs-lamicall-soporte-movil-para-coche-magsaf.html",
+      "destination": "/guias/soportes-de-movil-para-coche.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/soporte-movil-coche-con-clip-de-resorte-vs-miracase-soporte-movil-coche.html",
+      "destination": "/guias/soportes-de-movil-para-coche.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/soporte-movil-coche-con-clip-de-resorte-vs-mohard-2026-soporte-movil-coche.html",
+      "destination": "/guias/soportes-de-movil-para-coche.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/soporte-movil-coche-con-clip-de-resorte-vs-soporte-de-telefono-movil-para-coche.html",
       "destination": "/guias/soportes-de-movil-para-coche.html",
       "permanent": true
     },
@@ -551,12 +721,27 @@
       "permanent": true
     },
     {
+      "source": "/comparativas/the-fruit-company-vs-charmline-generador-de-ozono-2-en-1.html",
+      "destination": "/guias/purificadores-y-ambientadores-de-coche.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/the-fruit-company-vs-cristalinas-pack-2-ambientador-de-coche.html",
+      "destination": "/guias/purificadores-y-ambientadores-de-coche.html",
+      "permanent": true
+    },
+    {
       "source": "/comparativas/the-fruit-company-vs-faren-f20.html",
       "destination": "/guias/purificadores-y-ambientadores-de-coche.html",
       "permanent": true
     },
     {
       "source": "/comparativas/the-fruit-company-vs-vevor-generador-de-ozono-36000-mg-h.html",
+      "destination": "/guias/purificadores-y-ambientadores-de-coche.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/the-fruit-company-vs-vevor-generador-de-ozono-purificador.html",
       "destination": "/guias/purificadores-y-ambientadores-de-coche.html",
       "permanent": true
     },
