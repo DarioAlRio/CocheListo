@@ -583,3 +583,8 @@ table { border-collapse: collapse; width: 100%; }
 .site-footer .foot-brand p, .site-footer .foot-col h3, .site-footer .foot-bottom { color: #aab0b6; }
 .site-footer .foot-bottom { border-top-color: #343a41; }
 .site-footer .foot-col a:hover { color: var(--color-accent); }
+
+/* sticky-footer-gap: la barra fija de producto no tapa el final del pie */
+body:has(.seo-sticky) { padding-bottom: 76px; }
+body:has(.seo-sticky) .seo-sticky-space { display: none; }
+@media (max-width: 640px) { body:has(.seo-sticky) { padding-bottom: 96px; } }
