@@ -99,15 +99,8 @@ function productoPage(p, g) {
           { "@type": "ListItem", position: 3, name: g.title, item: SITE.domain + `/guias/${g.slug}.html` },
           { "@type": "ListItem", position: 4, name: p.title, item: SITE.domain + path },
         ],
-      },
-      {
-        "@context": "https://schema.org",
-        "@type": "Product",
-        name: p.title,
-        image: p.img,
-        description: p.note,
-        url: SITE.domain + path,
-      },
+      }
+      // Sin schema Product: sin precio ni reseña propia, Google lo marca como no válido.,
     ],
     html,
   };
