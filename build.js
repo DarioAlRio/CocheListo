@@ -36,7 +36,8 @@ const { seoPages, guideBanner } = require("./_build/seo");
 // FOOT se completa aquí a partir de los datos reales, para no duplicar la
 // lista de guías/artículos en nav.js.
 FOOT.columnas[0].enlaces = GUIDES.map((g) => ({ label: g.title, href: `/guias/${g.slug}.html` }));
-FOOT.columnas[1].enlaces = ARTICLES.map((a) => ({ label: a.title, href: `/blog/${a.slug}.html` }));
+// Pie compacto: solo los 5 artículos más recientes (el resto sigue enlazado desde /blog/).
+FOOT.columnas[1].enlaces = [...ARTICLES].sort((a, b) => String(b.updated || b.date || "").localeCompare(String(a.updated || a.date || ""))).slice(0, 5).map((a) => ({ label: a.title, href: `/blog/${a.slug}.html` })).concat({ label: "Ver todo el blog →", href: "/blog/", more: true });
 
 // Una página propia por producto (ficha con nuestro veredicto y puntuación) y
 // una comparativa entrada-vs-gama-alta por guía, generadas a partir de los

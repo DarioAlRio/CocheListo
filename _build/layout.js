@@ -92,17 +92,20 @@ function headerHtml(path) {
 }
 
 function footerHtml(foot) {
+  // Legal va en la línea final; el resto son columnas plegables en móvil (<details>, abiertas en escritorio).
+  const legal = foot.columnas.find((c) => /legal/i.test(c.titulo));
   const columnas = foot.columnas
+    .filter((col) => col !== legal)
     .map(
-      (col) => `<div class="foot-col">
-        <h3>${col.titulo}</h3>
+      (col, i) => `<details class="foot-col${i === 0 ? " foot-col-guias" : ""}">
+        <summary><h3>${col.titulo}</h3></summary>
         <ul>
-          ${col.enlaces.map((e) => `<li><a href="${e.href}">${e.label}</a></li>`).join("\n          ")}
+          ${col.enlaces.map((e) => `<li${e.more ? ' class="foot-more"' : ""}><a href="${e.href}">${e.label}</a></li>`).join("\n          ")}
         </ul>
-      </div>`
+      </details>`
     )
-    .join("\n      ");
-
+    .join("\n          ");
+  const legalLinks = legal ? legal.enlaces.map((e) => ` · <a href="${e.href}">${e.label}</a>`).join("") : "";
   return `<footer class="site-footer">
     <div class="wrap">
       <div class="amazon-disclaimer">
@@ -119,9 +122,10 @@ function footerHtml(foot) {
         ${columnas}
       </div>
       <div class="foot-bottom">
-        <p>© ${new Date().getFullYear()} ${SITE.name}. Todos los derechos reservados. · Contacto: <a href="mailto:${SITE.email}">${SITE.email}</a></p>
+        <p class="foot-legal">© ${new Date().getFullYear()} ${SITE.name}${legalLinks} · <a href="mailto:${SITE.email}">Contacto</a></p>
       </div>
     </div>
+    <script>if (matchMedia("(min-width: 701px)").matches) document.querySelectorAll(".foot-col").forEach((d) => (d.open = true));</script>
   </footer>`;
 }
 
