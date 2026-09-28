@@ -160,9 +160,17 @@ console.log(`Generadas ${pages.length} páginas.`);
   fs.writeFileSync(REDIR, JSON.stringify(redirects, null, 1));
   const vjPath = path.join(ROOT, "vercel.json");
   const vj = JSON.parse(fs.readFileSync(vjPath, "utf8"));
+  const pageRedirects = Object.entries(redirects).sort().map(([source, destination]) => ({ source, destination, permanent: true }));
+  // Dominio antiguo (*.vercel.app) → dominio propio en un solo salto: primero las
+  // páginas retiradas directas a su destino final (sin cadenas) y luego el resto 1:1.
+  const legacy = (SITE.legacyHosts || []).flatMap((value) => [
+    ...pageRedirects.map((r) => ({ source: r.source, has: [{ type: "host", value }], destination: SITE.domain + r.destination, permanent: true })),
+    { source: "/:path*", has: [{ type: "host", value }], destination: SITE.domain + "/:path*", permanent: true },
+  ]);
   vj.redirects = [
-    ...Object.entries(redirects).sort().map(([source, destination]) => ({ source, destination, permanent: true })),
-    ...(vj.redirects || []).filter((r) => !redirects[r.source] && !(r.source.endsWith(".html") && r.source.split("/").length === 3)),
+    ...legacy,
+    ...pageRedirects,
+    ...(vj.redirects || []).filter((r) => !r.has && !redirects[r.source] && !(r.source.endsWith(".html") && r.source.split("/").length === 3)),
   ];
   fs.writeFileSync(vjPath, JSON.stringify(vj, null, 2) + "\n");
   if (Object.keys(redirects).length) console.log(`${Object.keys(redirects).length} redirecciones 301 de páginas retiradas.`);
