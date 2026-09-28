@@ -420,7 +420,7 @@ table { border-collapse: collapse; width: 100%; }
 }
 .cookiebar-inner { display: flex; align-items: center; justify-content: space-between; gap: 24px; padding: 18px 24px; flex-wrap: wrap; }
 .cookiebar p { margin: 0; font-size: 0.9rem; max-width: 62ch; }
-.cookiebar a { color: var(--color-accent); text-decoration: underline; }
+.cookiebar a { color: inherit; text-decoration: underline; font-weight: 600; }
 .cookiebar-actions { display: flex; gap: 10px; flex-shrink: 0; }
 .cookiebar .btn-ghost { border-color: rgba(255,255,255,0.35); color: var(--color-bg); }
 
