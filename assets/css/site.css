@@ -528,6 +528,32 @@ table { border-collapse: collapse; width: 100%; }
 .vs-hero-cover { max-width: 640px; margin: 0 auto 8px; border: 1px solid var(--color-border); border-radius: var(--radius-lg); overflow: hidden; }
 .vs-hero-cover .vs-badge { width: 64px; height: 64px; font-size: 1.4rem; }
 
+
+/* --- Pie compacto: Blog con los 5 últimos, columnas plegables en móvil, legal en una línea --- */
+.site-footer .amazon-disclaimer { margin: 24px 0 20px; padding: 8px 14px; font-size: 0.78rem; line-height: 1.45; }
+.foot-grid { grid-template-columns: 1.2fr 1.4fr 1fr; gap: 28px; padding: 0 0 20px; }
+.foot-col summary { list-style: none; cursor: default; }
+.foot-col summary::-webkit-details-marker { display: none; }
+.foot-col summary h3 { margin: 0 0 10px; }
+.foot-col li { margin-bottom: 5px; font-size: 0.88rem; }
+.foot-col-guias ul { columns: 2; column-gap: 20px; }
+.foot-col-guias li { break-inside: avoid; }
+.foot-more a { font-weight: 600; }
+.foot-bottom { padding-top: 14px; font-size: 0.8rem; }
+.foot-bottom p { margin: 0; }
+.foot-legal a { white-space: nowrap; }
+@media (max-width: 700px) {
+  .foot-grid { grid-template-columns: 1fr; gap: 0; }
+  .foot-brand { padding-bottom: 12px; }
+  .foot-col { border-top: 1px solid var(--color-border); }
+  .foot-col summary { cursor: pointer; min-height: 48px; display: flex; align-items: center; justify-content: space-between; }
+  .foot-col summary h3 { margin: 0; }
+  .foot-col summary::after { content: "+"; font-size: 1.3rem; line-height: 1; color: var(--color-ink-muted); }
+  .foot-col[open] summary::after { content: "−"; }
+  .foot-col ul { padding-bottom: 12px; }
+  .foot-col li a { display: inline-block; padding: 6px 0; }
+}
+
 /* ==========================================================================
    Identidad propia CocheListo — "taller técnico"
    Cabecera grafito con franja de señalización, esquinas rectas, etiquetas
