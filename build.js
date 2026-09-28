@@ -165,7 +165,7 @@ console.log(`Generadas ${pages.length} páginas.`);
   // páginas retiradas directas a su destino final (sin cadenas) y luego el resto 1:1.
   const legacy = (SITE.legacyHosts || []).flatMap((value) => [
     ...pageRedirects.map((r) => ({ source: r.source, has: [{ type: "host", value }], destination: SITE.domain + r.destination, permanent: true })),
-    { source: "/:path*", has: [{ type: "host", value }], destination: SITE.domain + "/:path*", permanent: true },
+    { source: "/(.*)", has: [{ type: "host", value }], destination: SITE.domain + "/$1", permanent: true },
   ]);
   vj.redirects = [
     ...legacy,

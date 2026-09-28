@@ -1788,14 +1788,14 @@
       "permanent": true
     },
     {
-      "source": "/:path*",
+      "source": "/(.*)",
       "has": [
         {
           "type": "host",
           "value": "coche-listo.vercel.app"
         }
       ],
-      "destination": "https://cochelisto.es/:path*",
+      "destination": "https://cochelisto.es/$1",
       "permanent": true
     },
     {
