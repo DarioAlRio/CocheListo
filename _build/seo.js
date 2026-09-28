@@ -231,7 +231,7 @@ function vsPage(g, a, b) {
     <p>Lo explicamos con detalle en la <a href="/guias/${g.slug}.html">guía para elegir ${topic(g)}</a>.</p>` : ""}
     <h2>Preguntas frecuentes</h2>${faqHtml([...faq, ...(g.faq || []).slice(0, 2)])}
   </div></section>`;
-  return { route: path.slice(1), path, title: `${title}: ¿cuál es mejor? (${YEAR})`, description: `Comparativa ${na} vs ${nb}: valoraciones, gama y veredicto claro para elegir ${GS(g, "el mejor", "la mejor")} ${T} en ${YEAR}.`, breadcrumbsItems: crumbs, jsonLd: ld(path, title, crumbs, [a, b], faq), excludeCategory: g.slug, html };
+  return { route: path.slice(1), path, title: `${title}: ¿cuál es mejor? (${YEAR})`, description: `Comparativa ${na} vs ${nb}: valoraciones, gama y veredicto claro para elegir ${GS(g, "el mejor", "la mejor")} ${T} en ${YEAR}.`, breadcrumbsItems: crumbs, jsonLd: ld(path, title, crumbs, [a, b], faq), excludeCategory: g.slug, pair: [a, b], html };
 }
 
 // --- Páginas de alta intención de compra ------------------------------------
@@ -401,7 +401,13 @@ function vsPages(g) {
   // generar dos veces el mismo duelo (ni en orden inverso).
   return pairs
     .filter(([a, b]) => { const k = [a.asin, b.asin].sort().join(); if (VS_SEEN.has(k) || a.asin === b.asin || shortName(a.title) === shortName(b.title)) return false; VS_SEEN.add(k); return true; })
-    .map(([a, b]) => { const p = vsPage(g, a, b); const better = stars(a) >= stars(b) ? a : b; p.html += sticky(better); return p; });
+    .map(([a, b]) => { const p = vsPage(g, a, b); p.html = p.html.replace("</section>", `</section><section class="section"><div class="wrap">${vsCover(a, b, true)}</div></section>`); const better = stars(a) >= stars(b) ? a : b; p.html += sticky(better); return p; });
+}
+
+// Portada "A vs B" con la imagen de los dos productos.
+function vsCover(a, b, big) {
+  const img = (p, i) => `<img src="${p.img}" alt="${escapeHtml(shortName(p.title))}" width="300" height="300" ${big && !i ? 'fetchpriority="high"' : 'loading="lazy"'}>`;
+  return `<div class="vs-cover${big ? " vs-hero-cover" : ""}">${img(a, 0)}${img(b, 1)}<span class="vs-badge" aria-hidden="true">VS</span></div>`;
 }
 
 function indexPage(vs) {
@@ -417,7 +423,7 @@ function indexPage(vs) {
       ${sub.length ? `<details><summary>${sub.length} selecciones más</summary><ul>${sub.map((x) => `<li><a href="${x.path}">${escapeHtml(x.label)}</a></li>`).join("")}</ul></details>` : ""}</div>
     </div>`; }).join("\n")}</div>
     <h2>Comparativas cara a cara</h2>
-    <ul class="seo-vs-list">${vs.map((p) => `<li><a href="${p.path}">${escapeHtml(p.title.replace(/: ¿.*$/, ""))}</a></li>`).join("")}</ul>
+    <ul class="vs-grid">${vs.map((p) => `<li class="vs-card"><a href="${p.path}">${vsCover(p.pair[0], p.pair[1])}<span class="vs-card-title">${escapeHtml(p.title.replace(/: ¿.*$/, ""))}<small>¿Cuál comprar? Veredicto y diferencias</small></span></a></li>`).join("")}</ul>
   </div></section>`;
   return { route: "mejores/index.html", path, title: `Mejores productos ${YEAR}: rankings y comparativas`, description: `Rankings ${YEAR} de ${SITE.name}: los mejores productos por categoría, presupuesto, uso y marca según opiniones reales en Amazon.es.`, breadcrumbsItems: crumbs, jsonLd: ld(path, "Top", crumbs), html };
 }
