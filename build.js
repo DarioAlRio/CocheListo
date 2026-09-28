@@ -164,8 +164,8 @@ console.log(`Generadas ${pages.length} páginas.`);
   // Dominio antiguo (*.vercel.app) → dominio propio en un solo salto: primero las
   // páginas retiradas directas a su destino final (sin cadenas) y luego el resto 1:1.
   const legacy = (SITE.legacyHosts || []).flatMap((value) => [
-    ...pageRedirects.map((r) => ({ source: r.source, has: [{ type: "host", value }], destination: SITE.domain + r.destination, permanent: true })),
-    { source: "/(.*)", has: [{ type: "host", value }], destination: SITE.domain + "/$1", permanent: true },
+    ...pageRedirects.map((r) => ({ source: r.source, has: [{ type: "host", value }], destination: SITE.domain + r.destination, statusCode: 301 })),
+    { source: "/(.*)", has: [{ type: "host", value }], destination: SITE.domain + "/$1", statusCode: 301 },
   ]);
   vj.redirects = [
     ...legacy,
