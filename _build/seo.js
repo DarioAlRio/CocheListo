@@ -240,6 +240,17 @@ const INTENTS = require("./intents.json");
 const plain = (s) => String(s).toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "");
 
 // Barra fija inferior: el producto recomendado de la página, a un clic.
+// Comparativa directa: los dos productos como opción en la barra fija.
+function stickyPair(a, b) {
+  const opt = (p) => `<div class="seo-sticky-opt">
+      <img src="${p.img}" alt="" width="40" height="40" loading="lazy">
+      <span class="seo-sticky-opt-body"><strong>${escapeHtml(shortName(p.title))}</strong>${amz(p, "Ver en Amazon", "btn btn-accent")}</span>
+    </div>`;
+  return `<div class="seo-sticky-space"></div><div class="seo-sticky seo-sticky-pair" role="complementary" aria-label="Los dos productos comparados">
+    ${opt(a)}<span class="seo-sticky-vs" aria-hidden="true">VS</span>${opt(b)}
+  </div>`;
+}
+
 function sticky(p) {
   if (!p) return "";
   return `<div class="seo-sticky-space"></div><div class="seo-sticky" role="complementary" aria-label="Producto recomendado">
@@ -401,7 +412,7 @@ function vsPages(g) {
   // generar dos veces el mismo duelo (ni en orden inverso).
   return pairs
     .filter(([a, b]) => { const k = [a.asin, b.asin].sort().join(); if (VS_SEEN.has(k) || a.asin === b.asin || shortName(a.title) === shortName(b.title)) return false; VS_SEEN.add(k); return true; })
-    .map(([a, b]) => { const p = vsPage(g, a, b); p.html = p.html.replace("</section>", `</section><section class="section"><div class="wrap">${vsCover(a, b, true)}</div></section>`); const better = stars(a) >= stars(b) ? a : b; p.html += sticky(better); return p; });
+    .map(([a, b]) => { const p = vsPage(g, a, b); p.html = p.html.replace("</section>", `</section><section class="section"><div class="wrap">${vsCover(a, b, true)}</div></section>`); p.html += stickyPair(a, b); return p; });
 }
 
 // Portada "A vs B" con la imagen de los dos productos.
