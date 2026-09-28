@@ -7,6 +7,1799 @@
   "redirects": [
     {
       "source": "/comparativas/12-en-1-kit-emergencia-coche-vs-dinfu-rotativo-led-bateria-led-luminosa.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/luces-y-accesorios-de-emergencia-para-coche.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/12-en-1-kit-emergencia-coche-vs-heldenwerk-set-de-2-martillos.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/luces-y-accesorios-de-emergencia-para-coche.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/12-en-1-kit-emergencia-coche-vs-upgrade4cars-botiquin-de-coche-din-13164.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/luces-y-accesorios-de-emergencia-para-coche.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/70mai-dash-cam-m310-plus-3k-vs-70mai-a810-lite-camara-de-salpicadero-4k.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/camaras-de-conduccion-dash-cams.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/70mai-dash-cam-m310-plus-3k-vs-redtiger-dashcam-coche-4k.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/camaras-de-conduccion-dash-cams.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/70mai-dash-cam-m310-plus-3k-vs-wolfang-4k-dashcam.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/camaras-de-conduccion-dash-cams.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/alfombrillas-coche-universal-pack-4-piez-vs-autozoco-alfombrillas-de-goma-y-moqueta.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/alfombrillas-y-protectores-de-suelo-para-coche.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/alfombrillas-coche-universal-pack-4-piez-vs-goodyear-akron-alfombrillas-de-coche.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/alfombrillas-y-protectores-de-suelo-para-coche.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/alfombrillas-coche-universal-pack-4-piez-vs-goodyear-god9023.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/alfombrillas-y-protectores-de-suelo-para-coche.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/alfombrillas-coche-universal-pack-4-piez-vs-the-boutique-for-your-car.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/alfombrillas-y-protectores-de-suelo-para-coche.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/andobil-soporte-movil-para-rejilla-vs-blukar-soporte-movil-coche.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/soportes-de-movil-para-coche.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/arrancador-de-coche-vs-arrancador-de-coches-eafc-1200a.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/cables-y-arrancadores-de-bateria.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/arrancador-de-coche-vs-astroai-b8-arrancador-de-baterias.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/cables-y-arrancadores-de-bateria.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/arrancador-de-coche-vs-sweet-arrancador-de-baterias-de-coche.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/cables-y-arrancadores-de-bateria.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/arrancador-de-coche-vs-utrai-8000a-jump-starter-con-compresor.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/cables-y-arrancadores-de-bateria.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/arrancador-de-coches-8000a-vs-arrancador-de-coche.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/cables-y-arrancadores-de-bateria.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/arrancador-de-coches-8000a-vs-arrancador-de-coches-eafc-1200a.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/cables-y-arrancadores-de-bateria.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/arrancador-de-coches-8000a-vs-astroai-b8-arrancador-de-baterias.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/cables-y-arrancadores-de-bateria.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/arrancador-de-coches-8000a-vs-schumacher-cables-de-arranque-3-m.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/cables-y-arrancadores-de-bateria.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/arrancador-de-coches-8000a-vs-sweet-arrancador-de-baterias-de-coche.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/cables-y-arrancadores-de-bateria.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/arrancador-de-coches-8000a-vs-utrai-8000a-jump-starter-con-compresor.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/cables-y-arrancadores-de-bateria.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/arrancador-de-coches-eafc-1200a-vs-astroai-b8-arrancador-de-baterias.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/cables-y-arrancadores-de-bateria.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/arrancador-de-coches-eafc-1200a-vs-sweet-arrancador-de-baterias-de-coche.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/cables-y-arrancadores-de-bateria.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/arrancador-de-coches-eafc-1200a-vs-utrai-8000a-jump-starter-con-compresor.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/cables-y-arrancadores-de-bateria.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/aspirador-de-mano-potente-120w-vs-aspirador-de-mano-28000pa.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/aspiradores-portatiles-para-coche.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/aspirador-de-mano-potente-120w-vs-aspirador-de-mano.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/aspiradores-portatiles-para-coche.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/aspirador-de-mano-potente-120w-vs-bokilino-aspirador-de-mano-inalambrico.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/aspiradores-portatiles-para-coche.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/aspirador-de-mano-potente-120w-vs-princess-332757-turbo-tiger-compact.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/aspiradores-portatiles-para-coche.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/aspirador-de-mano-vs-aspirador-de-mano-28000pa.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/aspiradores-portatiles-para-coche.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/astroai-b8-arrancador-de-baterias-vs-sweet-arrancador-de-baterias-de-coche.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/cables-y-arrancadores-de-bateria.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/astroai-b8-arrancador-de-baterias-vs-utrai-8000a-jump-starter-con-compresor.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/cables-y-arrancadores-de-bateria.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/athlon-tools-bolsa-de-maletero-premium-vs-einesin-organizador-maletero-coche.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/organizadores-de-maletero.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/athlon-tools-bolsa-de-maletero-premium-vs-k-knodel-organizador-de-maletero-plegabl.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/organizadores-de-maletero.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/athlon-tools-bolsa-de-maletero-premium-vs-praknu-organizador-maletero-plegable-40-.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/organizadores-de-maletero.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/autozoco-alfombrillas-de-goma-y-moqueta-vs-goodyear-akron-alfombrillas-de-coche.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/alfombrillas-y-protectores-de-suelo-para-coche.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/autozoco-alfombrillas-de-goma-y-moqueta-vs-goodyear-god9023.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/alfombrillas-y-protectores-de-suelo-para-coche.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/autozoco-alfombrillas-de-goma-y-moqueta-vs-the-boutique-for-your-car.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/alfombrillas-y-protectores-de-suelo-para-coche.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/autozoco-alfombrillas-de-goma-y-moqueta-vs-wrc-7592-rally-line-4-alfombras-moq.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/alfombrillas-y-protectores-de-suelo-para-coche.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/black-decker-organizador-para-maletero-vs-athlon-tools-bolsa-de-maletero-premium.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/organizadores-de-maletero.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/black-decker-organizador-para-maletero-vs-einesin-organizador-maletero-coche.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/organizadores-de-maletero.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/black-decker-organizador-para-maletero-vs-k-knodel-organizador-de-maletero-plegabl.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/organizadores-de-maletero.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/black-decker-organizador-para-maletero-vs-praknu-organizador-maletero-plegable-40-.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/organizadores-de-maletero.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/black-panther-funda-de-asiento-delantero-vs-qooloo-protector-de-respaldo-de-asiento.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/fundas-y-protectores-de-asiento.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/bokilino-aspirador-de-mano-inalambrico-vs-aspirador-de-mano-28000pa.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/aspiradores-portatiles-para-coche.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/bokilino-aspirador-de-mano-inalambrico-vs-aspirador-de-mano.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/aspiradores-portatiles-para-coche.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/bokilino-aspirador-de-mano-inalambrico-vs-princess-332757-turbo-tiger-compact.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/aspiradores-portatiles-para-coche.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/california-car-scents-pack-de-12-vs-faren-f20.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/purificadores-y-ambientadores-de-coche.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/camaras-de-conduccion-dash-cams-izeeker-vs-vantrue.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/mejores/camaras-de-conduccion-dash-cams.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/camaras-de-conduccion-dash-cams-vantrue-vs-wolfang.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/mejores/camaras-de-conduccion-dash-cams.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/cargador-de-coche-2-en-1-con-localizador-vs-belkin-cargador-de-coche-doble-usb-a-24-.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/cargadores-de-coche-usb.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/cargador-de-coche-2-en-1-con-localizador-vs-iniu-cargador-coche-carga-rapida-60w.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/cargadores-de-coche-usb.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/cargador-de-coche-2-en-1-con-localizador-vs-lamicall-4-en-1-cargador-coche-carga.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/cargadores-de-coche-usb.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/cargador-de-coche-2-en-1-con-localizador-vs-ugreen-63w-cargador-coche-usb-c-pd-qc-3-.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/cargadores-de-coche-usb.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/cargador-usb-coche-carga-rapida-66w-5-vs-belkin-cargador-de-coche-doble-usb-a-24-.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/cargadores-de-coche-usb.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/cargador-usb-coche-carga-rapida-66w-5-vs-cargador-de-coche-2-en-1-con-localizador.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/cargadores-de-coche-usb.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/cargador-usb-coche-carga-rapida-66w-5-vs-iniu-cargador-coche-60w.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/cargadores-de-coche-usb.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/cargador-usb-coche-carga-rapida-66w-5-vs-iniu-cargador-coche-carga-rapida-60w.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/cargadores-de-coche-usb.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/cargador-usb-coche-carga-rapida-66w-5-vs-lamicall-4-en-1-cargador-coche-carga.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/cargadores-de-coche-usb.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/cargador-usb-coche-carga-rapida-66w-5-vs-ugreen-63w-cargador-coche-usb-c-pd-qc-3-.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/cargadores-de-coche-usb.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/cargadores-de-coche-usb-iniu-vs-ugreen.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/mejores/cargadores-de-coche-usb.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/cargadores-de-coche-usb-lisen-vs-ugreen.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/mejores/cargadores-de-coche-usb.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/chaleco-reflectante-y-kit-triangular-vs-12-en-1-kit-emergencia-coche.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/luces-y-accesorios-de-emergencia-para-coche.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/chaleco-reflectante-y-kit-triangular-vs-amazon-basics-martillo-rompecristales.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/luces-y-accesorios-de-emergencia-para-coche.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/chaleco-reflectante-y-kit-triangular-vs-dinfu-rotativo-led-bateria-led-luminosa.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/luces-y-accesorios-de-emergencia-para-coche.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/chaleco-reflectante-y-kit-triangular-vs-gadlane-kit-emergencia-coche-extra-grand.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/luces-y-accesorios-de-emergencia-para-coche.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/chaleco-reflectante-y-kit-triangular-vs-heldenwerk-set-de-2-martillos.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/luces-y-accesorios-de-emergencia-para-coche.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/chaleco-reflectante-y-kit-triangular-vs-upgrade4cars-botiquin-de-coche-din-13164.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/luces-y-accesorios-de-emergencia-para-coche.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/charmline-generador-de-ozono-2-en-1-vs-california-car-scents-pack-de-12.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/purificadores-y-ambientadores-de-coche.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/charmline-generador-de-ozono-2-en-1-vs-faren-f20.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/purificadores-y-ambientadores-de-coche.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/charmline-generador-de-ozono-2-en-1-vs-vevor-generador-de-ozono-36000-mg-h.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/purificadores-y-ambientadores-de-coche.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/einesin-organizador-maletero-coche-vs-praknu-organizador-maletero-plegable-40-.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/organizadores-de-maletero.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/funda-coche-perro-con-base-rigida-vs-black-panther-funda-de-asiento-delantero.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/fundas-y-protectores-de-asiento.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/funda-coche-perro-con-base-rigida-vs-lionstrong-protector-asiento-delantero.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/fundas-y-protectores-de-asiento.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/funda-coche-perro-con-base-rigida-vs-protector-de-asiento-impermeable-univers.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/fundas-y-protectores-de-asiento.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/funda-coche-perro-con-base-rigida-vs-qooloo-protector-de-respaldo-de-asiento.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/fundas-y-protectores-de-asiento.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/funda-coche-perro-con-base-rigida-vs-toyoun-fundas-asientos-coche-universal.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/fundas-y-protectores-de-asiento.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/gadlane-kit-emergencia-coche-extra-grand-vs-12-en-1-kit-emergencia-coche.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/luces-y-accesorios-de-emergencia-para-coche.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/gadlane-kit-emergencia-coche-extra-grand-vs-dinfu-rotativo-led-bateria-led-luminosa.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/luces-y-accesorios-de-emergencia-para-coche.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/gadlane-kit-emergencia-coche-extra-grand-vs-heldenwerk-set-de-2-martillos.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/luces-y-accesorios-de-emergencia-para-coche.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/gadlane-kit-emergencia-coche-extra-grand-vs-upgrade4cars-botiquin-de-coche-din-13164.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/luces-y-accesorios-de-emergencia-para-coche.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/goodyear-akron-alfombrillas-de-coche-vs-goodyear-god9023.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/alfombrillas-y-protectores-de-suelo-para-coche.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/goodyear-akron-alfombrillas-de-coche-vs-the-boutique-for-your-car.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/alfombrillas-y-protectores-de-suelo-para-coche.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/heldenwerk-set-de-2-martillos-vs-dinfu-rotativo-led-bateria-led-luminosa.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/luces-y-accesorios-de-emergencia-para-coche.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/heldenwerk-set-de-2-martillos-vs-upgrade4cars-botiquin-de-coche-din-13164.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/luces-y-accesorios-de-emergencia-para-coche.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/iniu-cargador-coche-carga-rapida-60w-vs-belkin-cargador-de-coche-doble-usb-a-24-.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/cargadores-de-coche-usb.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/iniu-cargador-coche-carga-rapida-60w-vs-lamicall-4-en-1-cargador-coche-carga.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/cargadores-de-coche-usb.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/iniu-cargador-coche-carga-rapida-60w-vs-ugreen-63w-cargador-coche-usb-c-pd-qc-3-.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/cargadores-de-coche-usb.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/izeeker-2-5k-dashcam-vs-70mai-a810-lite-camara-de-salpicadero-4k.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/camaras-de-conduccion-dash-cams.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/izeeker-2-5k-dashcam-vs-70mai-dash-cam-m310-plus-3k.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/camaras-de-conduccion-dash-cams.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/izeeker-2-5k-dashcam-vs-redtiger-dashcam-coche-4k.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/camaras-de-conduccion-dash-cams.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/izeeker-2-5k-dashcam-vs-wolfang-4k-dashcam.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/camaras-de-conduccion-dash-cams.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/izeeker-dashcam-4k-vs-70mai-a810-lite-camara-de-salpicadero-4k.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/camaras-de-conduccion-dash-cams.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/izeeker-dashcam-4k-vs-70mai-dash-cam-m310-plus-3k.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/camaras-de-conduccion-dash-cams.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/izeeker-dashcam-4k-vs-redtiger-dashcam-coche-4k.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/camaras-de-conduccion-dash-cams.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/izeeker-dashcam-4k-vs-wolfang-4k-dashcam.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/camaras-de-conduccion-dash-cams.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/k-knodel-organizador-de-maletero-plegabl-vs-einesin-organizador-maletero-coche.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/organizadores-de-maletero.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/k-knodel-organizador-de-maletero-plegabl-vs-praknu-organizador-maletero-plegable-40-.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/organizadores-de-maletero.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/lamicall-4-en-1-cargador-coche-carga-vs-belkin-cargador-de-coche-doble-usb-a-24-.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/cargadores-de-coche-usb.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/lamicall-soporte-movil-para-coche-magsaf-vs-andobil-soporte-movil-para-rejilla.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/soportes-de-movil-para-coche.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/lamicall-soporte-movil-para-coche-magsaf-vs-blukar-soporte-movil-coche.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/soportes-de-movil-para-coche.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/lionstrong-caja-organizadora-maletero-vs-athlon-tools-bolsa-de-maletero-premium.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/organizadores-de-maletero.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/lionstrong-caja-organizadora-maletero-vs-black-decker-organizador-para-maletero.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/organizadores-de-maletero.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/lionstrong-caja-organizadora-maletero-vs-einesin-organizador-maletero-coche.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/organizadores-de-maletero.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/lionstrong-caja-organizadora-maletero-vs-k-knodel-organizador-de-maletero-plegabl.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/organizadores-de-maletero.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/lionstrong-caja-organizadora-maletero-vs-praknu-organizador-maletero-plegable-40-.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/organizadores-de-maletero.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/lionstrong-protector-asiento-delantero-vs-black-panther-funda-de-asiento-delantero.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/fundas-y-protectores-de-asiento.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/lionstrong-protector-asiento-delantero-vs-qooloo-protector-de-respaldo-de-asiento.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/fundas-y-protectores-de-asiento.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/miracase-soporte-movil-coche-vs-andobil-soporte-movil-para-rejilla.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/soportes-de-movil-para-coche.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/miracase-soporte-movil-coche-vs-blukar-soporte-movil-coche.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/soportes-de-movil-para-coche.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/miracase-soporte-movil-coche-vs-lamicall-soporte-movil-para-coche-magsaf.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/soportes-de-movil-para-coche.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/mohard-2026-soporte-movil-coche-vs-andobil-soporte-movil-para-rejilla.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/soportes-de-movil-para-coche.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/mohard-2026-soporte-movil-coche-vs-blukar-soporte-movil-coche.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/soportes-de-movil-para-coche.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/mohard-2026-soporte-movil-coche-vs-lamicall-soporte-movil-para-coche-magsaf.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/soportes-de-movil-para-coche.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/mohard-2026-soporte-movil-coche-vs-miracase-soporte-movil-coche.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/soportes-de-movil-para-coche.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/momo-set-de-4-alfombrillas-universales-vs-alfombrillas-coche-universal-pack-4-piez.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/alfombrillas-y-protectores-de-suelo-para-coche.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/momo-set-de-4-alfombrillas-universales-vs-autozoco-alfombrillas-de-goma-y-moqueta.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/alfombrillas-y-protectores-de-suelo-para-coche.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/momo-set-de-4-alfombrillas-universales-vs-goodyear-akron-alfombrillas-de-coche.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/alfombrillas-y-protectores-de-suelo-para-coche.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/momo-set-de-4-alfombrillas-universales-vs-goodyear-god9023.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/alfombrillas-y-protectores-de-suelo-para-coche.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/momo-set-de-4-alfombrillas-universales-vs-the-boutique-for-your-car.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/alfombrillas-y-protectores-de-suelo-para-coche.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/princess-332757-turbo-tiger-compact-vs-aspirador-de-mano-28000pa.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/aspiradores-portatiles-para-coche.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/princess-332757-turbo-tiger-compact-vs-aspirador-de-mano.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/aspiradores-portatiles-para-coche.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/protector-de-asiento-impermeable-univers-vs-black-panther-funda-de-asiento-delantero.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/fundas-y-protectores-de-asiento.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/protector-de-asiento-impermeable-univers-vs-lionstrong-protector-asiento-delantero.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/fundas-y-protectores-de-asiento.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/protector-de-asiento-impermeable-univers-vs-qooloo-protector-de-respaldo-de-asiento.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/fundas-y-protectores-de-asiento.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/protector-de-asiento-impermeable-univers-vs-toyoun-fundas-asientos-coche-universal.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/fundas-y-protectores-de-asiento.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/purificadores-y-ambientadores-de-coche-vevor-vs-california.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/mejores/purificadores-y-ambientadores-de-coche.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/redtiger-dashcam-coche-4k-vs-70mai-a810-lite-camara-de-salpicadero-4k.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/camaras-de-conduccion-dash-cams.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/sloksfil-aspiradora-de-mano-4-en-1-vs-aspirador-de-mano-28000pa.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/aspiradores-portatiles-para-coche.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/sloksfil-aspiradora-de-mano-4-en-1-vs-aspirador-de-mano-potente-120w.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/aspiradores-portatiles-para-coche.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/sloksfil-aspiradora-de-mano-4-en-1-vs-aspirador-de-mano.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/aspiradores-portatiles-para-coche.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/sloksfil-aspiradora-de-mano-4-en-1-vs-aspiradora-sin-cable-potente-6000-pa.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/aspiradores-portatiles-para-coche.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/sloksfil-aspiradora-de-mano-4-en-1-vs-bokilino-aspirador-de-mano-inalambrico.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/aspiradores-portatiles-para-coche.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/sloksfil-aspiradora-de-mano-4-en-1-vs-princess-332757-turbo-tiger-compact.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/aspiradores-portatiles-para-coche.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/smams-coche-vs-dinfu-rotativo-led-bateria-led-luminosa.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/luces-y-accesorios-de-emergencia-para-coche.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/soporte-movil-coche-con-clip-de-resorte-vs-andobil-soporte-movil-para-rejilla.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/soportes-de-movil-para-coche.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/soporte-movil-coche-con-clip-de-resorte-vs-blukar-soporte-movil-coche.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/soportes-de-movil-para-coche.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/soporte-movil-coche-con-clip-de-resorte-vs-lamicall-soporte-movil-para-coche-magsaf.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/soportes-de-movil-para-coche.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/soporte-movil-coche-con-clip-de-resorte-vs-miracase-soporte-movil-coche.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/soportes-de-movil-para-coche.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/soporte-movil-coche-con-clip-de-resorte-vs-mohard-2026-soporte-movil-coche.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/soportes-de-movil-para-coche.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/soporte-movil-coche-con-clip-de-resorte-vs-soporte-de-telefono-movil-para-coche.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/soportes-de-movil-para-coche.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/sweet-arrancador-de-baterias-de-coche-vs-utrai-8000a-jump-starter-con-compresor.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/cables-y-arrancadores-de-bateria.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/the-boutique-for-your-car-vs-goodyear-god9023.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/alfombrillas-y-protectores-de-suelo-para-coche.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/the-fruit-company-vs-california-car-scents-pack-de-12.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/purificadores-y-ambientadores-de-coche.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/the-fruit-company-vs-charmline-generador-de-ozono-2-en-1.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/purificadores-y-ambientadores-de-coche.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/the-fruit-company-vs-cristalinas-pack-2-ambientador-de-coche.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/purificadores-y-ambientadores-de-coche.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/the-fruit-company-vs-faren-f20.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/purificadores-y-ambientadores-de-coche.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/the-fruit-company-vs-vevor-generador-de-ozono-36000-mg-h.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/purificadores-y-ambientadores-de-coche.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/the-fruit-company-vs-vevor-generador-de-ozono-purificador.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/purificadores-y-ambientadores-de-coche.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/toyoun-fundas-asientos-coche-universal-vs-black-panther-funda-de-asiento-delantero.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/fundas-y-protectores-de-asiento.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/toyoun-fundas-asientos-coche-universal-vs-lionstrong-protector-asiento-delantero.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/fundas-y-protectores-de-asiento.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/toyoun-fundas-asientos-coche-universal-vs-qooloo-protector-de-respaldo-de-asiento.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/fundas-y-protectores-de-asiento.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/ugreen-63w-cargador-coche-usb-c-pd-qc-3-vs-belkin-cargador-de-coche-doble-usb-a-24-.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/cargadores-de-coche-usb.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/ugreen-63w-cargador-coche-usb-c-pd-qc-3-vs-lamicall-4-en-1-cargador-coche-carga.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/cargadores-de-coche-usb.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/upgrade4cars-botiquin-de-coche-din-13164-vs-dinfu-rotativo-led-bateria-led-luminosa.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/luces-y-accesorios-de-emergencia-para-coche.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/vevor-generador-de-ozono-36000-mg-h-vs-california-car-scents-pack-de-12.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/purificadores-y-ambientadores-de-coche.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/vevor-generador-de-ozono-36000-mg-h-vs-faren-f20.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/purificadores-y-ambientadores-de-coche.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/vevor-generador-de-ozono-purificador-vs-california-car-scents-pack-de-12.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/purificadores-y-ambientadores-de-coche.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/vevor-generador-de-ozono-purificador-vs-charmline-generador-de-ozono-2-en-1.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/purificadores-y-ambientadores-de-coche.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/vevor-generador-de-ozono-purificador-vs-faren-f20.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/purificadores-y-ambientadores-de-coche.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/vevor-generador-de-ozono-purificador-vs-vevor-generador-de-ozono-36000-mg-h.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/purificadores-y-ambientadores-de-coche.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/wolfang-4k-dashcam-vs-70mai-a810-lite-camara-de-salpicadero-4k.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/camaras-de-conduccion-dash-cams.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/wolfang-4k-dashcam-vs-redtiger-dashcam-coche-4k.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/camaras-de-conduccion-dash-cams.html",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/12-en-1-kit-emergencia-coche-vs-dinfu-rotativo-led-bateria-led-luminosa.html",
       "destination": "/guias/luces-y-accesorios-de-emergencia-para-coche.html",
       "permanent": true
     },
