@@ -1,3 +1,16 @@
+// Etiquetas cortas para los botones de filtro.
+const SHORT_LABELS = {
+  "camaras-de-conduccion-dash-cams": "Dash cams",
+  "organizadores-de-maletero": "Maletero",
+  "cargadores-de-coche-usb": "Cargadores USB",
+  "fundas-y-protectores-de-asiento": "Fundas de asiento",
+  "aspiradores-portatiles-para-coche": "Aspiradores",
+  "soportes-de-movil-para-coche": "Soportes móvil",
+  "purificadores-y-ambientadores-de-coche": "Ambientadores",
+  "cables-y-arrancadores-de-bateria": "Arrancadores",
+  "alfombrillas-y-protectores-de-suelo-para-coche": "Alfombrillas",
+  "luces-y-accesorios-de-emergencia-para-coche": "Emergencia"
+};
 "use strict";
 
 const { SITE } = require("../nav");
@@ -11,7 +24,7 @@ function productosIndex() {
   );
 
   const filters = GUIDES.map(
-    (g) => `<button type="button" class="filter-btn" data-filter="${g.slug}">${escapeHtml(g.title)} (${g.products.length})</button>`
+    (g) => `<button type="button" class="filter-btn" data-filter="${g.slug}">${escapeHtml(SHORT_LABELS[g.slug] || g.title)} (${g.products.length})</button>`
   ).join("\n        ");
 
   const html = `
