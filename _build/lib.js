@@ -229,7 +229,7 @@ function featuredProductsSection(featured, excludeCategory) {
 // Precio numérico: acepta "399,00", "1.299,00", "74.38" y "104".
 function priceNum(p) {
   const s = String(p && p.price !== undefined ? p.price : p);
-  return Number(s.includes(",") ? s.replace(/./g, "").replace(",", ".") : s);
+  return Number(s.includes(",") ? s.replace(/\./g, "").replace(",", ".") : s);
 }
 
 // Alt de imagen: nombre del producto sin la ristra de características.

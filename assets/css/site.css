@@ -608,3 +608,8 @@ body:has(.seo-sticky) .seo-sticky-space { display: none; }
 .seo-sticky-pair .seo-sticky-opt:first-child img { order: 2; }
 .seo-sticky-opt-body, .seo-sticky-opt-body strong { max-width: 100%; }
 @media (max-width: 640px) { .seo-sticky-pair .seo-sticky-opt-body { flex: 1 1 auto; } .seo-sticky-pair .seo-sticky-opt:first-child { text-align: left; } .seo-sticky-pair .seo-sticky-opt:first-child .seo-sticky-opt-body { align-items: stretch; } }
+
+/* Listas de las fichas de producto ampliadas */
+.pc-list { list-style: disc; padding-left: 1.3em; margin: 8px 0 14px; }
+.pc-list li { margin-bottom: 6px; }
+.pc-list em { color: var(--color-ink-muted); font-size: .92em; }
