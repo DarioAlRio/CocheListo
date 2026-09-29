@@ -171,7 +171,7 @@ function productCard(p) {
             <p class="product-card-title">${escapeHtml(p.title)}</p>
             ${p.note ? `<p class="product-card-note">${escapeHtml(p.note)}</p>` : ""}
             <div class="product-card-meta">
-              ${p.rating ? `<span class="product-card-rating">${escapeHtml(p.rating)}</span>` : ""}
+              
             </div>
           </div>
         </a>

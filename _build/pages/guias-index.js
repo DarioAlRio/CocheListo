@@ -25,7 +25,7 @@ function guiasIndex() {
     route: "guias/index.html",
     path: "/guias/",
     title: "Guías de compra",
-    description: "Todas las guías de compra de HogarSeguro: cámaras WiFi interior y exterior, timbres con cámara, cerraduras inteligentes, sensores, cámaras de batería, kits de videovigilancia y enchufes/luces inteligentes.",
+    description: "Todas las guías de compra de CocheListo: dash cams, soportes de móvil, cargadores USB, fundas de asiento, aspiradores, arrancadores, alfombrillas y organizadores de maletero.",
     breadcrumbsItems: [{ label: "Inicio", href: "/" }, { label: "Guías de compra" }],
     html,
   };

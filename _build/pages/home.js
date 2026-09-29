@@ -26,10 +26,9 @@ function home() {
   const ratings = allProducts.map((p) => ratingNumber(p.rating)).filter((n) => n !== null);
   const avgRating = ratings.length ? ratings.reduce((a, b) => a + b, 0) / ratings.length : null;
   const stats = [
-    { num: allProducts.length, label: "Productos analizados" },
+    { num: allProducts.length, label: "Productos seleccionados" },
     { num: GUIDES.length, label: "Guías de compra" },
     { num: ARTICLES.length, label: "Artículos del blog" },
-    ...(avgRating ? [{ num: `${avgRating.toFixed(1)}★`, label: "Valoración media en Amazon" }] : []),
   ];
 
   const html = `

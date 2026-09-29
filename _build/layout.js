@@ -182,7 +182,7 @@ function ctaBand() {
   return `<section class="cta-band">
     <div class="wrap">
       <h2>¿Buscas una recomendación rápida?</h2>
-      <p>Empieza por la guía que más te preocupe ahora mismo: cámaras WiFi de interior, timbres con cámara o cerraduras inteligentes.</p>
+      <p>Empieza por la guía que más te preocupe ahora mismo: dash cam, soporte de móvil o arrancador de batería.</p>
       <a class="btn btn-light" href="/guias/">Ver todas las guías ${icon("arrow")}</a>
     </div>
   </section>`;

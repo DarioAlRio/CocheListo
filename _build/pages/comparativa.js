@@ -33,12 +33,12 @@ function cmpExtra(g, a, b, slugSuffix, labelA, labelB) {
   const worse = better === a ? b : a;
   const verdict = better === a
     ? `Aquí la opción de ${labelA} sale reforzada: tiene igual o mejor valoración que la de ${labelB}, así que pagar más no garantiza más satisfacción. Solo compensa subir si necesitas algo concreto que ofrezca el otro modelo.`
-    : `La opción de ${labelB} tiene mejor valoración de los compradores (${escapeHtml(better.rating || "")} frente a ${escapeHtml(worse.rating || "")}). Si usas ${topic} a menudo, la diferencia suele notarse; para un uso ocasional, la de ${labelA} cumple.`;
+    : `La opción de ${labelB} tiene mejor valoración de los compradores. Si usas ${topic} a menudo, la diferencia suele notarse; para un uso ocasional, la de ${labelA} cumple.`;
   return `
         <div class="content-section">
           <h2>¿Compensa pagar más?</h2>
           <p>${verdict}</p>
-          <p>Ten en cuenta que las valoraciones de Amazon miden la satisfacción de quien ya compró, no una prueba técnica: un modelo sencillo que cumple lo que promete puede puntuar tan alto como uno de gama alta. Por eso conviene cruzar la nota con los criterios de abajo.</p>
+          <p>Ten en cuenta que las opiniones de compradores miden la satisfacción de quien ya compró, no una prueba técnica: un modelo sencillo que cumple lo que promete puede puntuar tan alto como uno de gama alta. Por eso conviene cruzar la nota con los criterios de abajo.</p>
         </div>
         ${g.checklist && g.checklist.length ? `<div class="content-section">
           <h2>Qué comprobar antes de elegir entre estos dos</h2>
@@ -64,7 +64,6 @@ function buildComparativa(g, a, b, slugSuffix, labelA, labelB, intro) {
   const rows = [
     ["Gama de precio", priceTier(a, g.products) || "—", priceTier(b, g.products) || "—"],
     ["Nº de opiniones", a.reviews ? Number(a.reviews).toLocaleString("es-ES") : "—", b.reviews ? Number(b.reviews).toLocaleString("es-ES") : "—"],
-    ["Valoración en Amazon", a.rating || "—", b.rating || "—"],
     ["Nuestra puntuación", ourScore(a, g.products).toFixed(1), ourScore(b, g.products).toFixed(1)],
   ];
 

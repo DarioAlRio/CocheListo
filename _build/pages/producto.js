@@ -31,11 +31,6 @@ function productoPage(p, g) {
           <img src="${p.img}" alt="${escapeHtml(altOf(p.title))}" loading="lazy" width="220" height="220">
           <div class="product-hero-meta">
             ${tier ? `<span class="card-eyebrow">${tier}</span>` : ""}
-            <div class="product-score">
-              <span class="product-score-num">${score.toFixed(1)}</span>
-              <span class="product-score-label">Nuestra puntuación<br>sobre 10</span>
-            </div>
-            ${p.rating ? `<p>Valoración en Amazon: <strong>${escapeHtml(p.rating)}</strong></p>` : ""}
             <a class="btn btn-accent" href="${amazonProductUrl(p.asin)}" target="_blank" rel="nofollow sponsored noopener">Ver precio en Amazon ${icon("arrow")}</a>
           </div>
         </div>
@@ -44,16 +39,6 @@ function productoPage(p, g) {
           <h2>Por qué está en esta guía</h2>
           <p>${escapeHtml(p.note)}</p>
           <p>Forma parte de nuestra guía <a href="/guias/${g.slug}.html">${escapeHtml(g.title)}</a>, donde explicamos los criterios completos para elegir en esta categoría, no solo este modelo.</p>
-        </div>
-
-        <div class="content-section">
-          <h2>Cómo calculamos nuestra puntuación</h2>
-          <p>
-            La puntuación combina la valoración media en Amazon con su posición de precio dentro de
-            esta guía (si es la opción más económica o la de gama alta). No es una prueba de
-            laboratorio propia: es una forma de resumir de un vistazo si compensa dentro de su
-            categoría, pensada para comparar rápido, no para sustituir la lectura de la guía completa.
-          </p>
         </div>
 
         ${
