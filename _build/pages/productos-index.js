@@ -30,7 +30,7 @@ function productosIndex() {
   const html = `
   ${pageHero({
     eyebrow: "Catálogo",
-    title: "Todos los productos analizados",
+    title: "Todos los productos seleccionados",
     dek: `${allProducts.length} productos repartidos en nuestras guías de compra. Filtra por categoría o entra en cada ficha para ver nuestra puntuación.`,
   })}
   <section class="section">
@@ -52,7 +52,7 @@ function productosIndex() {
     route: "productos/index.html",
     path: "/productos/",
     title: "Todos los productos",
-    description: `Catálogo completo de los ${allProducts.length} productos analizados en ${SITE.name}, filtrable por categoría.`,
+    description: `Catálogo completo de los ${allProducts.length} productos seleccionados en ${SITE.name}, filtrable por categoría.`,
     breadcrumbsItems: [{ label: "Inicio", href: "/" }, { label: "Productos" }],
     html,
   };

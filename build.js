@@ -11,6 +11,22 @@ const path = require("path");
 
 const { SITE, FOOT } = require("./_build/nav");
 const { GUIDES, ARTICLES, FEATURED } = require("./_build/data");
+// Normas de Amazon: sin valoraciones, estrellas ni "comprados el último mes" copiados de Amazon.
+// Se quita solo la frase o el inciso que los contiene; si no queda nada, nota neutra a partir del título.
+const BAD_NOTE = /★|valoraci|opiniones[)]|comprados|Top ventas en Amazon|[0-9][0-9.]*[+]? *compras|reseñas/i;
+const cleanNote = (t) => String(t || "").split(/(?<=[.!?]) +/).map((s) => {
+  if (!BAD_NOTE.test(s)) return s;
+  const keep = s.replace(/[.!?]$/, "").split(/(?=[;,:] | y con | con más de | y más de )/).filter((x) => !BAD_NOTE.test(x));
+  const r = keep.join("").replace(/^[;,:] /, "").replace(/[;,:] *$/, "").trim();
+  return r ? r.charAt(0).toUpperCase() + r.slice(1) + "." : "";
+}).filter(Boolean).join(" ").trim();
+const fallbackNote = (p) => {
+  const feats = String(p.title || "").split(/, */).slice(1).join(", ").trim();
+  return (feats ? `Características principales según el fabricante: ${feats}. ` : "Modelo incluido en nuestra selección para esta guía. ") + "Consulta en Amazon la ficha completa y el precio actual.";
+};
+for (const g of GUIDES) for (const p of g.products || []) p.note = cleanNote(p.note) || fallbackNote(p);
+for (const p of [].concat(FEATURED || [])) if (p && p.note) p.note = cleanNote(p.note) || fallbackNote(p);
+
 
 // Productos que Amazon da como no disponibles o eliminados (lo genera
 // _tools/asin-status). Se quitan antes de construir nada.

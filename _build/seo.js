@@ -73,7 +73,7 @@ function podiumHtml(items) {
       <span class="seo-badge">${label}</span>
       <img src="${p.img}" alt="${escapeHtml(shortName(p.title))}" width="160" height="160" loading="lazy">
       <p class="seo-podium-title">${escapeHtml(shortName(p.title))}</p>
-      <p class="seo-meta">${escapeHtml(p.rating || "")} · ${tierOf(p)}</p>
+      <p class="seo-meta">${tierOf(p)}</p>
       ${amz(p)}
     </div>`).join("\n")}
   </div>`;
@@ -85,7 +85,7 @@ function rankItem(p, i, list) {
     <img src="${p.img}" alt="${escapeHtml(shortName(p.title))}" width="120" height="120" loading="lazy">
     <div class="seo-rank-body">
       <h3>${escapeHtml(shortName(p.title))}</h3>
-      <p class="seo-meta">Nota ${scoreOf10(p, list)}/10 · ${escapeHtml(p.rating || "")}${p.reviews ? ` (${reviewsTxt(p)})` : ""} · ${tierOf(p)}</p>
+      <p class="seo-meta">${tierOf(p)}</p>
       ${p.note ? `<p>${escapeHtml(p.note)}</p>` : ""}
       <div class="seo-actions">${amz(p)}<a class="seo-link" href="${productUrl(p)}">Ficha y opinión</a></div>
     </div>
@@ -94,8 +94,8 @@ function rankItem(p, i, list) {
 
 function tableHtml(list) {
   return `<div class="seo-table-wrap"><table class="table seo-table">
-    <thead><tr><th>#</th><th>Producto</th><th>Valoración</th><th>Gama</th><th></th></tr></thead>
-    <tbody>${list.map((p, i) => `<tr><td>${i + 1}</td><td>${escapeHtml(shortName(p.title))}</td><td>${escapeHtml(p.rating || "—")}</td><td>${tierOf(p)}</td><td>${amz(p, "Ver precio", "btn btn-accent btn-sm")}</td></tr>`).join("")}</tbody>
+    <thead><tr><th>#</th><th>Producto</th><th>Gama</th><th></th></tr></thead>
+    <tbody>${list.map((p, i) => `<tr><td>${i + 1}</td><td>${escapeHtml(shortName(p.title))}</td><td>${tierOf(p)}</td><td>${amz(p, "Ver precio", "btn btn-accent btn-sm")}</td></tr>`).join("")}</tbody>
   </table></div>`;
 }
 
@@ -141,8 +141,8 @@ function rankingPage(g) {
   const cheapest = [...list].sort((a, b) => num(a) - num(b))[0];
   const pricey = [...list].sort((a, b) => num(b) - num(a))[0];
   const faq = [
-    { q: `¿Cuál es ${GS(g, "el mejor", "la mejor")} ${topicOne(g)} de ${YEAR}?`, a: `Por valoración y volumen de opiniones en Amazon.es, nuestro número 1 ahora mismo es ${escapeHtml(shortName(pod[0].p.title))} (${escapeHtml(pod[0].p.rating)}).` },
-    pod[1] && { q: `¿Qué ${topicOne(g)} tiene mejor relación calidad-precio?`, a: `${escapeHtml(shortName(pod[1].p.title))}: buena nota (${escapeHtml(pod[1].p.rating)}) sin irse de precio.` },
+    { q: `¿Cuál es ${GS(g, "el mejor", "la mejor")} ${topicOne(g)} de ${YEAR}?`, a: `Por valoración y volumen de opiniones en Amazon.es, nuestro número 1 ahora mismo es ${escapeHtml(shortName(pod[0].p.title))}.` },
+    pod[1] && { q: `¿Qué ${topicOne(g)} tiene mejor relación calidad-precio?`, a: `${escapeHtml(shortName(pod[1].p.title))}: muy bien considerado por los compradores sin irse de precio.` },
     { q: `¿Cuánto cuesta ${GS(g, "un buen", "una buena")} ${topicOne(g)}?`, a: `En nuestra selección hay opciones desde la gama de entrada (${escapeHtml(shortName(cheapest.title))}) hasta la gama alta (${escapeHtml(shortName(pricey.title))}); el precio exacto cambia a menudo, así que consúltalo en Amazon. Por debajo de la gama media sueles ganar precio pero perder acabados, garantía o funciones.` },
     ...(g.faq || []).slice(0, 3),
   ].filter(Boolean);
@@ -179,7 +179,7 @@ function budgetPage(g) {
   const crumbs = [{ label: "Inicio", href: "/" }, { label: `Top ${YEAR}`, href: "/mejores/" }, { label: `${cap(T)} ${G(g, "baratos", "baratas")}` }];
   const faq = [
     { q: `¿Merece la pena ${GS(g, "un", "una")} ${topicOne(g)} ${GS(g, "barato", "barata")}?`, a: `Sí, si cubre lo básico que necesitas. En esta lista solo entran modelos con 4 estrellas o más en Amazon.es, para evitar las gangas que acaban en devolución.` },
-    { q: `¿Cuál es ${GS(g, "el", "la")} ${topicOne(g)} más ${GS(g, "barato", "barata")} recomendable?`, a: `${escapeHtml(shortName(byPrice[0].title))}, con ${escapeHtml(byPrice[0].rating || "buena valoración")}.` },
+    { q: `¿Cuál es ${GS(g, "el", "la")} ${topicOne(g)} más ${GS(g, "barato", "barata")} recomendable?`, a: `${escapeHtml(shortName(byPrice[0].title))}, la opción más económica que mantiene buenas opiniones.` },
   ];
   const html = `${hero("Ofertas y gama de entrada", `${title} (${YEAR})`, `Seleccionamos ${G(g, "los", "las")} ${T} más ${G(g, "económicos", "económicas")} de nuestro ranking que mantienen buena valoración. ${G(g, "Todos", "Todas")} por debajo de ${limit} €.`)}
   <section class="section"><div class="wrap">
@@ -213,10 +213,9 @@ function vsPage(g, a, b) {
   const html = `${hero(`Comparativa · ${cap(topic(g))}`, `${escapeHtml(na)} vs ${escapeHtml(nb)}: ¿cuál comprar?`, `Dos de ${G(g, "los", "las")} ${topic(g)} más ${G(g, "vendidos", "vendidas")} en Amazon.es, cara a cara: valoración, gama de precio y para quién es cada uno.`)}
   <section class="section"><div class="wrap">
     <div class="seo-verdict"><strong>Veredicto rápido:</strong> ${verdict}</div>
-    <div class="seo-vs">${[a, b].map((p) => `<div class="seo-podium-card"><img src="${p.img}" alt="${escapeHtml(shortName(p.title))}" width="160" height="160" loading="lazy"><p class="seo-podium-title">${escapeHtml(shortName(p.title))}</p><p class="seo-meta">${escapeHtml(p.rating || "")} · ${tierOf(p)}</p>${amz(p)}</div>`).join('<span class="seo-vs-sep">VS</span>')}</div>
+    <div class="seo-vs">${[a, b].map((p) => `<div class="seo-podium-card"><img src="${p.img}" alt="${escapeHtml(shortName(p.title))}" width="160" height="160" loading="lazy"><p class="seo-podium-title">${escapeHtml(shortName(p.title))}</p><p class="seo-meta">${tierOf(p)}</p>${amz(p)}</div>`).join('<span class="seo-vs-sep">VS</span>')}</div>
     <div class="seo-table-wrap"><table class="table"><thead><tr><th></th><th>${escapeHtml(na)}</th><th>${escapeHtml(nb)}</th></tr></thead><tbody>
       ${row("Gama de precio", tierOf(a) || "—", tierOf(b) || "—")}
-      ${row("Valoración Amazon", escapeHtml(a.rating || "—"), escapeHtml(b.rating || "—"))}
       ${row("Nº de opiniones", a.reviews ? Number(a.reviews).toLocaleString("es-ES") : "—", b.reviews ? Number(b.reviews).toLocaleString("es-ES") : "—")}
       ${row("Lo más destacado", escapeHtml(a.note || ""), escapeHtml(b.note || ""))}
     </tbody></table></div>
@@ -225,7 +224,7 @@ function vsPage(g, a, b) {
     <p><strong>${escapeHtml(shortName(dearer.title))}</strong>: para quien valora ${stars(dearer) >= stars(cheaper) ? "una valoración más alta de los compradores" : "sus prestaciones extra"} y no le importa pagar algo más.</p>
     <p>Si ninguno te convence, revisa el <a href="/mejores/${g.slug}.html">ranking de ${G(g, "los", "las")} mejores ${topic(g)} de ${YEAR}</a>.</p>
     <h2>Cómo leer esta comparativa</h2>
-    <p>La valoración de Amazon resume la experiencia de miles de compradores, pero no sustituye a tus necesidades: un modelo con media estrella menos puede ser mejor compra si encaja justo con lo que buscas. Mira también el número de opiniones: una nota alta con pocas reseñas es menos fiable que una algo más baja respaldada por miles.</p>
+    <p>Las opiniones de los compradores ayudan, pero no sustituyen a tus necesidades: un modelo algo menos popular puede ser mejor compra si encaja justo con lo que buscas. Revisa en Amazon las opiniones recientes antes de decidir.</p>
     ${g.checklist && g.checklist.length ? `<h2>Qué comprobar antes de decidirte</h2>
     <ul>${g.checklist.map((c) => `<li>${c}</li>`).join("")}</ul>
     <p>Lo explicamos con detalle en la <a href="/guias/${g.slug}.html">guía para elegir ${topic(g)}</a>.</p>` : ""}
@@ -255,7 +254,7 @@ function sticky(p) {
   if (!p) return "";
   return `<div class="seo-sticky-space"></div><div class="seo-sticky" role="complementary" aria-label="Producto recomendado">
     <img src="${p.img}" alt="" width="44" height="44" loading="lazy">
-    <span class="seo-sticky-txt"><strong>${escapeHtml(shortName(p.title))}</strong> ${escapeHtml(p.rating || "")}</span>
+    <span class="seo-sticky-txt"><strong>${escapeHtml(shortName(p.title))}</strong></span>
     ${amz(p, "Ver en Amazon")}
   </div>`;
 }
@@ -274,8 +273,8 @@ function listPage(g, list, o) {
   const crumbs = [{ label: "Inicio", href: "/" }, { label: `Top ${YEAR}`, href: "/mejores/" }, { label: cap(T), href: `/mejores/${g.slug}.html` }, { label: o.crumb }];
   const cheapest = [...list].sort((a, b) => num(a) - num(b))[0];
   const faq = [
-    { q: `¿Cuál es ${o.bestQ}?`, a: `Ahora mismo, ${escapeHtml(shortName(list[0].title))} (${escapeHtml(list[0].rating || "")}), por valoración y número de opiniones en Amazon.es.` },
-    cheapest.asin !== list[0].asin && { q: `¿Hay alguna opción más económica?`, a: `${escapeHtml(shortName(cheapest.title))}, en una gama de precio más baja y con ${escapeHtml(cheapest.rating || "buena valoración")}.` },
+    { q: `¿Cuál es ${o.bestQ}?`, a: `Ahora mismo, ${escapeHtml(shortName(list[0].title))}, por valoración y número de opiniones en Amazon.es.` },
+    cheapest.asin !== list[0].asin && { q: `¿Hay alguna opción más económica?`, a: `${escapeHtml(shortName(cheapest.title))}, en una gama de precio más baja y con buenas opiniones de compradores.` },
   ].filter(Boolean);
   const html = `${hero(o.eyebrow, o.h1, o.dek)}
   <section class="section"><div class="wrap">
@@ -372,9 +371,9 @@ function brandVsPages(g) {
     const path = `/comparativas/${g.slug}-${slugify(a.name)}-vs-${slugify(b.name)}.html`;
     const best = avg(a.list) >= avg(b.list) ? a : b, cheap = avgP(a.list) <= avgP(b.list) ? a : b;
     const verdict = best === cheap
-      ? `${best.name} gana en valoración media (${f1(avg(best.list))}★) y además sale más a cuenta de media. Es la opción más segura.`
-      : `${best.name} tiene mejor valoración media (${f1(avg(best.list))}★); ${cheap.name} suele ser más económica.`;
-    const col = (x) => `<div><h3>${escapeHtml(x.name)}</h3><p class="seo-meta">Valoración media ${f1(avg(x.list))}★ · ${x.list.length} modelos</p><ol class="seo-rank">${x.list.slice(0, 3).map((p, k) => rankItem(p, k, x.list)).join("")}</ol></div>`;
+      ? `${best.name} sale mejor parada en opiniones de compradores y además sale más a cuenta de media. Es la opción más segura.`
+      : `${best.name} sale mejor parada en opiniones de compradores; ${cheap.name} suele ser más económica.`;
+    const col = (x) => `<div><h3>${escapeHtml(x.name)}</h3><p class="seo-meta">${x.list.length} modelos</p><ol class="seo-rank">${x.list.slice(0, 3).map((p, k) => rankItem(p, k, x.list)).join("")}</ol></div>`;
     const crumbs = [{ label: "Inicio", href: "/" }, { label: `Top ${YEAR}`, href: "/mejores/" }, { label: cap(T), href: `/mejores/${g.slug}.html` }, { label: `${a.name} vs ${b.name}` }];
     const faq = [{ q: `¿Qué marca es mejor, ${a.name} o ${b.name}?`, a: verdict }];
     const h1 = `${a.name} o ${b.name}: ¿qué ${one} comprar en ${YEAR}?`;
@@ -446,7 +445,7 @@ function guideBanner(g) {
   if (!top) return "";
   const sub = (RELATED.get(g.slug) || []).slice(1, 10);
   return `<section class="section seo-guide-banner"><div class="wrap"><div class="seo-verdict">
-    <strong>¿Sin tiempo?</strong> El más recomendado ahora mismo es <strong>${escapeHtml(shortName(top.title))}</strong> (${escapeHtml(top.rating || "")}).
+    <strong>¿Sin tiempo?</strong> El más recomendado ahora mismo es <strong>${escapeHtml(shortName(top.title))}</strong>.
     ${amz(top)} <a class="seo-link" href="/mejores/${g.slug}.html">Ver el top ${Math.min(10, g.products.length)} de ${YEAR}</a>
   </div>${sub.length ? `<p class="seo-chips">${sub.map((x) => `<a href="${x.path}">${escapeHtml(x.label)}</a>`).join("")}</p>` : ""}</div></section>${sticky(top)}`;
 }

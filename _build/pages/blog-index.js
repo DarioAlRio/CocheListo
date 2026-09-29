@@ -25,7 +25,7 @@ function blogIndex() {
     route: "blog/index.html",
     path: "/blog/",
     title: "Blog",
-    description: "Artículos sobre videovigilancia, instalación y seguridad del hogar de HogarSeguro.",
+    description: "Artículos de CocheListo sobre accesorios de coche, mantenimiento básico y cómo viajar más cómodo y seguro.",
     breadcrumbsItems: [{ label: "Inicio", href: "/" }, { label: "Blog" }],
     html,
   };

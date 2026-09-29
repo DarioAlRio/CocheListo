@@ -53,7 +53,6 @@ function quickPicks(g) {
       ([label, p]) => `<tr>
           <td data-label="Elección"><span class="quickpick-badge">${label}</span></td>
           <td data-label="Producto"><a class="quickpick-product" href="${productUrl(p)}"><img src="${p.img}" alt="${escapeHtml(altOf(p.title))}" loading="lazy" width="56" height="56"><span>${escapeHtml(p.title)}</span></a></td>
-          <td data-label="Valoración">${escapeHtml(p.rating)}</td>
           <td data-label="Gama">${escapeHtml(priceTier(p, g.products) || "—")}</td>
           <td class="quickpick-cta"><a class="btn btn-accent" href="${amazonProductUrl(p.asin)}" target="_blank" rel="nofollow sponsored noopener">Ver en Amazon ${icon("arrow")}</a></td>
         </tr>`
@@ -61,9 +60,9 @@ function quickPicks(g) {
     .join("\n");
   return `<div class="content-section quickpicks">
         <h2>Elige rápido</h2>
-        <p class="quickpicks-note">Si tienes prisa: estas son las tres opciones que mejor se defienden en esta guía según su valoración en Amazon y su gama de precio. El precio actual, en Amazon.</p>
+        <p class="quickpicks-note">Si tienes prisa: estas son las tres opciones que mejor se defienden en esta guía según las opiniones de compradores y su gama de precio. El precio actual, en Amazon.</p>
         <div class="quickpicks-scroll"><table class="quickpicks-table">
-          <thead><tr><th>Elección</th><th>Producto</th><th>Valoración</th><th>Gama</th><th></th></tr></thead>
+          <thead><tr><th>Elección</th><th>Producto</th><th>Gama</th><th></th></tr></thead>
           <tbody>
         ${rows}
           </tbody>
@@ -189,7 +188,7 @@ function relatedBlock(a) {
       return `<li>
           <a class="related-guide-title" href="/guias/${g.slug}.html">${escapeHtml(g.title)}</a>
           <span class="related-guide-dek">${escapeHtml(g.dek || "")}</span>
-          ${w ? `<span class="related-guide-pick">Nuestra elección: <a href="${productUrl(w.choice)}">${escapeHtml(w.choice.title)}</a> (${escapeHtml(w.choice.rating)})</span>` : ""}
+          ${w ? `<span class="related-guide-pick">Nuestra elección: <a href="${productUrl(w.choice)}">${escapeHtml(w.choice.title)}</a></span>` : ""}
         </li>`;
     })
     .join("\n");
