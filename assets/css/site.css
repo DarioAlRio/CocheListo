@@ -563,6 +563,7 @@ table { border-collapse: collapse; width: 100%; }
 .site-header { background: #1d2126; border-bottom: 0; box-shadow: 0 4px 0 var(--color-accent); }
 .site-header .logo, .site-header .nav-desktop a, .site-header .nav-toggle { color: #f4f5f6; }
 .site-header .logo-mark { color: var(--color-accent); }
+.site-footer .logo-mark { color: var(--color-accent); }
 .site-header .nav-desktop a:hover, .site-header .nav-desktop a[aria-current="page"] { color: var(--color-accent); }
 .logo-text { text-transform: uppercase; letter-spacing: 0.04em; }
 .nav-desktop a { text-transform: uppercase; letter-spacing: 0.05em; font-size: 0.9rem; }
