@@ -15,6 +15,7 @@ const {
 } = require("../lib");
 const { pageHero } = require("../layout");
 const { productCopy } = require("../product-copy");
+const { editorialHtml } = require("../editorial");
 
 function productoPage(p, g) {
   const others = g.products.filter((x) => x.asin !== p.asin).slice(0, 3);
@@ -41,6 +42,8 @@ function productoPage(p, g) {
           <p>${escapeHtml(p.note)}</p>
           <p>Forma parte de nuestra guía <a href="/guias/${g.slug}.html">${escapeHtml(g.title)}</a>, donde explicamos los criterios completos para elegir en esta categoría, no solo este modelo.</p>
         </div>
+
+        ${editorialHtml(p)}
 
         ${productCopy(p, g)}
 

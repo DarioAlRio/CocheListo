@@ -71,6 +71,15 @@ const GUIDES = [
     ],
     products: [
       {
+        asin: "B0DDTCNLG7",
+        title: "Garmin Dash CAM Mini 3, Cámara de Coche, compacta, 1080p @ 140°",
+        note: "Del tamaño de una llave de coche: queda escondida tras el retrovisor y la respalda una marca con años de soporte.",
+        img: "https://m.media-amazon.com/images/I/61CJn7L17gL._AC_UL320_.jpg",
+        price: "136,00",
+        rating: "4,2★",
+        reviews: 418,
+      },
+      {
         asin: "B0DSKXJV3H",
         title: "VANTRUE E1 Pro Mini Dashcam para Coche 4K Delantera Oculta con Filtro CPL",
         note: "Diseño discreto de un solo canal en 4K con sensor STARVIS 2; buena opción si prefieres que no se note en el parabrisas.",

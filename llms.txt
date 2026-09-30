@@ -1,0 +1,34 @@
+# CocheListo
+
+> Guías de compra y comparativas independientes de dash cams, organizadores de maletero, cargadores, aspiradores y demás accesorios de coche para elegir bien sin gastar de más.
+
+CocheListo publica guías de compra y rankings en español. Los productos se seleccionan entre los más vendidos de Amazon.es y se ordenan por valoración media y número de opiniones de compradores. No se publican precios fijos. Metodología completa: https://cochelisto.es/sobre-nosotros/
+
+## Rankings
+- [Mejores dash cam para el coche](https://cochelisto.es/mejores/camaras-de-conduccion-dash-cams.html): Ranking 2026 de dash cams para coche: las 10 mejores según valoraciones reales en Amazon.es, con el mejor calidad-precio y el más barato. Opiniones reales.
+- [Mejores organizador de maletero](https://cochelisto.es/mejores/organizadores-de-maletero.html): Ranking 2026 de organizadores de maletero: los 10 mejores según valoraciones reales en Amazon.es, con el mejor calidad-precio y el más barato.
+- [Mejores cargador de coche usb](https://cochelisto.es/mejores/cargadores-de-coche-usb.html): Ranking 2026 de cargadores de coche USB: los 10 mejores según valoraciones reales en Amazon.es, con el mejor calidad-precio y el más barato.
+- [Mejores fundas y protectores para los asientos del coche](https://cochelisto.es/mejores/fundas-y-protectores-de-asiento.html): Ranking 2026 de fundas y protectores de asiento: los 10 mejores según valoraciones reales en Amazon.es, con el mejor calidad-precio y el más barato.
+- [Mejores aspirador portátil para el coche](https://cochelisto.es/mejores/aspiradores-portatiles-para-coche.html): Ranking 2026 de aspiradores portátiles para coche: los 10 mejores según valoraciones reales en Amazon.es, con el mejor calidad-precio y el más barato.
+- [Mejores soporte de móvil para el coche](https://cochelisto.es/mejores/soportes-de-movil-para-coche.html): Ranking 2026 de soportes de móvil para coche: los 10 mejores según valoraciones reales en Amazon.es, con el mejor calidad-precio y el más barato.
+- [Mejores purificador o ambientador para el coche](https://cochelisto.es/mejores/purificadores-y-ambientadores-de-coche.html): Ranking 2026 de purificadores y ambientadores de coche: los 10 mejores según valoraciones reales en Amazon.es, con el mejor calidad-precio y el más barato.
+- [Mejores arrancador de batería para el coche](https://cochelisto.es/mejores/cables-y-arrancadores-de-bateria.html): Ranking 2026 de arrancadores de batería: los 10 mejores según valoraciones reales en Amazon.es, con el mejor calidad-precio y el más barato.
+- [Mejores alfombrillas para el coche](https://cochelisto.es/mejores/alfombrillas-y-protectores-de-suelo-para-coche.html): Ranking 2026 de alfombrillas para coche: las 10 mejores según valoraciones reales en Amazon.es, con el mejor calidad-precio y el más barato.
+- [Mejores luces y accesorios de emergencia para el coche](https://cochelisto.es/mejores/luces-y-accesorios-de-emergencia-para-coche.html): Ranking 2026 de luces de emergencia para coche: las 10 mejores según valoraciones reales en Amazon.es, con el mejor calidad-precio y el más barato.
+
+## Guías de compra
+- [Cómo elegir una dash cam para el coche](https://cochelisto.es/guias/camaras-de-conduccion-dash-cams.html)
+- [Cómo elegir un organizador de maletero](https://cochelisto.es/guias/organizadores-de-maletero.html)
+- [Cómo elegir un cargador de coche USB](https://cochelisto.es/guias/cargadores-de-coche-usb.html)
+- [Cómo elegir fundas y protectores para los asientos del coche](https://cochelisto.es/guias/fundas-y-protectores-de-asiento.html)
+- [Cómo elegir un aspirador portátil para el coche](https://cochelisto.es/guias/aspiradores-portatiles-para-coche.html)
+- [Cómo elegir un soporte de móvil para el coche](https://cochelisto.es/guias/soportes-de-movil-para-coche.html)
+- [Cómo elegir un purificador o ambientador para el coche](https://cochelisto.es/guias/purificadores-y-ambientadores-de-coche.html)
+- [Cómo elegir un arrancador de batería para el coche](https://cochelisto.es/guias/cables-y-arrancadores-de-bateria.html)
+- [Cómo elegir alfombrillas para el coche](https://cochelisto.es/guias/alfombrillas-y-protectores-de-suelo-para-coche.html)
+- [Cómo elegir luces y accesorios de emergencia para el coche](https://cochelisto.es/guias/luces-y-accesorios-de-emergencia-para-coche.html)
+
+## Sobre el sitio
+- [Sobre nosotros y metodología](https://cochelisto.es/sobre-nosotros/)
+- [Contacto](https://cochelisto.es/contacto/)
+- [Política de afiliación](https://cochelisto.es/legal/afiliacion.html)

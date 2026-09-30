@@ -1,4 +1,5 @@
 "use strict";
+const { editorialHtml } = require("./editorial");
 
 // Páginas orientadas a búsqueda y clic directo a Amazon, generadas a partir
 // de los productos ya verificados en data.js (nada se inventa aquí):
@@ -40,6 +41,12 @@ const amz = (p, label, cls = "btn btn-accent") =>
 
 // Orden de ranking: valoración ponderada por volumen de opiniones (si se
 // conoce). Un 4,6 con 3.000 opiniones pesa más que un 5,0 con 12.
+
+// Texto propio por página (page-notes.json): análisis escrito a mano para esa URL concreta.
+let NOTES = {};
+try { NOTES = require("./page-notes.json"); } catch (e) { NOTES = {}; }
+const notesHtml = (p) => { const n = NOTES[p]; if (!n) return ""; return n.map((s) => `<h2>${s.h}</h2>${s.p.map((x) => `<p>${x}</p>`).join("")}`).join(""); };
+
 function rankScore(p) {
   const r = stars(p);
   const n = Number(p.reviews) || 150;
@@ -87,6 +94,7 @@ function rankItem(p, i, list) {
       <h3>${escapeHtml(shortName(p.title))}</h3>
       <p class="seo-meta">${tierOf(p)}</p>
       ${p.note ? `<p>${escapeHtml(p.note)}</p>` : ""}
+      ${editorialHtml(p, true)}
       <div class="seo-actions">${amz(p)}<a class="seo-link" href="${productUrl(p)}">Ficha y opinión</a></div>
     </div>
   </li>`;
@@ -133,6 +141,39 @@ function hero(eyebrow, title, dek) {
   </div></section>`;
 }
 
+// "¿Merece la pena pagar más?": reparto por gamas del ranking y quién queda
+// mejor situado, el modelo de entrada o el de gama alta. Sustituye a las
+// comparativas "entrada vs. gama media/alta", que no tenían búsquedas.
+function payMoreHtml(g, list) {
+  const T = topic(g), top = list.slice(0, 10);
+  const n = (t) => top.filter((p) => tierOf(p) === t).length;
+  const pos = (t) => list.findIndex((p) => tierOf(p) === t);
+  const [ie, ih] = [pos("Entrada de gama"), pos("Gama alta")];
+  if (ie < 0 || ih < 0) return "";
+  const nm = (i) => `<strong>${escapeHtml(shortName(list[i].title))}</strong> (puesto ${i + 1})`;
+  const verdict = ie < ih
+    ? `El modelo de entrada mejor situado, ${nm(ie)}, queda por delante del mejor de gama alta, ${nm(ih)}. En ${T}, pagar más no garantiza compradores más satisfechos: sube de gama solo si necesitas algo concreto que el modelo sencillo no tenga.`
+    : `El mejor de gama alta, ${nm(ih)}, supera al mejor de entrada, ${nm(ie)}. Aquí la inversión extra sí suele notarse en la satisfacción de los compradores, sobre todo si le vas a dar un uso intensivo.`;
+  return `<h2>¿Merece la pena pagar más por ${GS(g, "un", "una")} ${topicOne(g)}?</h2>
+    <p>De los ${top.length} primeros de esta lista, ${n("Entrada de gama")} son de gama de entrada, ${n("Gama media")} de gama media y ${n("Gama alta")} de gama alta.</p>
+    <p>${verdict}</p>`;
+}
+
+// Criterios de compra de la guía, para las selecciones y comparativas de marca.
+function checklistHtml(g) {
+  if (!g.checklist || !g.checklist.length) return "";
+  const T = topic(g);
+  return `<h2>Qué mirar antes de comprar ${T}</h2><ul>${g.checklist.map((c) => `<li>${c}</li>`).join("")}</ul>
+    <p>Lo explicamos con detalle en la <a href="/guias/${g.slug}.html">guía para elegir ${T}</a>.</p>`;
+}
+
+// Respuesta directa bajo el título: los tres perfiles del podio en una frase.
+function quickAnswer(g, pod) {
+  if (!pod.length) return "";
+  const nm = (x) => `<strong>${escapeHtml(shortName(x.p.title))}</strong>`;
+  return `<p class="seo-answer"><strong>Respuesta rápida:</strong> si solo vas a mirar ${GS(g, "un", "una")} ${topicOne(g)}, empieza por ${nm(pod[0])}, ${GS(g, "el", "la")} mejor ${GS(g, "situado", "situada")} por opiniones de compradores.${pod[1] ? ` Para gastar menos sin renunciar a calidad, ${nm(pod[1])}.` : ""}${pod[2] ? ` Y si el presupuesto manda, ${nm(pod[2])}.` : ""}</p>`;
+}
+
 function rankingPage(g) {
   const list = ranked(g);
   const top = list.slice(0, 10);
@@ -151,11 +192,13 @@ function rankingPage(g) {
   const crumbs = [{ label: "Inicio", href: "/" }, { label: `Top ${YEAR}`, href: "/mejores/" }, { label: cap(T) }];
   const html = `${hero(`Ranking ${YEAR}`, `${title}: ranking calidad-precio`, `Comparamos ${list.length} ${T} con buenas opiniones en Amazon.es y ${G(g, "los", "las")} ordenamos por valoración real y número de compradores. Directo al grano: el podio arriba y el ranking completo debajo.`)}
   <section class="section"><div class="wrap">
+    ${quickAnswer(g, pod)}
     <h2>Resumen rápido: nuestro podio</h2>
     ${podiumHtml(pod)}
     <p class="seo-disclosure">Enlaces de afiliado: si compras a través de ellos ${SITE.name} recibe una pequeña comisión, sin coste extra para ti.</p>
     <h2>Tabla comparativa del top ${top.length}</h2>
     ${tableHtml(top)}
+    ${payMoreHtml(g, list)}
     <h2>Ranking completo de ${T}</h2>
     <ol class="seo-rank">${list.map((p, i) => rankItem(p, i, list)).join("\n")}</ol>
     ${g.checklist ? `<h2>Qué mirar antes de comprar ${T}</h2><ul>${g.checklist.map((c) => `<li>${c}</li>`).join("")}</ul>
@@ -282,6 +325,9 @@ function listPage(g, list, o) {
     <p class="seo-disclosure">Enlaces de afiliado: si compras a través de ellos ${SITE.name} recibe una pequeña comisión, sin coste extra para ti.</p>
     <h2>${o.listH2}</h2>
     <ol class="seo-rank">${list.map((p, i) => rankItem(p, i, list)).join("\n")}</ol>
+    ${list.length >= 6 ? payMoreHtml(g, list) : ""}
+    ${notesHtml(o.path)}
+    ${checklistHtml(g)}
     ${relatedHtml(g, o.path)}
     <h2>Preguntas frecuentes</h2>${faqHtml(faq)}
   </div></section>${sticky(list[0])}`;
@@ -386,6 +432,8 @@ function brandVsPages(g) {
     <div class="seo-verdict"><strong>Veredicto rápido:</strong> ${verdict}</div>
     <h2>Los mejores modelos de cada marca</h2>
     <div class="seo-brand-vs">${col(a)}${col(b)}</div>
+    ${notesHtml(path)}
+    ${checklistHtml(g)}
     ${relatedHtml(g, path)}
     <h2>Preguntas frecuentes</h2>${faqHtml(faq)}
   </div></section>${sticky(best.list[0])}`,
