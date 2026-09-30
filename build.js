@@ -31,7 +31,9 @@ for (const p of [].concat(FEATURED || [])) if (p && p.note) p.note = cleanNote(p
 // Productos que Amazon da como no disponibles o eliminados (lo genera
 // _tools/asin-status). Se quitan antes de construir nada.
 const UNAVAILABLE = new Set(fs.existsSync(path.join(__dirname, "_build/unavailable.json")) ? require("./_build/unavailable.json") : []);
-for (const g of GUIDES) g.products = g.products.filter((p) => !UNAVAILABLE.has(p.asin));
+// Productos que no pertenecen a su categoría (revisión manual): _build/excluded.json.
+const EXCLUDED = fs.existsSync(path.join(__dirname, "_build/excluded.json")) ? require("./_build/excluded.json") : {};
+for (const g of GUIDES) g.products = g.products.filter((p) => !UNAVAILABLE.has(p.asin) && !EXCLUDED[p.asin]);
 for (let i = FEATURED.length - 1; i >= 0; i--) if (UNAVAILABLE.has(FEATURED[i].asin)) FEATURED.splice(i, 1);
 const { page: renderPage, formatDate, head: renderHead } = require("./_build/layout");
 
@@ -48,6 +50,7 @@ const articuloPage = require("./_build/pages/articulo");
 const { avisoLegal, politicaPrivacidad, politicaCookies } = require("./_build/pages/legal");
 const notFound = require("./_build/pages/not-found");
 const { seoPages, guideBanner } = require("./_build/seo");
+const extra = require("./_build/seo-extra");
 
 // FOOT se completa aquí a partir de los datos reales, para no duplicar la
 // lista de guías/artículos en nav.js.
@@ -79,6 +82,7 @@ const pages = [
   politicaPrivacidad(),
   politicaCookies(),
   notFound(),
+  ...extra.extraPages(),
 ];
 
 // --- Ajustes SEO comunes -------------------------------------------------------
@@ -113,7 +117,7 @@ for (const p of pages) {
   const own = (p.html.match(/src="(\/assets\/img\/[^"]+\.(?:jpe?g|png|webp))"/) || [])[1];
   const cat = p.excludeCategory && guideImg[p.excludeCategory];
   const amz = (p.html.match(/src="(https:\/\/m\.media-amazon\.com\/[^"]+)"/) || [])[1];
-  let img = own || cat || amz || "/assets/img/trust-bg.jpg";
+  let img = own || cat || "/assets/img/trust-bg.jpg"; // nunca imágenes de Amazon
   if (img.startsWith("/") && img.endsWith(".webp") && fs.existsSync(path.join(ROOT, img.replace(/\.webp$/, ".jpg")))) img = img.replace(/\.webp$/, ".jpg");
   p.image = img;
 
@@ -130,6 +134,9 @@ for (const p of pages) {
     p.jsonLd.push({ "@context": "https://schema.org", "@type": "Article", headline: p.title.slice(0, 110), description: p.description, image: img.startsWith("http") ? img : SITE.domain + img, datePublished: "2026-09-24", dateModified: "2026-09-24", author: { "@type": "Organization", name: SITE.name, url: SITE.domain + "/" }, publisher: { "@type": "Organization", name: SITE.name, url: SITE.domain + "/" }, mainEntityOfPage: SITE.domain + p.path });
   }
 }
+
+// Noindex de comparativas de plantilla, autor, firma, descripciones…
+extra.tunePages(pages);
 
 // Títulos únicos: si dos páginas acaban con el mismo <title>, se añade lo que
 // distingue a cada una según su URL.
@@ -219,6 +226,7 @@ console.log(`Generadas ${pages.length} páginas.`);
 // --- sitemap.xml + robots.txt -----------------------------------------------
 
 const indexable = pages.filter((p) => !p.noindex);
+extra.loadStore(ROOT);
 const buildDate = new Date().toISOString();
 
 // Prioridad y frecuencia de rastreo por tipo de página: el home y los
@@ -258,7 +266,7 @@ ${indexable
   .map(
     (p) => `  <url>
     <loc>${SITE.domain}${p.path}</loc>
-    <lastmod>${buildDate}</lastmod>
+    <lastmod>${extra.lastmodOf(p)}</lastmod>
     <changefreq>${sitemapChangefreq(p)}</changefreq>
     <priority>${sitemapPriority(p)}</priority>
 ${sitemapImages(p)}  </url>`
@@ -267,6 +275,8 @@ ${sitemapImages(p)}  </url>`
 </urlset>
 `;
 fs.writeFileSync(path.join(ROOT, "sitemap.xml"), sitemap, "utf8");
+extra.saveStore(indexable);
+extra.writeLlms(ROOT, pages);
 
 const robots = `User-agent: *
 Allow: /

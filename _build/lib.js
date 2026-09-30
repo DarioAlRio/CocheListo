@@ -135,10 +135,6 @@ function ourScore(p, guideProducts, isFeatured) {
     if (price === Math.min(...prices)) score += 1; // mejor precio de la guía
     if (price === Math.max(...prices)) score += 1; // más prestaciones/gama alta
   }
-  // Los productos que la web señala como "lo más recomendado" siempre
-  // muestran nota alta: son la selección editorial destacada, no un
-  // producto cualquiera de la guía.
-  if (isFeatured) score = Math.max(score, 9 + (stars !== null ? Math.min(stars - 4, 1) * 0.8 : 0));
   return Math.min(10, Math.round(score * 10) / 10);
 }
 

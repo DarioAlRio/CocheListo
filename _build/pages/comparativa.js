@@ -27,13 +27,12 @@ function cmpExtra(g, a, b, slugSuffix, labelA, labelB) {
     ["-entrada-vs-gama-media", "Entrada de gama vs. gama media"],
     ["-gama-media-vs-alta", "Gama media vs. gama alta"],
   ].filter(([s]) => s !== slugSuffix);
-  const sa = Number(String(a.rating).replace(",", ".").replace(/[^\d.]/g, "")) || 0;
-  const sb = Number(String(b.rating).replace(",", ".").replace(/[^\d.]/g, "")) || 0;
+  const sa = ourScore(a, g.products), sb = ourScore(b, g.products);
   const better = sa === sb ? ((Number(a.reviews) || 0) >= (Number(b.reviews) || 0) ? a : b) : sa > sb ? a : b;
   const worse = better === a ? b : a;
   const verdict = better === a
-    ? `Aquí la opción de ${labelA} sale reforzada: tiene igual o mejor valoración que la de ${labelB}, así que pagar más no garantiza más satisfacción. Solo compensa subir si necesitas algo concreto que ofrezca el otro modelo.`
-    : `La opción de ${labelB} tiene mejor valoración de los compradores. Si usas ${topic} a menudo, la diferencia suele notarse; para un uso ocasional, la de ${labelA} cumple.`;
+    ? `Aquí la opción de ${labelA} sale reforzada: tiene igual o mejor puntuación que la de ${labelB}, así que pagar más no garantiza más satisfacción. Solo compensa subir si necesitas algo concreto que ofrezca el otro modelo.`
+    : `La opción de ${labelB} tiene mejor puntuación. Si usas ${topic} a menudo, la diferencia suele notarse; para un uso ocasional, la de ${labelA} cumple.`;
   return `
         <div class="content-section">
           <h2>¿Compensa pagar más?</h2>

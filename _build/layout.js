@@ -49,9 +49,8 @@ function head({ title, description, path, jsonLd = [], noindex = false, image = 
   <meta name="twitter:card" content="${image ? "summary_large_image" : "summary"}">
   <meta name="twitter:title" content="${escapeHtml(fullTitle)}">
   <meta name="twitter:description" content="${escapeHtml(desc)}">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="preload" href="/assets/fonts/barlow-400-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <style>@font-face{font-family:'Barlow';font-style:normal;font-weight:400;font-display:swap;src:url(/assets/fonts/barlow-400-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}@font-face{font-family:'Barlow';font-style:normal;font-weight:500;font-display:swap;src:url(/assets/fonts/barlow-500-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}@font-face{font-family:'Barlow';font-style:normal;font-weight:600;font-display:swap;src:url(/assets/fonts/barlow-600-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}@font-face{font-family:'Barlow Condensed';font-style:normal;font-weight:600;font-display:swap;src:url(/assets/fonts/barlow-condensed-600-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}@font-face{font-family:'Barlow Condensed';font-style:normal;font-weight:700;font-display:swap;src:url(/assets/fonts/barlow-condensed-700-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}</style>
   <link rel="stylesheet" href="/assets/css/site.css">
   <script>document.documentElement.classList.add('js')</script>
   ${ld}`;
@@ -203,7 +202,7 @@ function page({ path, title, description, bodyClass = "", jsonLd = [], noindex =
   </main>
   ${footerHtml(FOOT)}
   ${cookieBanner()}
-  <script src="/assets/js/site.js"></script>
+  <script src="/assets/js/site.js" defer></script>
 </body>
 </html>`;
 }

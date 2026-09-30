@@ -39,6 +39,39 @@
       "statusCode": 301
     },
     {
+      "source": "/comparativas/2-piezas-soporte-movil-mesa-plegable-vs-soporte-de-telefono-movil-para-coche.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/soportes-de-movil-para-coche.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/comparativas/2-piezas-soporte-movil-mesa-plegable-vs-soporte-movil-coche-con-clip-de-resorte.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/soportes-de-movil-para-coche.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/comparativas/2-piezas-soporte-movil-mesa-plegable-vs-soporte-universal-para-telefono-de-coche.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/soportes-de-movil-para-coche.html",
+      "statusCode": 301
+    },
+    {
       "source": "/comparativas/70mai-dash-cam-m310-plus-3k-vs-70mai-a810-lite-camara-de-salpicadero-4k.html",
       "has": [
         {
@@ -776,6 +809,17 @@
       "statusCode": 301
     },
     {
+      "source": "/comparativas/dbs-vs-csl-computer.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/alfombrillas-y-protectores-de-suelo-para-coche.html",
+      "statusCode": 301
+    },
+    {
       "source": "/comparativas/einesin-organizador-maletero-coche-vs-praknu-organizador-maletero-plegable-40-.html",
       "has": [
         {
@@ -1260,28 +1304,6 @@
       "statusCode": 301
     },
     {
-      "source": "/comparativas/momo-set-de-4-alfombrillas-universales-vs-alfombrillas-coche-universal-pack-4-piez.html",
-      "has": [
-        {
-          "type": "host",
-          "value": "coche-listo.vercel.app"
-        }
-      ],
-      "destination": "https://cochelisto.es/guias/alfombrillas-y-protectores-de-suelo-para-coche.html",
-      "statusCode": 301
-    },
-    {
-      "source": "/comparativas/momo-set-de-4-alfombrillas-universales-vs-autozoco-alfombrillas-de-goma-y-moqueta.html",
-      "has": [
-        {
-          "type": "host",
-          "value": "coche-listo.vercel.app"
-        }
-      ],
-      "destination": "https://cochelisto.es/guias/alfombrillas-y-protectores-de-suelo-para-coche.html",
-      "statusCode": 301
-    },
-    {
       "source": "/comparativas/momo-set-de-4-alfombrillas-universales-vs-goodyear-akron-alfombrillas-de-coche.html",
       "has": [
         {
@@ -1294,17 +1316,6 @@
     },
     {
       "source": "/comparativas/momo-set-de-4-alfombrillas-universales-vs-goodyear-god9023.html",
-      "has": [
-        {
-          "type": "host",
-          "value": "coche-listo.vercel.app"
-        }
-      ],
-      "destination": "https://cochelisto.es/guias/alfombrillas-y-protectores-de-suelo-para-coche.html",
-      "statusCode": 301
-    },
-    {
-      "source": "/comparativas/momo-set-de-4-alfombrillas-universales-vs-the-boutique-for-your-car.html",
       "has": [
         {
           "type": "host",
@@ -1535,17 +1546,6 @@
       "statusCode": 301
     },
     {
-      "source": "/comparativas/soporte-movil-coche-con-clip-de-resorte-vs-soporte-de-telefono-movil-para-coche.html",
-      "has": [
-        {
-          "type": "host",
-          "value": "coche-listo.vercel.app"
-        }
-      ],
-      "destination": "https://cochelisto.es/guias/soportes-de-movil-para-coche.html",
-      "statusCode": 301
-    },
-    {
       "source": "/comparativas/sweet-arrancador-de-baterias-de-coche-vs-utrai-8000a-jump-starter-con-compresor.html",
       "has": [
         {
@@ -1788,6 +1788,116 @@
       "statusCode": 301
     },
     {
+      "source": "/comparativas/ybaymy-alfombrillas-de-goma-vs-alfombrilla-para-raton-mousepad-xxl.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/alfombrillas-y-protectores-de-suelo-para-coche.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/comparativas/ybaymy-alfombrillas-de-goma-vs-autozoco-alfombrillas-de-goma-y-moqueta.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/alfombrillas-y-protectores-de-suelo-para-coche.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/comparativas/ybaymy-alfombrillas-de-goma-vs-csl-computer.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/alfombrillas-y-protectores-de-suelo-para-coche.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/comparativas/ybaymy-alfombrillas-de-goma-vs-momo-set-de-4-alfombrillas-universales.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/alfombrillas-y-protectores-de-suelo-para-coche.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/comparativas/yosh-soporte-magnetico-movil-coche-vs-bnimtm-soporte-movil-coche.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/soportes-de-movil-para-coche.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/productos/2-piezas-soporte-movil-mesa-plegable-apoyo-telefono-multiangulo-soporte-dock-base-para-telefono-compatible-con-iphone-16-15-14-13-12-11-pro-max-sam-b09vk71n5p.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/soportes-de-movil-para-coche.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/productos/alfombrilla-para-raton-mousepad-xxl-alfombra-gaming-base-de-goma-antideslizante-pc-tapete-con-microfibras-mapamundi-accesorios-de-oficina-worldma-b0b6qc976r.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/alfombrillas-y-protectores-de-suelo-para-coche.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/productos/csl-computer-alfombrilla-de-raton-speed-gaming-titanwolf-negro-900-x-400-mm-base-de-mesa-grande-mejora-la-precision-y-la-velocidad-23032532-ta-b07h37nqnq.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/alfombrillas-y-protectores-de-suelo-para-coche.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/productos/steelseries-qck-alfombrilla-de-raton-para-juegos-base-de-tela-antideslizante-con-respaldo-de-goma-negro-450-mm-x-400-mm-x-2-mm-largo-b000uvru6g.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/alfombrillas-y-protectores-de-suelo-para-coche.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/productos/ybaymy-alfombrillas-de-goma-para-exteriores-alfombrilla-de-goma-con-anillas-90-x-150-cm-antideslizante-con-agujeros-b09xqqzwmc.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "coche-listo.vercel.app"
+        }
+      ],
+      "destination": "https://cochelisto.es/guias/alfombrillas-y-protectores-de-suelo-para-coche.html",
+      "statusCode": 301
+    },
+    {
       "source": "/(.*)",
       "has": [
         {
@@ -1811,6 +1921,21 @@
     {
       "source": "/comparativas/12-en-1-kit-emergencia-coche-vs-upgrade4cars-botiquin-de-coche-din-13164.html",
       "destination": "/guias/luces-y-accesorios-de-emergencia-para-coche.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/2-piezas-soporte-movil-mesa-plegable-vs-soporte-de-telefono-movil-para-coche.html",
+      "destination": "/guias/soportes-de-movil-para-coche.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/2-piezas-soporte-movil-mesa-plegable-vs-soporte-movil-coche-con-clip-de-resorte.html",
+      "destination": "/guias/soportes-de-movil-para-coche.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/2-piezas-soporte-movil-mesa-plegable-vs-soporte-universal-para-telefono-de-coche.html",
+      "destination": "/guias/soportes-de-movil-para-coche.html",
       "permanent": true
     },
     {
@@ -2149,6 +2274,11 @@
       "permanent": true
     },
     {
+      "source": "/comparativas/dbs-vs-csl-computer.html",
+      "destination": "/guias/alfombrillas-y-protectores-de-suelo-para-coche.html",
+      "permanent": true
+    },
+    {
       "source": "/comparativas/einesin-organizador-maletero-coche-vs-praknu-organizador-maletero-plegable-40-.html",
       "destination": "/guias/organizadores-de-maletero.html",
       "permanent": true
@@ -2369,27 +2499,12 @@
       "permanent": true
     },
     {
-      "source": "/comparativas/momo-set-de-4-alfombrillas-universales-vs-alfombrillas-coche-universal-pack-4-piez.html",
-      "destination": "/guias/alfombrillas-y-protectores-de-suelo-para-coche.html",
-      "permanent": true
-    },
-    {
-      "source": "/comparativas/momo-set-de-4-alfombrillas-universales-vs-autozoco-alfombrillas-de-goma-y-moqueta.html",
-      "destination": "/guias/alfombrillas-y-protectores-de-suelo-para-coche.html",
-      "permanent": true
-    },
-    {
       "source": "/comparativas/momo-set-de-4-alfombrillas-universales-vs-goodyear-akron-alfombrillas-de-coche.html",
       "destination": "/guias/alfombrillas-y-protectores-de-suelo-para-coche.html",
       "permanent": true
     },
     {
       "source": "/comparativas/momo-set-de-4-alfombrillas-universales-vs-goodyear-god9023.html",
-      "destination": "/guias/alfombrillas-y-protectores-de-suelo-para-coche.html",
-      "permanent": true
-    },
-    {
-      "source": "/comparativas/momo-set-de-4-alfombrillas-universales-vs-the-boutique-for-your-car.html",
       "destination": "/guias/alfombrillas-y-protectores-de-suelo-para-coche.html",
       "permanent": true
     },
@@ -2490,11 +2605,6 @@
     },
     {
       "source": "/comparativas/soporte-movil-coche-con-clip-de-resorte-vs-mohard-2026-soporte-movil-coche.html",
-      "destination": "/guias/soportes-de-movil-para-coche.html",
-      "permanent": true
-    },
-    {
-      "source": "/comparativas/soporte-movil-coche-con-clip-de-resorte-vs-soporte-de-telefono-movil-para-coche.html",
       "destination": "/guias/soportes-de-movil-para-coche.html",
       "permanent": true
     },
@@ -2609,6 +2719,56 @@
       "permanent": true
     },
     {
+      "source": "/comparativas/ybaymy-alfombrillas-de-goma-vs-alfombrilla-para-raton-mousepad-xxl.html",
+      "destination": "/guias/alfombrillas-y-protectores-de-suelo-para-coche.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/ybaymy-alfombrillas-de-goma-vs-autozoco-alfombrillas-de-goma-y-moqueta.html",
+      "destination": "/guias/alfombrillas-y-protectores-de-suelo-para-coche.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/ybaymy-alfombrillas-de-goma-vs-csl-computer.html",
+      "destination": "/guias/alfombrillas-y-protectores-de-suelo-para-coche.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/ybaymy-alfombrillas-de-goma-vs-momo-set-de-4-alfombrillas-universales.html",
+      "destination": "/guias/alfombrillas-y-protectores-de-suelo-para-coche.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/yosh-soporte-magnetico-movil-coche-vs-bnimtm-soporte-movil-coche.html",
+      "destination": "/guias/soportes-de-movil-para-coche.html",
+      "permanent": true
+    },
+    {
+      "source": "/productos/2-piezas-soporte-movil-mesa-plegable-apoyo-telefono-multiangulo-soporte-dock-base-para-telefono-compatible-con-iphone-16-15-14-13-12-11-pro-max-sam-b09vk71n5p.html",
+      "destination": "/guias/soportes-de-movil-para-coche.html",
+      "permanent": true
+    },
+    {
+      "source": "/productos/alfombrilla-para-raton-mousepad-xxl-alfombra-gaming-base-de-goma-antideslizante-pc-tapete-con-microfibras-mapamundi-accesorios-de-oficina-worldma-b0b6qc976r.html",
+      "destination": "/guias/alfombrillas-y-protectores-de-suelo-para-coche.html",
+      "permanent": true
+    },
+    {
+      "source": "/productos/csl-computer-alfombrilla-de-raton-speed-gaming-titanwolf-negro-900-x-400-mm-base-de-mesa-grande-mejora-la-precision-y-la-velocidad-23032532-ta-b07h37nqnq.html",
+      "destination": "/guias/alfombrillas-y-protectores-de-suelo-para-coche.html",
+      "permanent": true
+    },
+    {
+      "source": "/productos/steelseries-qck-alfombrilla-de-raton-para-juegos-base-de-tela-antideslizante-con-respaldo-de-goma-negro-450-mm-x-400-mm-x-2-mm-largo-b000uvru6g.html",
+      "destination": "/guias/alfombrillas-y-protectores-de-suelo-para-coche.html",
+      "permanent": true
+    },
+    {
+      "source": "/productos/ybaymy-alfombrillas-de-goma-para-exteriores-alfombrilla-de-goma-con-anillas-90-x-150-cm-antideslizante-con-agujeros-b09xqqzwmc.html",
+      "destination": "/guias/alfombrillas-y-protectores-de-suelo-para-coche.html",
+      "permanent": true
+    },
+    {
       "source": "/:section(guias|blog|comparativas|productos|legal|mejores)/:slug([^/.]+)",
       "destination": "/:section/:slug.html",
       "permanent": true
@@ -2630,6 +2790,18 @@
         {
           "key": "Referrer-Policy",
           "value": "strict-origin-when-cross-origin"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "SAMEORIGIN"
+        },
+        {
+          "key": "Permissions-Policy",
+          "value": "camera=(), microphone=(), geolocation=(), payment=()"
+        },
+        {
+          "key": "Content-Security-Policy",
+          "value": "frame-ancestors 'self'; base-uri 'self'; object-src 'none'; upgrade-insecure-requests"
         }
       ]
     },
