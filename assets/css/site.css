@@ -614,3 +614,8 @@ body:has(.seo-sticky) .seo-sticky-space { display: none; }
 .pc-list { list-style: disc; padding-left: 1.3em; margin: 8px 0 14px; }
 .pc-list li { margin-bottom: 6px; }
 .pc-list em { color: var(--color-ink-muted); font-size: .92em; }
+
+/* Pie de foto de la imagen principal */
+.hero-figure{margin:0}
+.hero-figure>img{display:block;max-width:100%;height:auto}
+.hero-caption{font-size:.875rem;line-height:1.4;opacity:.75;margin-top:.5rem}

@@ -23,7 +23,7 @@ function head({ title, description, path, jsonLd = [], noindex = false, image = 
         : clip(title, 65);
   const desc = clip(description || SITE.description, 160);
   const canonical = `${SITE.domain}${path}`;
-  const robots = noindex ? "noindex, nofollow" : "index, follow";
+  const robots = noindex ? "noindex, follow" : "index, follow";
   const ld = jsonLd.map((obj) => `<script type="application/ld+json">${JSON.stringify(obj)}</script>`).join("\n  ");
 
   return `<meta charset="UTF-8">

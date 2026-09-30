@@ -83,11 +83,31 @@ const pages = [
 
 // --- Ajustes SEO comunes -------------------------------------------------------
 
+// Páginas legales: noindex, follow (siguen enlazadas en el pie, fuera del sitemap).
+for (const p of pages) if (p.path.startsWith("/legal/")) p.noindex = true;
+
 const TODAY = new Date().toISOString().slice(0, 10);
 const guideImg = Object.fromEntries(GUIDES.map((g) => [g.slug, g.img]));
 const clipTo = (s, n) => (s.length <= n ? s : s.slice(0, n - 1).replace(/\s+\S*$/, "").replace(/[\s,;:.·-]+$/, ""));
 
 for (const p of pages) {
+  // Imagen principal (LCP): la primera imagen propia grande del contenido se
+  // carga con prioridad y va dentro de <figure> con su pie de foto.
+  {
+    const re = /<img\b[^>]*src="\/assets\/img\/[^"]+"[^>]*>/g;
+    let m;
+    while ((m = re.exec(p.html))) {
+      const tag = m[0];
+      const w = +((tag.match(/width="(\d+)"/) || [])[1] || 0);
+      const alt = (tag.match(/alt="([^"]*)"/) || [])[1] || "";
+      if (w < 480 || !alt) continue;
+      const hero = tag.replace(/\s*loading="lazy"/, "").replace(/<img\b/, '<img fetchpriority="high"');
+      const cap = `<figcaption class="hero-caption">${alt}</figcaption>`;
+      const inFigure = /<figure\b[^>]*>\s*$/.test(p.html.slice(0, m.index));
+      p.html = p.html.slice(0, m.index) + (inFigure ? hero + cap : `<figure class="hero-figure">${hero}${cap}</figure>`) + p.html.slice(m.index + tag.length);
+      break;
+    }
+  }
   // Imagen para redes/Pinterest: la primera imagen propia de la página, si no
   // la de su guía, si no la genérica del sitio. JPG para máxima compatibilidad.
   const own = (p.html.match(/src="(\/assets\/img\/[^"]+\.(?:jpe?g|png|webp))"/) || [])[1];
@@ -98,6 +118,9 @@ for (const p of pages) {
   p.image = img;
 
   p.jsonLd = p.jsonLd || [];
+
+  // Article/BlogPosting siempre con image (la misma que og:image).
+  for (const o of p.jsonLd) if (/Article|BlogPosting/.test(o["@type"]) && !o.image) o.image = img.startsWith("http") ? img : SITE.domain + img;
   const types = p.jsonLd.map((o) => o["@type"]);
   if (!p.noindex && p.path !== "/" && !types.includes("BreadcrumbList")) {
     const items = p.breadcrumbsItems || [{ label: "Inicio", href: "/" }, { label: p.title }];
@@ -214,8 +237,23 @@ function sitemapChangefreq(p) {
   return "weekly";
 }
 
+// Imágenes propias de cada página (no las de Amazon ni las decorativas con alt="").
+const xmlEsc = (t) => String(t).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+function sitemapImages(p) {
+  const seen = new Set();
+  const out = [];
+  for (const m of p.html.matchAll(/<img\b[^>]*>/g)) {
+    const src = (m[0].match(/src="(\/assets\/img\/[^"]+)"/) || [])[1];
+    const alt = (m[0].match(/alt="([^"]*)"/) || [])[1];
+    if (!src || !alt || seen.has(src)) continue;
+    seen.add(src);
+    out.push(`    <image:image><image:loc>${xmlEsc(SITE.domain + src)}</image:loc></image:image>\n`);
+  }
+  return out.slice(0, 20).join("");
+}
+
 const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 ${indexable
   .map(
     (p) => `  <url>
@@ -223,7 +261,7 @@ ${indexable
     <lastmod>${buildDate}</lastmod>
     <changefreq>${sitemapChangefreq(p)}</changefreq>
     <priority>${sitemapPriority(p)}</priority>
-  </url>`
+${sitemapImages(p)}  </url>`
   )
   .join("\n")}
 </urlset>
